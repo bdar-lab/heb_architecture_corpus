@@ -11,6 +11,7 @@ Cleaned, parsed and analyzed corpus of documents pertaining to architecture and 
 ------------
 
 Morphogical analysis made using [YAP](https://github.com/OnlpLab/yap "YAP").
+
 NER made using [NEMO 2](https://github.com/OnlpLab/NEMO "NEMO 2").
 
 
