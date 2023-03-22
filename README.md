@@ -11,4 +11,5 @@ Cleaned, parsed and analyzed corpus of documents pertaining to architecture and 
 ------------
 
 
+
 ![](https://i.imgur.com/pC7iVMG.jpeg)
