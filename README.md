@@ -15,7 +15,7 @@ This work was supported by the Israel Innovation Authority. The corpus is availa
 This is a work in progress. More documents are continuously processed and uploaded to this repository.
 
 ## Contents
-- /txt/__parsed__ - plain text
+- /txt/\_\_parsed__ - plain text
 - /conllu/ - morphologically analyzed texts in CONLLU format
 - /jsonl/ - Named entities in JSONL format
 - /metadata/ - index and miscellaneous metadata
