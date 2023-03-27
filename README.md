@@ -21,11 +21,5 @@ This is a work in progress. More documents are continuously processed and upload
 - /metadata/ - Index and miscellaneous metadata
 
 ------------
-
-<<<<<<< HEAD
-
-
-![](https://i.imgur.com/pC7iVMG.jpeg)
-=======
 ![BDAR-logo-1](https://user-images.githubusercontent.com/49843516/226733958-9b2074ea-b5dd-4585-8efe-84457d6a182c.png)
->>>>>>> 1f505e8efa32b3d3e582c8e02072a5e7f7130e41
+
