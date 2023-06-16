@@ -24,4 +24,4 @@ This is a work in progress. More documents are continuously processed and upload
 
 
 
-![](https://i.imgur.com/pC7iVMG.jpeg)
+![](https://github.com/oraleks/images/blob/main/BDAR-logo_20.5.2023.png)
