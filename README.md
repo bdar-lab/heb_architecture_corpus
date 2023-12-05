@@ -3,8 +3,8 @@
 Curated, processed, parsed, and analyzed by the [Big Data in Architectural Research Lab](https://oraleks.net.technion.ac.il/en/bdar-lab/), Faculty of Architecture and Town Planning, Technion - IIT
 
 Primary researcher: Dr. Or Aleksandrowicz  
-Project supervisor: Dr. Daniel Rosenberg  
-Project assistants: Dina El Qasem, Hodaya Sada, Mai Sabbah, Adva Gueta  
+Project supervisors: Dr. Daniel Rosenberg & Dr. Omri Shafer Raviv  
+Project assistants: Dina El Qasem, Hodaya Saada, Mai Sabbah, Shiran-Ester Shnaiderman, Naama Koren, Sherry-Atara Khasdan   
 
 The construction industry is one of the main economic sectors in Israel and is expected to maintain its central position in the coming decades in light of the country's rapid population growth rate. Different from many developed countries, where the rate of new construction is slow due to low rates of population growth, in Israel the built-up area doubles every 25 years. The creation of a textual corpus in Hebrew on construction, planning, and architecture is expected to facilitate and expedite the development of NLP-based tools for application and assimilation in technological fields related to the construction industry.
 
