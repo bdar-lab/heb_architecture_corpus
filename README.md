@@ -4,8 +4,8 @@ Curated, processed, parsed, and analyzed by the [Big Data in Architectural Resea
 
 Primary researcher: Dr. Or Aleksandrowicz  
 Project supervisors: Dr. Daniel Rosenberg, Dr. Omri Shafer-Raviv  
-Project advisors: Dr. Noam Ordan. Dr. Nick Howell  
-Project assistants: Dina El Qasem, Hodaya Saada, Mai Sabbah, Naama Koren, Sherry-Atara Khasdan, Shiran-Ester Shnaiderman     
+Project advisors: Dr. Noam Ordan, Dr. Nick Howell  
+Project assistants: Dina El Qasem, Hodaya Saada, Mai Sabbah, Sherry-Atara Khasdan, Naama Koren, Shiran-Ester Shnaiderman     
 
 The construction industry is one of the main economic sectors in Israel and it is expected to maintain its central position in the coming decades in light of the country's rapid population growth rate. Unlike many developed countries, where the rate of new construction is slow due to low rates of population growth, in Israel the built-up area doubles every 25 years. The creation of a textual corpus in Hebrew on construction, planning, and architecture is expected to facilitate and expedite the development of NLP-based tools for application and assimilation in technological fields related to the construction industry.
 
@@ -13,14 +13,14 @@ The corpus consists of Hebrew documents from a wide variety of contemporary and 
 
 This work was supported by the Israel Innovation Authority. The corpus is available for all types of uses for NLP research and development according to the CC BY 4.0 license (Attribution 4.0 International).
 
-This is a work in progress. More documents are continuously processed and uploaded to this repository.
+**This is a work in progress. More documents are continuously processed and uploaded to this repository. The corpus currently holds about 5 million words.**
 
 ## Contents
-- /txt/ - Plain text
-- /csv/ - Morphologically analyzed texts in CSV format
 - /conllu/ - Morphologically analyzed texts in CONLLU format
+- /csv/ - Morphologically analyzed texts in CSV format
 - /jsonl/ - Named entities in JSONL format
-- /metadata/ - Index and miscellaneous metadata
+- /txt/ - Plain text
+- full_IIA_corpus.csv - Full corpus metadata
 
 ------------
 ![BDAR-logo-1](https://user-images.githubusercontent.com/49843516/226733958-9b2074ea-b5dd-4585-8efe-84457d6a182c.png)
