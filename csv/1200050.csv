@@ -1,0 +1,198 @@
+id,text,upos,xpos,feats,head,deprel,span,lemma,expanded
+1,התנהגות,NOUN,NOUN,Gender=Fem|Number=Sing,0.0,root,"(0, 7)",התנהגות,
+2,של,ADP,ADP,Case=Gen,3.0,case:gen,"(8, 10)",של,
+3,מנהרה,NOUN,NOUN,Gender=Fem|Number=Sing,1.0,nmod:poss,"(11, 16)",מנהרה,
+4,תת,ADV,ADV,Prefix=Yes,6.0,compound:affix,"(17, 19)",תת,
+5,-,PUNCT,PUNCT,,6.0,punct,"(19, 20)",-,
+6,קרקעית,ADJ,ADJ,Gender=Fem|Number=Sing,3.0,amod,"(20, 26)",קרקעי,
+"(7, 8)",בהשפעת,,,,,,"(27, 33)",,"[{'id': 7, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 8, 'deprel': 'case', 'lemma': 'ב'}, {'id': 8, 'text': 'השפעת', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Fem|Number=Sing', 'head': 1, 'deprel': 'nmod', 'lemma': 'השפעה'}]"
+9,פיצוץ,NOUN,NOUN,Gender=Masc|Number=Sing,8.0,compound:smixut,"(34, 39)",פיצוץ,
+1,שלב,NOUN,NOUN,Gender=Masc|Number=Sing,6.0,nsubj,"(1, 4)",שלב,
+2,ב׳,PROPN,PROPN,,1.0,flat:name,"(5, 7)",ב׳,
+3,תקציר,NOUN,NOUN,Definite=Cons|Gender=Masc|Number=Sing,1.0,compound:smixut,"(8, 13)",תקציר,
+"(4, 5)",המחקר,,,,,,"(14, 19)",,"[{'id': 4, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 5, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 5, 'text': 'מחקר', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 3, 'deprel': 'compound:smixut', 'lemma': 'מחקר'}]"
+6,מטפל,VERB,VERB,"Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act",0.0,root,"(20, 24)",טיפל,
+"(7, 8)",במספר,,,,,,"(25, 30)",,"[{'id': 7, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 11, 'deprel': 'case', 'lemma': 'ב'}, {'id': 8, 'text': 'מספר', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 6, 'deprel': 'obl', 'lemma': 'מספר'}]"
+"(9, 11)",בעיות,,,,,,"(31, 36)",,"[{'id': 9, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 11, 'deprel': 'case', 'lemma': 'ב'}, {'id': 10, 'text': 'ה_', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 11, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 11, 'text': 'עיות', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Plur', 'head': 6, 'deprel': 'obl', 'lemma': 'עיות'}]"
+12,של,ADP,ADP,Case=Gen,13.0,case:gen,"(37, 39)",של,
+13,התנהגות,NOUN,NOUN,Definite=Cons|Gender=Fem|Number=Sing,11.0,nmod:poss,"(40, 47)",התנהגות,
+14,קרקע,NOUN,NOUN,Gender=Fem|Number=Sing,13.0,compound:smixut,"(48, 52)",קרקע,
+"(15, 16)",נקבובית,,,,,,"(53, 60)",,"[{'id': 15, 'text': 'נ', 'upos': 'PROPN', 'xpos': 'PROPN', 'head': 14, 'deprel': 'flat:name', 'lemma': 'ן'}, {'id': 16, 'text': 'קבובית', 'upos': 'X', 'xpos': 'X', 'feats': 'Xtra=Junk', 'head': 14, 'deprel': 'flat:name', 'lemma': '_'}]"
+"(17, 19)",רטובה,,,,,,"(61, 66)",,"[{'id': 17, 'text': 'רטוב_', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Def|Gender=Masc|Number=Sing', 'head': 14, 'deprel': 'acl', 'lemma': 'רטוב'}, {'id': 18, 'text': '_של_', 'upos': 'ADP', 'xpos': 'ADP', 'head': 19, 'deprel': 'case:gen', 'lemma': 'של'}, {'id': 19, 'text': '_היא', 'upos': 'PRON', 'xpos': 'PRON', 'feats': 'Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs', 'head': 17, 'deprel': 'nmod:poss', 'lemma': 'הוא'}]"
+"(20, 22)",ובאינטראקציה,,,,,,"(67, 79)",,"[{'id': 20, 'text': 'ו', 'upos': 'CCONJ', 'xpos': 'CCONJ', 'head': 22, 'deprel': 'cc', 'lemma': 'ו'}, {'id': 21, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 22, 'deprel': 'case', 'lemma': 'ב'}, {'id': 22, 'text': 'אינטראקציה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 13, 'deprel': 'conj', 'lemma': 'אינטראקציה'}]"
+"(23, 24)",בינה,,,,,,"(80, 84)",,"[{'id': 23, 'text': 'בין_', 'upos': 'ADP', 'xpos': 'ADP', 'head': 24, 'deprel': 'case', 'lemma': 'בין'}, {'id': 24, 'text': '_היא', 'upos': 'PRON', 'xpos': 'PRON', 'feats': 'Gender=Fem|Number=Sing|Person=3|PronType=Prs', 'head': 22, 'deprel': 'nmod', 'lemma': 'הוא'}]"
+25,לבין,ADP,ADP,,26.0,case,"(85, 89)",לבין,
+26,מבנים,NOUN,NOUN,Gender=Masc|Number=Plur,22.0,nmod,"(90, 95)",מבנה,
+27,טמונים,VERB,VERB,"Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act",26.0,amod,"(96, 102)",טמן,
+"(28, 29)",מדופנים,,,,,,"(103, 110)",,"[{'id': 28, 'text': 'מ', 'upos': 'ADP', 'xpos': 'ADP', 'head': 29, 'deprel': 'case', 'lemma': 'מ'}, {'id': 29, 'text': 'דופנים', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Plur', 'head': 27, 'deprel': 'obl', 'lemma': 'דופן'}]"
+30,",",PUNCT,PUNCT,,32.0,punct,"(110, 111)",",",
+31,לרבות,ADV,ADV,,32.0,case,"(112, 117)",לרבות,
+32,מבנים,NOUN,NOUN,Gender=Masc|Number=Plur,26.0,appos,"(118, 123)",מבנה,
+33,קשיחים,ADJ,ADJ,Gender=Masc|Number=Plur,32.0,amod,"(124, 130)",קשיח,
+34,בהחלט,ADV,ADV,,33.0,advmod,"(131, 136)",בהחלט,
+35,",",PUNCT,PUNCT,,26.0,punct,"(136, 137)",",",
+"(36, 37)",בהשפעת,,,,,,"(138, 144)",,"[{'id': 36, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 37, 'deprel': 'case', 'lemma': 'ב'}, {'id': 37, 'text': 'השפעת', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Fem|Number=Sing', 'head': 26, 'deprel': 'nmod', 'lemma': 'השפעה'}]"
+38,עומסי,NOUN,NOUN,Definite=Cons|Gender=Masc|Number=Plur,37.0,compound:smixut,"(145, 150)",עומס,
+39,פיצוץ,NOUN,NOUN,Gender=Masc|Number=Sing,38.0,compound:smixut,"(151, 156)",פיצוץ,
+"(40, 41)",בתווך,,,,,,"(157, 162)",,"[{'id': 40, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 41, 'deprel': 'case', 'lemma': 'ב'}, {'id': 41, 'text': 'תווך', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 38, 'deprel': 'nmod', 'lemma': 'תווך'}]"
+42,לרבות,ADV,ADV,,43.0,case,"(163, 168)",לרבות,
+43,פיצוץ,NOUN,NOUN,Gender=Masc|Number=Sing,38.0,nmod,"(169, 174)",פיצוץ,
+44,סמוך,ADJ,ADJ,Gender=Masc|Number=Sing,43.0,amod,"(175, 179)",סמוך,
+"(45, 46)",למבנה,,,,,,"(180, 185)",,"[{'id': 45, 'text': 'ל', 'upos': 'ADP', 'xpos': 'ADP', 'head': 46, 'deprel': 'case', 'lemma': 'ל'}, {'id': 46, 'text': 'מבנה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 44, 'deprel': 'advmod', 'lemma': 'מבנה'}]"
+"(1, 2)",הקרקע,,,,,,"(1, 6)",,"[{'id': 1, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 2, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 2, 'text': 'קרקע', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 3, 'deprel': 'nsubj', 'lemma': 'קרקע'}]"
+3,מתוארת,VERB,VERB,"Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Pass",0.0,root,"(7, 13)",תואר,
+"(4, 5)",בעזרת,,,,,,"(14, 19)",,"[{'id': 4, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 5, 'deprel': 'case', 'lemma': 'ב'}, {'id': 5, 'text': 'עזרת', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Fem|Number=Sing', 'head': 3, 'deprel': 'obl', 'lemma': 'עזרה'}]"
+6,מודל,NOUN,NOUN,Gender=Masc|Number=Sing,5.0,compound:smixut,"(20, 24)",מודל,
+7,חומר,NOUN,NOUN,Gender=Masc|Number=Sing,5.0,compound:smixut,"(25, 29)",חומר,
+8,תלת,ADV,ADV,Prefix=Yes,9.0,compound:affix,"(30, 33)",תלת,
+9,פאזי,ADJ,ADJ,Gender=Masc|Number=Sing,7.0,amod,"(34, 38)",פאזי,
+"(10, 11)",המתחשב,,,,,,"(39, 45)",,"[{'id': 10, 'text': 'ה', 'upos': 'SCONJ', 'xpos': 'SCONJ', 'head': 11, 'deprel': 'mark', 'lemma': 'ה'}, {'id': 11, 'text': 'מתחשב', 'upos': 'VERB', 'xpos': 'VERB', 'feats': 'Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|VerbForm=Part', 'head': 7, 'deprel': 'acl:relcl', 'lemma': 'התחשב'}]"
+"(12, 13)",בתכונות,,,,,,"(46, 53)",,"[{'id': 12, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 13, 'deprel': 'case', 'lemma': 'ב'}, {'id': 13, 'text': 'תכונות', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Fem|Number=Plur', 'head': 11, 'deprel': 'obl', 'lemma': 'תכונה'}]"
+"(14, 15)",המרכיבים,,,,,,"(54, 62)",,"[{'id': 14, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 15, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 15, 'text': 'מרכיבים', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Plur', 'head': 13, 'deprel': 'compound:smixut', 'lemma': 'מרכיב'}]"
+16,(,PUNCT,PUNCT,,17.0,punct,"(63, 64)",(,
+17,אוויר,NOUN,NOUN,Gender=Masc|Number=Sing,13.0,appos,"(64, 69)",אוויר,
+18,",",PUNCT,PUNCT,,17.0,punct,"(69, 70)",",",
+19,מי,NOUN,NOUN,Gender=Masc|Number=Sing,17.0,conj,"(71, 73)",מים,
+20,נקבובים,VERB,VERB,,19.0,amod,"(74, 81)",נקבה,
+21,",",PUNCT,PUNCT,,17.0,punct,"(81, 82)",",",
+22,שלד,NOUN,NOUN,Definite=Cons|Gender=Masc|Number=Sing,17.0,conj,"(83, 86)",שלד,
+"(23, 24)",הגרגרים,,,,,,"(87, 94)",,"[{'id': 23, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 24, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 24, 'text': 'גרגרים', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Plur', 'head': 22, 'deprel': 'compound:smixut', 'lemma': 'גרגר'}]"
+25,),PUNCT,PUNCT,,17.0,punct,"(94, 95)",),
+"(26, 29)",ומנותיהם,,,,,,"(96, 104)",,"[{'id': 26, 'text': 'ו', 'upos': 'CCONJ', 'xpos': 'CCONJ', 'head': 27, 'deprel': 'cc', 'lemma': 'ו'}, {'id': 27, 'text': 'מנה_', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Def|Gender=Fem|Number=Sing', 'head': 13, 'deprel': 'conj', 'lemma': 'מנה'}, {'id': 28, 'text': '_של_', 'upos': 'ADP', 'xpos': 'ADP', 'head': 29, 'deprel': 'case:gen', 'lemma': 'של'}, {'id': 29, 'text': '_הם', 'upos': 'PRON', 'xpos': 'PRON', 'feats': 'Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs', 'head': 27, 'deprel': 'nmod:poss', 'lemma': 'הוא'}]"
+"(30, 33)",והשפעתם,,,,,,"(105, 112)",,"[{'id': 30, 'text': 'ו', 'upos': 'CCONJ', 'xpos': 'CCONJ', 'head': 31, 'deprel': 'cc', 'lemma': 'ו'}, {'id': 31, 'text': 'השפעה_', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Def|Gender=Fem|Number=Sing', 'head': 27, 'deprel': 'conj', 'lemma': 'השפעה'}, {'id': 32, 'text': '_של_', 'upos': 'ADP', 'xpos': 'ADP', 'head': 33, 'deprel': 'case:gen', 'lemma': 'של'}, {'id': 33, 'text': '_הם', 'upos': 'PRON', 'xpos': 'PRON', 'feats': 'Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs', 'head': 31, 'deprel': 'nmod:poss', 'lemma': 'הוא'}]"
+34,על,ADP,ADP,,35.0,case,"(113, 115)",על,
+35,משוואת,NOUN,NOUN,Definite=Cons|Gender=Fem|Number=Sing,31.0,nmod,"(116, 122)",משוואת,
+"(36, 37)",המצב,,,,,,"(123, 127)",,"[{'id': 36, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 37, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 37, 'text': 'מצב', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 35, 'deprel': 'compound:smixut', 'lemma': 'מצב'}]"
+38,של,ADP,ADP,Case=Gen,40.0,case:gen,"(128, 130)",של,
+"(39, 40)",החומר,,,,,,"(131, 136)",,"[{'id': 39, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 40, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 40, 'text': 'חומר', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 35, 'deprel': 'nmod:poss', 'lemma': 'חומר'}]"
+1,נערכה,VERB,VERB,Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid,0.0,root,"(1, 6)",נערך,
+2,אנליזה,NOUN,NOUN,Gender=Fem|Number=Sing,1.0,nsubj,"(7, 13)",אנליזה,
+3,של,ADP,ADP,Case=Gen,4.0,case:gen,"(14, 16)",של,
+4,פיצוץ,NOUN,NOUN,Gender=Masc|Number=Sing,2.0,nmod:poss,"(17, 22)",פיצוץ,
+5,גלילי,ADJ,ADJ,Gender=Masc|Number=Sing,4.0,amod,"(23, 28)",גלילי,
+"(6, 7)",בקרבת,,,,,,"(29, 34)",,"[{'id': 6, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 7, 'deprel': 'case', 'lemma': 'ב'}, {'id': 7, 'text': 'קרבת', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Fem|Number=Sing', 'head': 4, 'deprel': 'nmod', 'lemma': 'קרבה'}]"
+8,קיר,NOUN,NOUN,Gender=Masc|Number=Sing,7.0,compound:smixut,"(35, 38)",קיר,
+9,קשיח,ADJ,ADJ,Gender=Masc|Number=Sing,8.0,amod,"(39, 43)",קשיח,
+10,בהחלט,ADV,ADV,,9.0,advmod,"(44, 49)",בהחלט,
+"(11, 12)",בקרקע,,,,,,"(50, 55)",,"[{'id': 11, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 12, 'deprel': 'case', 'lemma': 'ב'}, {'id': 12, 'text': 'קרקע', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 7, 'deprel': 'nmod', 'lemma': 'קרקע'}]"
+13,יבשה,ADJ,ADJ,Gender=Fem|Number=Sing,12.0,amod,"(56, 60)",יבש,
+1,נבחנה,NOUN,NOUN,,0.0,root,"(1, 6)",נבחנה,
+"(2, 3)",התלות,,,,,,"(7, 12)",,"[{'id': 2, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 3, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 3, 'text': 'תלות', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 1, 'deprel': 'nsubj', 'lemma': 'תלות'}]"
+4,של,ADP,ADP,Case=Gen,3.0,dep,"(13, 15)",של,
+"(5, 6)",ההפרש,,,,,,"(16, 21)",,"[{'id': 5, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 6, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 6, 'text': 'הפרש', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 3, 'deprel': 'dep', 'lemma': 'הפרש'}]"
+7,בין,ADV,ADV,,3.0,dep,"(22, 25)",בין,
+"(8, 9)",המקסימום,,,,,,"(26, 34)",,"[{'id': 8, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 9, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 9, 'text': 'מקסימום', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 3, 'deprel': 'advmod', 'lemma': 'מקסימום'}]"
+"(10, 11)",ובין,,,,,,"(35, 39)",,"[{'id': 10, 'text': 'ו', 'upos': 'CCONJ', 'xpos': 'CCONJ', 'head': 24, 'deprel': 'cc', 'lemma': 'ו'}, {'id': 11, 'text': 'בין', 'upos': 'ADV', 'xpos': 'ADV', 'head': 13, 'deprel': 'case', 'lemma': 'בין'}]"
+"(12, 13)",הלחץ,,,,,,"(40, 44)",,"[{'id': 12, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 13, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 13, 'text': 'לחץ', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 9, 'deprel': 'advmod', 'lemma': 'לחץ'}]"
+14,על,ADP,ADP,,13.0,dep,"(45, 47)",על,
+15,ציר,NOUN,NOUN,Definite=Cons|Gender=Masc|Number=Sing,13.0,dep,"(48, 51)",ציר,
+"(16, 17)",הסימטריה,,,,,,"(52, 60)",,"[{'id': 16, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 17, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 17, 'text': 'סימטריה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 13, 'deprel': 'amod', 'lemma': 'סימטריה'}]"
+"(18, 19)",ושל,,,,,,"(61, 64)",,"[{'id': 18, 'text': 'ו', 'upos': 'CCONJ', 'xpos': 'CCONJ', 'head': 13, 'deprel': 'cc', 'lemma': 'ו'}, {'id': 19, 'text': 'של', 'upos': 'ADP', 'xpos': 'ADP', 'feats': 'Case=Gen', 'head': 20, 'deprel': 'case:gen', 'lemma': 'של'}]"
+20,מיקום,NOUN,NOUN,,3.0,advmod,"(65, 70)",מיקום,
+"(21, 22)",המקסימום,,,,,,"(71, 79)",,"[{'id': 21, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 22, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 22, 'text': 'מקסימום', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 3, 'deprel': 'advmod', 'lemma': 'מקסימום'}]"
+"(23, 24)",בתלות,,,,,,"(80, 85)",,"[{'id': 23, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 22, 'deprel': 'case', 'lemma': 'ב'}, {'id': 24, 'text': 'תלות', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 3, 'deprel': 'dep', 'lemma': 'תלות'}]"
+"(25, 26)",במרחק,,,,,,"(86, 91)",,"[{'id': 25, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 24, 'deprel': 'case', 'lemma': 'ב'}, {'id': 26, 'text': 'מרחק', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 24, 'deprel': 'advmod', 'lemma': 'מרחק'}]"
+"(27, 28)",המטען,,,,,,"(92, 97)",,"[{'id': 27, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 28, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 28, 'text': 'מטען', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 13, 'deprel': 'compound:smixut', 'lemma': 'מטען'}]"
+"(29, 31)",מהקיר,,,,,,"(98, 103)",,"[{'id': 29, 'text': 'מ', 'upos': 'ADP', 'xpos': 'ADP', 'head': 26, 'deprel': 'case', 'lemma': 'מ'}, {'id': 30, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 9, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 31, 'text': 'קיר', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 13, 'deprel': 'nmod', 'lemma': 'קיר'}]"
+1,נבחן,VERB,VERB,Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid,0.0,root,"(1, 5)",נבחן,
+2,תהליך,NOUN,NOUN,Gender=Masc|Number=Sing,1.0,obj,"(6, 11)",תהליך,
+3,של,ADP,ADP,Case=Gen,4.0,case:gen,"(12, 14)",של,
+4,דיפרקציית,NOUN,NOUN,Definite=Cons|Gender=Fem|Number=Sing,2.0,nmod:poss,"(15, 24)",דיפרקציה,
+5,גל,NOUN,NOUN,Gender=Masc|Number=Sing,4.0,compound:smixut,"(25, 27)",גל,
+6,גלילי,NOUN,NOUN,,5.0,flat:name,"(28, 33)",גלילי,
+7,על,ADP,ADP,,8.0,case,"(34, 36)",על,
+8,מנהרה,NOUN,NOUN,Gender=Fem|Number=Sing,4.0,nmod,"(37, 42)",מנהרה,
+9,מדופנת,ADJ,ADJ,Gender=Fem|Number=Sing,8.0,amod,"(43, 49)",מדופן,
+10,עמוקה,ADJ,ADJ,Gender=Fem|Number=Sing,8.0,amod,"(50, 55)",עמוק,
+"(11, 12)",בפיצוץ,,,,,,"(56, 62)",,"[{'id': 11, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 12, 'deprel': 'case', 'lemma': 'ב'}, {'id': 12, 'text': 'פיצוץ', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 8, 'deprel': 'nmod', 'lemma': 'פיצוץ'}]"
+13,רחוק,ADJ,ADJ,Gender=Masc|Number=Sing,12.0,amod,"(63, 67)",רחוק,
+"(14, 15)",בקרקע,,,,,,"(68, 73)",,"[{'id': 14, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 15, 'deprel': 'case', 'lemma': 'ב'}, {'id': 15, 'text': 'קרקע', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 12, 'deprel': 'nmod', 'lemma': 'קרקע'}]"
+16,רטובה,ADJ,ADJ,Gender=Fem|Number=Sing,15.0,amod,"(74, 79)",רטוב,
+1,נקבע,VERB,VERB,Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid,0.0,root,"(1, 5)",נקבע,
+"(2, 3)",שלחץ,,,,,,"(6, 10)",,"[{'id': 2, 'text': 'ש', 'upos': 'SCONJ', 'xpos': 'SCONJ', 'head': 6, 'deprel': 'mark', 'lemma': 'ש'}, {'id': 3, 'text': 'לחץ', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Masc|Number=Sing', 'head': 6, 'deprel': 'nsubj', 'lemma': 'לחץ'}]"
+"(4, 5)",המגע,,,,,,"(11, 15)",,"[{'id': 4, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 5, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 5, 'text': 'מגע', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 3, 'deprel': 'compound:smixut', 'lemma': 'מגע'}]"
+6,יורד,VERB,VERB,Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act,1.0,ccomp,"(16, 20)",ירד,
+7,כאשר,SCONJ,SCONJ,,6.0,mark,"(21, 25)",כאשר,
+8,עולה,VERB,VERB,"Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act",6.0,advcl,"(26, 30)",עלה,
+9,מנת,NOUN,NOUN,Definite=Cons|Gender=Fem|Number=Sing,8.0,nsubj,"(31, 34)",מנה,
+"(10, 11)",האוויר,,,,,,"(35, 41)",,"[{'id': 10, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 11, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 11, 'text': 'אוויר', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 9, 'deprel': 'compound:smixut', 'lemma': 'אוויר'}]"
+"(12, 13)",בתווך,,,,,,"(42, 47)",,"[{'id': 12, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 13, 'deprel': 'case', 'lemma': 'ב'}, {'id': 13, 'text': 'תווך', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Masc|Number=Sing', 'head': 8, 'deprel': 'obl', 'lemma': 'תווך'}]"
+"(14, 15)",הקרקע,,,,,,"(48, 53)",,"[{'id': 14, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 15, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 15, 'text': 'קרקע', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 13, 'deprel': 'compound:smixut', 'lemma': 'קרקע'}]"
+"(1, 2)",התופעה,,,,,,"(1, 7)",,"[{'id': 1, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 2, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 2, 'text': 'תופעה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 6, 'deprel': 'nsubj', 'lemma': 'תופעה'}]"
+"(3, 4)",הזאת,,,,,,"(8, 12)",,"[{'id': 3, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 4, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 4, 'text': 'זאת', 'upos': 'PRON', 'xpos': 'PRON', 'feats': 'Gender=Fem|Number=Sing|Person=3|PronType=Dem', 'head': 2, 'deprel': 'det', 'lemma': 'זאת'}]"
+5,יותר,ADV,ADV,,6.0,advmod,"(13, 17)",יותר,
+6,בולטת,VERB,VERB,"Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act",0.0,root,"(18, 23)",בלט,
+"(7, 8)",במקרה,,,,,,"(24, 29)",,"[{'id': 7, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 8, 'deprel': 'case', 'lemma': 'ב'}, {'id': 8, 'text': 'מקרה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 6, 'deprel': 'obl', 'lemma': 'מקרה'}]"
+9,של,ADP,ADP,Case=Gen,10.0,case:gen,"(30, 32)",של,
+"(10, 11)",כמות,,,,,,"(33, 37)",,"[{'id': 10, 'text': 'כ', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Fem|Number=Plur', 'head': 8, 'deprel': 'nmod:poss', 'lemma': 'כ'}, {'id': 11, 'text': 'מות', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Fem|Number=Plur', 'head': 8, 'deprel': 'nmod:poss', 'lemma': 'מוות'}]"
+"(12, 13)",אוויר,,,,,,"(38, 43)",,"[{'id': 12, 'text': 'אוויר', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Masc|Number=Sing', 'head': 11, 'deprel': 'compound:smixut', 'lemma': 'אוויר'}, {'id': 13, 'text': '_הרא', 'upos': 'PROPN', 'xpos': 'PROPN', 'head': 12, 'deprel': 'nmod:poss', 'lemma': '_הרא'}]"
+14,קטנה,ADJ,ADJ,Gender=Fem|Number=Sing,10.0,amod,"(44, 48)",קטן,
+15,מאוד,ADV,ADV,,14.0,advmod,"(49, 53)",מאוד,
+"(1, 2)",באותה,,,,,,"(1, 6)",,"[{'id': 1, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 3, 'deprel': 'case', 'lemma': 'ב'}, {'id': 2, 'text': 'אותה', 'upos': 'PRON', 'xpos': 'PRON', 'feats': 'Definite=Def|Gender=Fem|Number=Sing|Person=3|PronType=Prs', 'head': 3, 'deprel': 'det', 'lemma': 'אותו'}]"
+3,קרקע,NOUN,NOUN,Gender=Fem|Number=Sing,4.0,obl,"(7, 11)",קרקע,
+4,נפתרה,VERB,VERB,Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid,0.0,root,"(12, 17)",נפתר,
+5,בעיה,NOUN,NOUN,Gender=Fem|Number=Sing,4.0,nsubj,"(18, 22)",בעיה,
+6,של,ADP,ADP,Case=Gen,7.0,case:gen,"(23, 25)",של,
+7,פיצוץ,NOUN,NOUN,Definite=Cons|Gender=Masc|Number=Sing,5.0,nmod:poss,"(26, 31)",פיצוץ,
+8,מטען,NOUN,NOUN,Gender=Masc|Number=Sing,7.0,compound:smixut,"(32, 36)",מטען,
+9,גלילי,ADJ,ADJ,Gender=Masc|Number=Sing,8.0,amod,"(37, 42)",גלילי,
+10,סמוך,ADJ,ADJ,Gender=Masc|Number=Sing,7.0,advmod,"(43, 47)",סמוך,
+"(11, 13)",למנהרה,,,,,,"(48, 54)",,"[{'id': 11, 'text': 'ל', 'upos': 'ADP', 'xpos': 'ADP', 'head': 13, 'deprel': 'case', 'lemma': 'ל'}, {'id': 12, 'text': 'ה_', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 13, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 13, 'text': 'מנהרה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 10, 'deprel': 'fixed', 'lemma': 'מנהרה'}]"
+14,רדודה,NOUN,NOUN,Gender=Fem|Number=Sing,7.0,nmod,"(55, 60)",רדודה,
+15,מדופנת,VERB,VERB,"Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Pass",14.0,amod,"(61, 67)",דופן,
+"(16, 18)",בדיפון,,,,,,"(68, 74)",,"[{'id': 16, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 18, 'deprel': 'case', 'lemma': 'ב'}, {'id': 17, 'text': 'ה_', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 18, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 18, 'text': 'דיפון', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 15, 'deprel': 'advmod', 'lemma': 'דיפון'}]"
+19,דק,ADJ,ADJ,Gender=Masc|Number=Sing,18.0,amod,"(75, 77)",דק,
+20,-,PUNCT,PUNCT,,19.0,punct,"(77, 78)",-,
+21,דופן,ADJ,ADJ,Gender=Masc|Number=Sing,19.0,dep,"(78, 82)",דופן,
+1,נבחנה,VERB,VERB,Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid,0.0,root,"(1, 6)",נבחן,
+2,השפעה,NOUN,NOUN,Gender=Fem|Number=Sing,1.0,nsubj,"(7, 12)",השפעה,
+3,של,ADP,ADP,Case=Gen,4.0,case:gen,"(13, 15)",של,
+4,מנת,NOUN,NOUN,Definite=Cons|Gender=Fem|Number=Sing,2.0,nmod:poss,"(16, 19)",מנה,
+"(5, 6)",הרטיבות,,,,,,"(20, 27)",,"[{'id': 5, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 6, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 6, 'text': 'רטיבות', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Plur', 'head': 4, 'deprel': 'compound:smixut', 'lemma': 'רטיבות'}]"
+7,על,ADP,ADP,,9.0,case,"(28, 30)",על,
+"(8, 9)",הצורה,,,,,,"(31, 36)",,"[{'id': 8, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 9, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 9, 'text': 'צורה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 1, 'deprel': 'obl', 'lemma': 'צורה'}]"
+"(10, 11)",המשתיירת,,,,,,"(37, 45)",,"[{'id': 10, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 11, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 11, 'text': 'משתיירת', 'upos': 'VERB', 'xpos': 'VERB', 'feats': 'Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|VerbForm=Part', 'head': 9, 'deprel': 'amod', 'lemma': 'השתייר'}]"
+12,של,ADP,ADP,Case=Gen,14.0,case:gen,"(46, 48)",של,
+"(13, 14)",הדיפון,,,,,,"(49, 55)",,"[{'id': 13, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 14, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 14, 'text': 'דיפון', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 9, 'deprel': 'nmod', 'lemma': 'דיפון'}]"
+"(15, 16)",ושל,,,,,,"(56, 59)",,"[{'id': 15, 'text': 'ו', 'upos': 'CCONJ', 'xpos': 'CCONJ', 'head': 17, 'deprel': 'cc', 'lemma': 'ו'}, {'id': 16, 'text': 'של', 'upos': 'ADP', 'xpos': 'ADP', 'feats': 'Case=Gen', 'head': 17, 'deprel': 'case:gen', 'lemma': 'של'}]"
+"(17, 18)",חזית,,,,,,"(60, 64)",,"[{'id': 17, 'text': 'חזית', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Fem|Number=Sing', 'head': 14, 'deprel': 'conj', 'lemma': 'חזית'}, {'id': 18, 'text': '_הת', 'upos': 'PRON', 'xpos': 'PRON', 'feats': 'Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs', 'head': 17, 'deprel': 'nmod:poss', 'lemma': 'הוא'}]"
+19,מכתש,NOUN,NOUN,Definite=Cons|Gender=Masc|Number=Sing,17.0,compound:smixut,"(65, 69)",מכתש,
+"(20, 21)",הפיצוץ,,,,,,"(70, 76)",,"[{'id': 20, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 21, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 21, 'text': 'פיצוץ', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 19, 'deprel': 'compound:smixut', 'lemma': 'פיצוץ'}]"
+"(22, 23)",וגם,,,,,,"(77, 80)",,"[{'id': 22, 'text': 'ו', 'upos': 'CCONJ', 'xpos': 'CCONJ', 'head': 25, 'deprel': 'cc', 'lemma': 'ו'}, {'id': 23, 'text': 'גם', 'upos': 'ADV', 'xpos': 'ADV', 'head': 24, 'deprel': 'advmod', 'lemma': 'גם'}]"
+24,על,ADP,ADP,,25.0,case,"(81, 83)",על,
+25,תנועת,NOUN,NOUN,Definite=Cons|Gender=Fem|Number=Sing,9.0,conj,"(84, 89)",תנועה,
+26,פני,NOUN,NOUN,Definite=Cons|Gender=Masc|Number=Plur,25.0,compound:smixut,"(90, 93)",פנים,
+"(27, 28)",הקרקע,,,,,,"(94, 99)",,"[{'id': 27, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 28, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 28, 'text': 'קרקע', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 26, 'deprel': 'compound:smixut', 'lemma': 'קרקע'}]"
+1,שיטת,NOUN,NOUN,Definite=Cons|Gender=Fem|Number=Sing,9.0,nsubj,"(1, 5)",שיטה,
+"(2, 3)",החישוב,,,,,,"(6, 12)",,"[{'id': 2, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 3, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 3, 'text': 'חישוב', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 1, 'deprel': 'compound:smixut', 'lemma': 'חישוב'}]"
+"(4, 5)",בה,,,,,,"(13, 15)",,"[{'id': 4, 'text': 'ב_', 'upos': 'ADP', 'xpos': 'ADP', 'head': 5, 'deprel': 'case', 'lemma': 'ב'}, {'id': 5, 'text': '_היא', 'upos': 'PRON', 'xpos': 'PRON', 'feats': 'Gender=Fem|Number=Sing|Person=3|PronType=Prs', 'head': 6, 'deprel': 'obl', 'lemma': 'הוא'}]"
+6,השתמשנו,VERB,VERB,"Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=1|Tense=Past|Voice=Act",1.0,acl,"(16, 23)",השתמש,
+"(7, 8)",במחקר,,,,,,"(24, 29)",,"[{'id': 7, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 8, 'deprel': 'case', 'lemma': 'ב'}, {'id': 8, 'text': 'מחקר', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 6, 'deprel': 'obl', 'lemma': 'מחקר'}]"
+9,מאפשרת,AUX,AUX,Gender=Fem|Number=Sing|VerbForm=Part|VerbType=Mod,0.0,root,"(30, 36)",מאפשרת,
+10,חישוב,NOUN,NOUN,Gender=Masc|Number=Sing,9.0,obj,"(37, 42)",חישוב,
+11,יציב,ADJ,ADJ,Gender=Masc|Number=Sing,10.0,amod,"(43, 47)",יציב,
+12,של,ADP,ADP,Case=Gen,13.0,case:gen,"(48, 50)",של,
+13,תופעה,NOUN,NOUN,Gender=Fem|Number=Sing,10.0,nmod,"(51, 56)",תופעה,
+14,מורכבת,ADJ,ADJ,Gender=Fem|Number=Sing,13.0,amod,"(57, 63)",מורכב,
+15,של,ADP,ADP,Case=Gen,16.0,case:gen,"(64, 66)",של,
+16,תזוזות,NOUN,NOUN,Gender=Fem|Number=Plur,13.0,nmod,"(67, 73)",תזוז,
+"(17, 18)",ועיבורים,,,,,,"(74, 82)",,"[{'id': 17, 'text': 'ו', 'upos': 'CCONJ', 'xpos': 'CCONJ', 'head': 18, 'deprel': 'cc', 'lemma': 'ו'}, {'id': 18, 'text': 'עיבורים', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Plur', 'head': 16, 'deprel': 'conj', 'lemma': 'עיבור'}]"
+19,גדולים,ADJ,ADJ,Gender=Masc|Number=Plur,18.0,amod,"(83, 89)",גדול,
+20,של,ADP,ADP,Case=Gen,22.0,case:gen,"(90, 92)",של,
+"(21, 22)",המערכת,,,,,,"(93, 99)",,"[{'id': 21, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 22, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 22, 'text': 'מערכת', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 18, 'deprel': 'nmod', 'lemma': 'מערכת'}]"
+23,דיפון,NOUN,NOUN,,22.0,compound:smixut,"(100, 105)",דיפון,
+24,-,PUNCT,PUNCT,,22.0,punct,"(105, 106)",-,
+25,קרקע,NOUN,NOUN,Gender=Fem|Number=Sing,22.0,compound:smixut,"(106, 110)",קרקע,
+26,כולל,VERB,VERB,"Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act",27.0,case,"(111, 115)",כלל,
+27,קריסה,NOUN,NOUN,Gender=Fem|Number=Sing,13.0,nmod,"(116, 121)",קריסה,
+28,דינאמית,ADJ,ADJ,Gender=Fem|Number=Sing,27.0,amod,"(122, 129)",דינאמי,
+"(29, 30)",והתמוטטות,,,,,,"(130, 139)",,"[{'id': 29, 'text': 'ו', 'upos': 'CCONJ', 'xpos': 'CCONJ', 'head': 30, 'deprel': 'cc', 'lemma': 'ו'}, {'id': 30, 'text': 'התמוטטות', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 27, 'deprel': 'conj', 'lemma': 'התמוטטות'}]"
+31,של,ADP,ADP,Case=Gen,33.0,case:gen,"(140, 142)",של,
+"(32, 33)",הדיפון,,,,,,"(143, 149)",,"[{'id': 32, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 33, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 33, 'text': 'דיפון', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 27, 'deprel': 'nmod', 'lemma': 'דיפון'}]"
+"(34, 35)",וכן,,,,,,"(150, 153)",,"[{'id': 34, 'text': 'ו', 'upos': 'CCONJ', 'xpos': 'CCONJ', 'head': 37, 'deprel': 'cc', 'lemma': 'ו'}, {'id': 35, 'text': 'כן', 'upos': 'ADV', 'xpos': 'ADV', 'head': 37, 'deprel': 'det', 'lemma': 'כן'}]"
+36,של,ADP,ADP,Case=Gen,37.0,case:gen,"(154, 156)",של,
+37,דפורמציות,NOUN,NOUN,Gender=Fem|Number=Plur,27.0,conj,"(157, 166)",דפורמציה,
+38,גדולות,ADJ,ADJ,Gender=Fem|Number=Plur,37.0,amod,"(167, 173)",גדול,
+39,של,ADP,ADP,Case=Gen,40.0,case:gen,"(174, 176)",של,
+40,מכתש,NOUN,NOUN,Definite=Cons|Gender=Masc|Number=Sing,37.0,nmod:poss,"(177, 181)",מכתש,
+"(41, 42)",הפיצוץ,,,,,,"(182, 188)",,"[{'id': 41, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 42, 'deprel': 'det:def', 'lemma': 'ה'}, {'id': 42, 'text': 'פיצוץ', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 40, 'deprel': 'compound:smixut', 'lemma': 'פיצוץ'}]"
