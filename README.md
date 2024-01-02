@@ -15,6 +15,8 @@ This work was supported by the Israel Innovation Authority. The corpus is availa
 
 We wish to thank Vicky Davydov, Lena Avrahami and Shai Zack from the Library of the Faculty of Architecture and Town Planning (Technion), as well as Moti Yeger, Director of the Technion's Central Library, and Prof. Rafael Sacks, Head of the National Building Research Institute, for the help they have been providing for the project since its inception. 
 
+Reference: Aleksandrowicz, O., Rosenberg, D., Shafer-Raviv, O., Ordan, N. (2024). Hebrew textual corpus on construction, planning, and architecture. GitHUB. https://github.com/bdar-lab/heb_architecture_corpus.
+
 **This is a work in progress. More documents are continuously processed and uploaded to this repository. The corpus currently holds about 5 million words.**
 
 ## Contents
