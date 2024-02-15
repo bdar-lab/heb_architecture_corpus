@@ -24,7 +24,7 @@ Cite: Aleksandrowicz, O., Rosenberg, D., Shafer-Raviv, O., Ordan, N. (2024). Heb
 - /csv/ - Morphologically analyzed texts in CSV format
 - /jsonl/ - Named entities in JSONL format
 - /txt/ - Plain text
-- full_IIA_corpus.csv - Full corpus metadata
+- full_IIA_corpus_8.2.2024.csv - Full corpus metadata
 
 ------------
 ![BDAR-logo-1](https://user-images.githubusercontent.com/49843516/226733958-9b2074ea-b5dd-4585-8efe-84457d6a182c.png)
