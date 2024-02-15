@@ -11,13 +11,13 @@ The construction industry is one of the main economic sectors in Israel and it i
 
 The corpus consists of Hebrew documents from a wide variety of contemporary and historical sources, including legislative decrees, regulatory guidelines, research reports, academic studies, and professional journals. In the development of the corpus, we are using digitally born as well as scanned printed publications, which go through a process of optical character recognition (OCR), cleaning, and parsing. Parsing was performed using the [Trankit Python Toolkit](https://github.com/nlp-uoregon/trankit).
 
+**The corpus holds 22,382,594 words in 1218 documents.**
+
 This work was supported by the Israel Innovation Authority. The corpus is available for all types of uses for NLP research and development according to the CC BY 4.0 license (Attribution 4.0 International).  
 
 We wish to thank Vicky Davydov, Lena Avrahami and Shai Zack from the Library of the Faculty of Architecture and Town Planning (Technion), as well as Moti Yeger, Director of the Technion's Central Library, and Prof. Rafael Sacks, Head of the National Building Research Institute, for the help they have been providing for the project since its inception. 
 
 Cite: Aleksandrowicz, O., Rosenberg, D., Shafer-Raviv, O., Ordan, N. (2024). Hebrew textual corpus on construction, planning, and architecture. GitHUB. https://github.com/bdar-lab/heb_architecture_corpus.
-
-**This is a work in progress. More documents are continuously processed and uploaded to this repository. The corpus currently holds about 5 million words.**
 
 ## Contents
 - /conllu/ - Morphologically analyzed texts in CONLLU format
