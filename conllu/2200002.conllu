@@ -1,0 +1,2003 @@
+1	1	1	NUM	NUM	_	0	root	_	_
+
+
+1	כללי	כלל	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+2	1	1	NUM	NUM	_	1	nummod	_	_
+
+
+1	1	1	NUM	NUM	_	7	punct	_	_
+2	תחום	תחום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	dep	_	_
+3-4	ההנחיות	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	PronType=Art	2	compound:smixut	_	_
+4	הנחיות	הנחיה	NOUN	NOUN	Gender=Fem|Number=Plur	2	compound:smixut	_	_
+5-6	ההנחיות	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	PronType=Art	7	dep	_	_
+6	הנחיות	הנחיה	NOUN	NOUN	Gender=Fem|Number=Plur	7	compound:smixut	_	_
+7	מיועדות	יועד	ADJ	ADJ	_	0	root	_	_
+8	להשלים	השלים	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9-10	ולפרט	_	_	_	_	_	_	_	_
+9	ו	ו	CCONJ	CCONJ	_	8	dep	_	_
+10	לפרט	פירט	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	8	conj	_	_
+11	את	את	ADP	ADP	Case=Acc	8	obj	_	_
+12	חוקת	חוקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	obj	_	_
+13-14	הבטון	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	PronType=Art	14	det:def	_	_
+14	בטון	בטון	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+15	,	,	PUNCT	PUNCT	_	7	punct	_	_
+16	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
+17	4	4	NUM	NUM	_	16	dep	_	_
+18	(	(	PUNCT	PUNCT	_	16	punct	_	_
+19	אלמנטים	אלמנט	NOUN	NOUN	Gender=Masc|Number=Plur	7	dep	_	_
+20	ו	ו	CCONJ	CCONJ	_	19	dep	_	_
+21-22	מערכות	_	_	_	_	_	_	_	_
+21	מ	מ	ADP	ADP	_	16	dep	_	_
+22	ערכות	ערכות	NOUN	NOUN	Gender=Fem|Number=Plur	8	obj	_	_
+23	מבטון	מבטון	NOUN	NOUN	_	24	compound:smixut	_	_
+24	טרום	טרום	ADJ	ADJ	Gender=Masc|Number=Sing	8	obj	_	_
+25	"	"	PUNCT	PUNCT	_	7	punct	_	_
+26	(	(	PUNCT	PUNCT	_	7	punct	_	_
+27	ת"	ת"	PROPN	PROPN	Abbr=Yes	7	nsubj	_	_
+28	י 466	י 466	NOUN	NOUN	_	7	dep	_	_
+29	)	)	PUNCT	PUNCT	_	7	punct	_	_
+
+
+1-2	הן	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	PronType=Art	3	det:def	_	_
+2	ן	ן	PRON	PRON	_	3	nsubj	_	_
+3	דנות בתכן	דנותבבתן	NOUN	NOUN	_	0	root	_	_
+4-5	ובחי	_	_	_	_	_	_	_	_
+4	ו	ו	CCONJ	CCONJ	HebSource=ConvUncertainHead	5	cc	_	_
+5	בחי	בחי	ADP	ADP	Definite=Cons|Gender=Masc|Number=Plur	3	conj	_	_
+6-7	שוב	_	_	_	_	_	_	_	_
+6	ש	ש	NOUN	NOUN	_	5	flat:name	_	_
+7	וב	וב	X	X	_	6	flat:name	_	_
+8	של	של	ADP	ADP	Case=Gen	9	case:gen	_	_
+9-11	קירות	_	_	_	_	_	_	_	_
+9	קירות_	קירות	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	12	nmod	_	_
+10	_של_	של	ADP	ADP	_	11	case:gen	_	_
+11	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nmod:poss	_	_
+12-13	טרומיים	_	_	_	_	_	_	_	_
+12	ט	ט	NOUN	NOUN	HebSource=ConvUncertainHead	3	dep	_	_
+13	רומיים	רומי	ADJ	ADJ	Gender=Masc|Number=Plur	12	amod	_	_
+14-15	המשולבים	_	_	_	_	_	_	_	_
+14	ה	ה	SCONJ	SCONJ	_	15	mark	_	_
+15	משולבים	שולב	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Pass	12	acl:relcl	_	_
+16-17	במבנה	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	מבנה	מבנה	NOUN	NOUN	Gender=Masc|Number=Sing	15	obl	_	_
+18-19	שלד	_	_	_	_	_	_	_	_
+18	ש	ש	SCONJ	SCONJ	_	21	mark	_	_
+19	לד	לד	NOUN	NOUN	Gender=Masc|Number=Sing	21	nsubj	_	_
+20-20	י	_	_	_	_	_	_	_	_
+20	י	וי	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	17	acl:relcl	_	_
+21	צוק	צק	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	17	acl:relcl	_	_
+22-23	באתר	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	23	case	_	_
+23	אתר	אתר	NOUN	NOUN	Gender=Masc|Number=Sing	21	obl	_	_
+24-25	ושל חיבור	_	_	_	_	_	_	_	_
+24	ו	ו	CCONJ	CCONJ	_	25	cc	_	_
+25	שלחחיבור	שלחח	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	21	conj	_	_
+26-27	יהם	_	_	_	_	_	_	_	_
+26	יהם	הוא	ADP	ADP	_	25	obj	_	_
+27	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	25	nmod:poss	_	_
+
+
+1	1	1	NUM	NUM	_	0	root	_	_
+
+
+1	2	2	NUM	NUM	_	3	nummod	_	_
+2-3	הקירות	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	PronType=Art	3	det:def	_	_
+3	קירות	קיר	NOUN	NOUN	Gender=Masc|Number=Plur	20	nsubj	_	_
+4-6	הטרו	_	_	_	_	_	_	_	_
+4	הטר_	הטר	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	_
+5	_של_	של	ADP	ADP	_	6	case:gen	_	_
+6	_הוא	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nmod:poss	_	_
+7-8	מיים	_	_	_	_	_	_	_	_
+7	מ	מ	ADP	ADP	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	8	case	_	_
+8	יים	יים	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	3	nmod	_	_
+9-10	הקירות	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	PronType=Art	10	det:def	_	_
+10	קירות	קיר	NOUN	NOUN	Gender=Masc|Number=Plur	8	dep	_	_
+11-13	הטרו	_	_	_	_	_	_	_	_
+11	הטר_	הטר	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	_
+12	_של_	של	ADP	ADP	_	13	case:gen	_	_
+13	_הוא	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nmod:poss	_	_
+14-15	מיים	_	_	_	_	_	_	_	_
+14	מ	מ	ADP	ADP	_	15	case	_	_
+15	יים	יים	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	8	dep	_	_
+16-17	הניד	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	PronType=Art	17	det:def	_	_
+17	ניד	ניד	NOUN	NOUN	Gender=Masc|Number=Sing	15	nsubj	_	_
+18-19	ונים	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+19	נים	נים	NOUN	NOUN	Gender=Masc|Number=Plur	20	nsubj	_	_
+20	יכולים	יכול	AUX	AUX	Gender=Masc|Number=Plur|Person=1,2,3|VerbForm=Part|VerbType=Mod	21	aux	_	_
+21	להיות	היה	AUX	AUX	Polarity=Pos|VerbForm=Inf|VerbType=Cop	0	root	_	_
+22	עשוי	עשוי	ADJ	ADJ	Gender=Masc|Number=Sing	21	obl	_	_
+23	ים	ים	ADJ	ADJ	Gender=Masc|Number=Plur	21	obl	_	_
+24	ספי	ספי	PROPN	PROPN	_	23	obj	_	_
+25	ני	ני	PROPN	PROPN	_	24	flat:name	_	_
+26-27	בטון	_	_	_	_	_	_	_	_
+26	ב	ב	PROPN	PROPN	_	24	flat:name	_	_
+27	טון	טון	NOUN	NOUN	Gender=Masc|Number=Sing	24	flat:name	_	_
+28	תלת	תלת	ADV	ADV	Prefix=Yes	31	compound:affix	_	_
+29	-	-	PUNCT	PUNCT	_	31	punct	_	_
+30-31	שכבתיים	_	_	_	_	_	_	_	_
+30	ש	ש	SCONJ	SCONJ	_	31	dep	_	_
+31	כבתיים	כבתי	ADJ	ADJ	Gender=Masc|Number=Plur	24	amod	_	_
+32-33	בגובה	_	_	_	_	_	_	_	_
+32	ב	ב	ADP	ADP	_	33	case	_	_
+33	גובה	גובה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	24	nmod	_	_
+34	של	של	ADP	ADP	Case=Gen	35	case:gen	_	_
+35-37	קומה	_	_	_	_	_	_	_	_
+35	קום_	קום	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	33	compound:smixut	_	_
+36	_של_	של	ADP	ADP	_	37	case:gen	_	_
+37	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	nmod:poss	_	_
+38	(	(	PUNCT	PUNCT	_	46	punct	_	_
+39-41	פנ	_	_	_	_	_	_	_	_
+39	פן_	פן	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	60	nsubj	_	_
+40	_של_	של	ADP	ADP	_	41	case:gen	_	_
+41	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	39	nmod:poss	_	_
+42-43	לי	_	_	_	_	_	_	_	_
+42	ל_	ל	ADP	ADP	_	43	case	_	_
+43	_אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	39	nmod	_	_
+44	"	"	PUNCT	PUNCT	_	46	punct	_	_
+45-46	כריך	_	_	_	_	_	_	_	_
+45	כ	כ	ADP	ADP	_	46	case	_	_
+46	ריך	ריך	PROPN	PROPN	_	39	appos	_	_
+47	"	"	PUNCT	PUNCT	_	46	punct	_	_
+48	)	)	PUNCT	PUNCT	_	46	punct	_	_
+49	או	או	CCONJ	CCONJ	_	50	cc	_	_
+50	מספינים	מספין	NOUN	NOUN	Gender=Masc|Number=Plur	24	conj	_	_
+51	חד	חד	ADV	ADV	Prefix=Yes	54	compound:affix	_	_
+52	-	-	PUNCT	PUNCT	_	54	punct	_	_
+53-54	שכבתיים	_	_	_	_	_	_	_	_
+53	ש	ש	SCONJ	SCONJ	_	54	dep	_	_
+54	כבתיים	כבתי	ADJ	ADJ	Gender=Masc|Number=Plur	50	amod	_	_
+55	(	(	PUNCT	PUNCT	_	56	punct	_	_
+56-58	קירות מסך	_	_	_	_	_	_	_	_
+56	קירות_	קירות	NOUN	NOUN	Definite=Def|Gender=Fem|Number=Sing	39	appos	_	_
+57	_של_	של	ADP	ADP	_	58	case:gen	_	_
+58	_אתה	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	56	nmod:poss	_	_
+59	)	)	PUNCT	PUNCT	_	56	punct	_	_
+60	התלויים	התלוי	ADJ	ADJ	Gender=Masc|Number=Plur	50	amod	_	_
+61-62	בשלד	_	_	_	_	_	_	_	_
+61	ב	ב	ADP	ADP	_	62	case	_	_
+62	שלד	שלד	NOUN	NOUN	Gender=Masc|Number=Sing	60	advmod	_	_
+
+
+1	1	1	NUM	NUM	_	0	root	_	_
+
+
+1	3	3	NUM	NUM	_	14	dep	_	_
+2	מבני	מבנה	NOUN	NOUN	_	14	dep	_	_
+3-4	השלד	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	PronType=Art	4	det:def	_	_
+4	שלד	שלד	NOUN	NOUN	Gender=Masc|Number=Sing	9	dep	_	_
+5	מבני	מבנה	NOUN	NOUN	_	14	nsubj	_	_
+6-7	השלד	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	PronType=Art	9	det:def	_	_
+7	שלד	שלד	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	_
+8-9	היצוקים	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	PronType=Art	9	det:def	_	_
+9	יצוקים	יצוק	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+10-11	באתר	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	אתר	אתר	NOUN	NOUN	Gender=Masc|Number=Sing	9	dep	_	_
+12	יכולים	יכול	AUX	AUX	_	11	dep	_	_
+13	להיות	היה	PUNCT	PUNCT	Polarity=Pos|VerbForm=Inf|VerbType=Cop	11	dep	_	_
+14	עשויים	עשוי	ADJ	ADJ	_	11	dep	_	_
+15-16	מעמודים	_	_	_	_	_	_	_	_
+15	מ	מ	ADP	ADP	_	14	dep	_	_
+16	עמודים	עמוד	NOUN	NOUN	_	14	dep	_	_
+17-18	וקורות	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	14	dep	_	_
+18	קורות	קורה	NOUN	NOUN	Gender=Fem|Number=Plur	14	conj	_	_
+19	או	או	ADV	ADV	_	14	punct	_	_
+20-21	מקירות	_	_	_	_	_	_	_	_
+20	מ	מ	ADP	ADP	_	14	advmod	_	_
+21	קירות	קיר	NOUN	NOUN	Gender=Masc|Number=Sing	24	obl	_	_
+22	נושאים	נושא	NOUN	NOUN	_	24	obj	_	_
+23-24	ותקרות	_	_	_	_	_	_	_	_
+23	ו	ו	CCONJ	CCONJ	_	24	dep	_	_
+24	תקרות	תקרות	NOUN	NOUN	Gender=Masc|Number=Sing	14	conj	_	_
+
+
+1	2	2	NUM	NUM	_	0	root	_	_
+
+
+1	מיון	מיון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
+2	קירות	קיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	1	compound:smixut	_	_
+3-4	החוץ	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	PronType=Art	4	det:def	_	_
+4	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	2	compound:smixut	_	_
+5	2	2	NUM	NUM	_	1	nummod	_	_
+
+
+1	1	1	NUM	NUM	_	9	punct	_	_
+2	מיון	מיון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	nsubj	_	_
+3-4	הקירות	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	PronType=Art	4	det:def	_	_
+4	קירות	קיר	NOUN	NOUN	Gender=Fem|Number=Plur	6	compound:smixut	_	_
+5	לגבי	לגבי	NOUN	NOUN	_	9	dep	_	_
+6-8	ייעודם	_	_	_	_	_	_	_	_
+6	ייעוד_	ייעוד	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
+7	_של_	של	ADP	ADP	PronType=Art	8	case:gen	_	_
+8	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nmod:poss	_	_
+9	א	א	PROPN	PROPN	_	2	dep	_	_
+
+
+1	קיר נושא ב	קיר נושא ב	NOUN	NOUN	_	0	root	_	_
+
+
+1-3	קיר הקשחה	_	_	_	_	_	_	_	_
+1	קירט_	קירט	NOUN	NOUN	_	0	root	_	_
+2	_של	של	ADP	ADP	_	3	case:gen	_	_
+3	החה	החה	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod:poss	_	_
+4	ג	ג	PROPN	PROPN	_	6	dep	_	_
+5	,	,	PUNCT	PUNCT	_	6	punct	_	_
+6-8	קיר מילוי	_	_	_	_	_	_	_	_
+6	קירט_	קירט	NOUN	NOUN	_	1	dep	_	_
+7	_של_	של	ADP	ADP	PronType=Art	8	case:gen	_	_
+8	_אני	הוא	PRON	PRON	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	6	nmod:poss	_	_
+9	ד	ד	PROPN	PROPN	_	6	dep	_	_
+
+
+1-3	קיר מסך	_	_	_	_	_	_	_	_
+1	קירצצס_	קירצצס_	PROPN	PROPN	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	_של_	של	ADP	ADP	_	3	case:gen	_	_
+3	_אתה	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	1	nmod:poss	_	_
+4	לא נושא	_	VERB	VERB	Polarity=Neg	0	root	_	_
+
+
+1	2	2	NUM	NUM	_	0	root	_	_
+
+
+1	2	2	NUM	NUM	_	2	nummod	_	_
+2	מיון	מיון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
+3-4	הקירות	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	PronType=Art	1	det:def	_	_
+4	קירות	קיר	NOUN	NOUN	Gender=Masc|Number=Plur	2	compound:smixut	_	_
+5	לפי צורת	לפיצצור	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	nmod	_	_
+6-7	החיבור	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	PronType=Art	7	det:def	_	_
+7	חיבור	חיבור	NOUN	NOUN	Gender=Masc|Number=Plur	5	compound:smixut	_	_
+8-10	ים	_	_	_	_	_	_	_	_
+8	ים_	ים	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	5	compound:smixut	_	_
+9	_של_	של	ADP	ADP	_	10	case:gen	_	_
+10	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	nmod:poss	_	_
+11	של	של	ADP	ADP	Case=Gen	12	case:gen	_	_
+12	שכבת	שכבה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	nmod	_	_
+13-14	הספין	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	PronType=Art	14	det:def	_	_
+14	ספין	ספין	NOUN	NOUN	Gender=Masc|Number=Sing	8	nmod:poss	_	_
+15-16	החיצונית	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	PronType=Art	16	det:def	_	_
+16	חיצונית	חיצוני	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	_
+17	עם	עם	ADP	ADP	_	12	case	_	_
+18-19	השכב	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	PronType=Art	19	det:def	_	_
+19	שכב	שכב	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+20-20	ה	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	PronType=Art	22	det:def	_	_
+21-22	הפנימי	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	PronType=Art	22	det:def	_	_
+22	פנימי	פנימי	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
+23-23	ת	_	_	_	_	_	_	_	_
+23	ת	ת	NOUN	NOUN	_	12	nmod	_	_
+24	או	או	CCONJ	CCONJ	_	2	dep	_	_
+25-26	עם	_	_	_	_	_	_	_	_
+25	עם	עם	ADP	ADP	_	26	case	_	_
+26	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	24	dep	_	_
+27-28	השלד	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	PronType=Art	28	det:def	_	_
+28	שלד	שלד	NOUN	NOUN	Gender=Masc|Number=Sing	24	dep	_	_
+29	א	א	PROPN	PROPN	_	24	dep	_	_
+
+
+1	קיר	קיר	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+2	עם	עם	NOUN	NOUN	Gender=Masc|Number=Sing	1	dep	_	_
+3-4	שכבות	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+4	כבות	כבת	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	1	acl:relcl	_	_
+5-7	חיצוניות	_	_	_	_	_	_	_	_
+5	חיצון_	חיצון	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	4	nsubj	_	_
+6	_של_	של	ADP	ADP	_	7	case:gen	_	_
+7	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nmod:poss	_	_
+8-10	מחוברות ע״י צלעות	_	_	_	_	_	_	_	_
+8	מ	מ	ADP	ADP	_	9	case	_	_
+9	חוברותטיצ	חוברתטיצ	NOUN	NOUN	_	4	obl	_	_
+10	יאצלעות	יאצלעות	PROPN	PROPN	HebSource=ConvUncertainHead	9	flat:name	_	_
+11	(	(	PUNCT	PUNCT	_	12	punct	_	_
+12	גשרי-	גשרי-	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	15	appos	_	_
+13	)	)	PUNCT	PUNCT	_	12	punct	_	_
+14-15	בטון	_	_	_	_	_	_	_	_
+14	ב	ב	X	X	Xtra=Junk	15	dep	_	_
+15	טון	טון	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod	_	_
+16-17	בהיקף הספין	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	היקףטהספין	היקףטהספין	PROPN	PROPN	_	15	nmod	_	_
+18-19	והחל	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	19	cc	_	_
+19	החל	החל	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	17	conj	_	_
+20-21	ונות	_	_	_	_	_	_	_	_
+20	ו	ו	CCONJ	CCONJ	HebSource=ConvUncertainHead	19	dep	_	_
+21	נות	נות	NOUN	NOUN	HebSource=ConvUncertainHead	19	advmod	_	_
+22-25	ובשדה הספין	_	_	_	_	_	_	_	_
+22	ו	ו	CCONJ	CCONJ	HebSource=ConvUncertainHead	24	cc	_	_
+23	ב	ב	ADP	ADP	_	24	case	_	_
+24	שדה	שדה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	conj	_	_
+25	חהפפין	חהפפין	PROPN	PROPN	_	24	flat:name	_	_
+26-27	במרחקים	_	_	_	_	_	_	_	_
+26	ב	ב	ADP	ADP	_	27	case	_	_
+27	מרחקים	מרחק	NOUN	NOUN	Gender=Masc|Number=Plur	24	nmod	_	_
+28-29	מסויימי	_	_	_	_	_	_	_	_
+28	מ	מ	ADP	ADP	_	29	case	_	_
+29	סויימי	סויימי	PROPN	PROPN	_	27	nmod	_	_
+30	□	□	PUNCT	PUNCT	_	1	punct	_	_
+31	(	(	PUNCT	PUNCT	_	32	punct	_	_
+32-33	ציור	_	_	_	_	_	_	_	_
+32	ציור	ציור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	appos	_	_
+33	_הור	_הור	NOUN	NOUN	_	32	compound:smixut	_	_
+34	2	2	NUM	NUM	_	32	nummod	_	_
+
+
+1	1	1	NUM	NUM	_	2	nummod	_	_
+2	אי	אי	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+3	)	)	PUNCT	PUNCT	_	2	punct	_	_
+
+
+1	ב	ב	PROPN	PROPN	_	0	root	_	_
+
+
+1	קיר	קיר	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj	_	_
+2	עם	עם	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod	_	_
+3-4	שכבות	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
+4	כבות	כבות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	1	acl:relcl	_	_
+5-7	חיצוניות	_	_	_	_	_	_	_	_
+5	חיצון_	חיצון	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	4	compound:smixut	_	_
+6	_של_	של	ADP	ADP	_	7	case:gen	_	_
+7	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nmod:poss	_	_
+8-9	מחוברות	_	_	_	_	_	_	_	_
+8	מ	מ	ADP	ADP	_	4	case	_	_
+9	חוברות	חוברת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	4	nmod	_	_
+10-12	ע״י	_	_	_	_	_	_	_	_
+10	עח_	עח	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	9	compound:smixut	_	_
+11	_של_	של	ADP	ADP	_	12	case:gen	_	_
+12	_אני	הוא	PRON	PRON	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	10	nmod:poss	_	_
+13-15	צלעות	_	_	_	_	_	_	_	_
+13	צלעות	צלע	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
+14	את	את	ADP	ADP	Case=Acc	1	case:acc	_	_
+15	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+16	(	(	PUNCT	PUNCT	_	17	punct	_	_
+17	גשרי	גשר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	13	appos	_	_
+18	-	-	PUNCT	PUNCT	_	17	punct	_	_
+19	)	)	PUNCT	PUNCT	_	17	punct	_	_
+20-21	בטון	_	_	_	_	_	_	_	_
+20	ב	ב	NOUN	NOUN	_	13	dep	_	_
+21	טון	טון	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
+22	רק	רק	ADV	ADV	_	23	advmod	_	_
+23-24	בהיקף	_	_	_	_	_	_	_	_
+23	ב	ב	ADP	ADP	_	24	case	_	_
+24	היקף	היקף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	obl	_	_
+25-26	החלון	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	PronType=Art	26	det:def	_	_
+26	חלון	חלון	NOUN	NOUN	Gender=Masc|Number=Sing	24	compound:smixut	_	_
+27-29	ובשדה	_	_	_	_	_	_	_	_
+27	ו	ו	CCONJ	CCONJ	_	29	cc	_	_
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	שדה	שדה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	13	conj	_	_
+30	חספין	חספין	NOUN	NOUN	Gender=Masc|Number=Sing	29	compound:smixut	_	_
+31	ע"י	ע"י	ADP	ADP	Abbr=Yes	32	case	_	_
+32	מוטות	מוט	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	29	nmod	_	_
+33-35	פלדה	_	_	_	_	_	_	_	_
+33	פלד_	פלד	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	32	compound:smixut	_	_
+34	_של_	של	ADP	ADP	_	33	nmod:poss	_	_
+35	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	nmod:poss	_	_
+36	גמישים	גמיש	ADJ	ADJ	Gender=Masc|Number=Plur	32	amod	_	_
+37	(	(	PUNCT	PUNCT	_	13	punct	_	_
+38-39	ציור	_	_	_	_	_	_	_	_
+38	ציור	ציור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	32	appos	_	_
+39	_הור	_הור	NOUN	NOUN	_	38	compound:smixut	_	_
+40	2	2	NUM	NUM	_	38	nummod	_	_
+
+
+1	1	1	NUM	NUM	_	0	root	_	_
+2	ב’	ב’	PROPN	PROPN	_	1	nummod	_	_
+3	)	)	PUNCT	PUNCT	_	1	punct	_	_
+
+
+1	ג	ג	PROPN	PROPN	_	0	root	_	_
+
+
+1	קיר עם	קיר עם	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+2-3	שכבות	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	3	mark	_	_
+3	כבות	כבת	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	1	acl:relcl	_	_
+4-6	חיצוניות	_	_	_	_	_	_	_	_
+4	חיצון_	חיצון	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	_של_	של	ADP	ADP	_	6	case:gen	_	_
+6	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nmod:poss	_	_
+7-8	מחוברות	_	_	_	_	_	_	_	_
+7	מ	מ	ADP	ADP	_	8	case	_	_
+8	חוברות	חוברת	NOUN	NOUN	Gender=Fem|Number=Plur	3	obl	_	_
+9-10	לשכב	_	_	_	_	_	_	_	_
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	שכב	שכב	NOUN	NOUN	Gender=Masc|Number=Sing	8	nmod	_	_
+11-12	ות	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+12	ת	ת	ADP	ADP	Xtra=Junk	14	case	_	_
+13-14	הפנימיות	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	PronType=Art	14	det:def	_	_
+14	פנימיות	פנימייה	NOUN	NOUN	Gender=Fem|Number=Plur	10	obl	_	_
+15	או	או	CCONJ	CCONJ	_	17	cc	_	_
+16-17	לאלמנטי	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	17	case	_	_
+17	אלמנטי	אלמנט	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	10	conj	_	_
+18-19	השלד	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	PronType=Art	19	det:def	_	_
+19	שלד	שלד	NOUN	NOUN	Gender=Masc|Number=Sing	17	compound:smixut	_	_
+20	רק	רק	ADV	ADV	_	21	advmod	_	_
+21	ע״י	ע״י	ADP	ADP	Abbr=Yes	22	case	_	_
+22-23	מוטות פלדה	_	_	_	_	_	_	_	_
+22	מוטות	מוט	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	1	nmod	_	_
+23	טפלדה	טפלדה	PROPN	PROPN	_	22	compound:smixut	_	_
+24-26	גמישים	_	_	_	_	_	_	_	_
+24	גמיש_	גמיש	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	22	compound:smixut	_	_
+25	_של_	של	ADP	ADP	_	26	case:gen	_	_
+26	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	24	nmod:poss	_	_
+27	או	או	CCONJ	CCONJ	_	28	cc	_	_
+28-30	קיר מסך	_	_	_	_	_	_	_	_
+28	קירצצס_	קירצצס	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	22	conj	_	_
+29	_של_	של	ADP	ADP	_	30	case:gen	_	_
+30	_אתה	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	28	nmod:poss	_	_
+31	(	(	PUNCT	PUNCT	_	32	punct	_	_
+32-33	ציור	_	_	_	_	_	_	_	_
+32	ציור	ציור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	22	appos	_	_
+33	_הור	_הור	PROPN	PROPN	_	32	compound:smixut	_	_
+34	2	2	NUM	NUM	_	32	nummod	_	_
+
+
+1	1	1	PUNCT	PUNCT	_	2	punct	_	_
+2	גי	גים	NOUN	NOUN	_	0	root	_	_
+3	)	)	PUNCT	PUNCT	_	2	punct	_	_
+4	,	,	PUNCT	PUNCT	_	2	punct	_	_
+5	ראה	ראה	NOUN	NOUN	_	2	dep	_	_
+6	גם	גם	ADV	ADV	_	2	det	_	_
+7	סעיף 2	סעיף 2	NOUN	NOUN	_	2	obj	_	_
+
+
+1	4	4	NUM	NUM	_	0	root	_	_
+
+
+1	2	2	NUM	NUM	_	0	root	_	_
+
+
+1	3	3	NUM	NUM	_	3	nummod	_	_
+2-3	מיון	_	_	_	_	_	_	_	_
+2	מ	מ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	dep	_	_
+3	יון	יון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
+4-6	קירות	_	_	_	_	_	_	_	_
+4	קירות_	קירות	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	2	compound:smixut	_	_
+5	_של_	של	ADP	ADP	_	6	case:gen	_	_
+6	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nmod:poss	_	_
+7	-	-	PUNCT	PUNCT	_	3	punct	_	_
+8-10	חוץ	_	_	_	_	_	_	_	_
+8	חוץ_	חוץ	NOUN	NOUN	Definite=Def|Gender=Masc|HebSource=ConvUncertainHead|Number=Sing	3	dep	_	_
+9	_של_	של	ADP	ADP	_	10	case:gen	_	_
+10	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nmod:poss	_	_
+11-12	מבחינת	_	_	_	_	_	_	_	_
+11	מ	מ	ADP	ADP	_	12	case	_	_
+12	בחינת	בחינה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	nmod	_	_
+13	צורת	צורה	NOUN	NOUN	Gender=Fem|Number=Sing	12	compound:smixut	_	_
+14-17	שילובם	_	_	_	_	_	_	_	_
+14	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
+15	ילובם	לובם	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	13	acl:relcl	_	_
+16	את	את	ADP	ADP	Case=Acc	17	case	_	_
+17	_הם	הוא	PRON	PRON	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	obj	_	_
+18-19	עם	_	_	_	_	_	_	_	_
+18	עם	עם	ADP	ADP	_	19	case	_	_
+19	_הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	obl	_	_
+20-21	השלד	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	PronType=Art	21	det:def	_	_
+21	שלד	שלד	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
+22-22	א	_	_	_	_	_	_	_	_
+22	א	א	PROPN	PROPN	_	21	flat:name	_	_
+
+
+1-3	קירות	_	_	_	_	_	_	_	_
+1	קירות_	קירות	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	_של_	של	ADP	ADP	_	3	case:gen	_	_
+3	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	nmod:poss	_	_
+4	לא	לא	ADV	ADV	Polarity=Neg	5	advmod	_	_
+5	נושאים	נשא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
+6-7	שאינם	_	_	_	_	_	_	_	_
+6	ש	ש	SCONJ	SCONJ	_	8	mark	_	_
+7	אינם	אינו	AUX	AUX	Gender=Masc|Number=Plur|Person=3|Polarity=Neg|VerbForm=Part|VerbType=Cop	8	advmod	_	_
+8	מעבירים	העביר	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	5	acl:relcl	_	_
+9	כוחות	כוח	NOUN	NOUN	Gender=Masc|Number=Plur	8	obj	_	_
+10	בין	בין	ADP	ADP	_	11	case	_	_
+11	אלמנטי	אלמנט	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	obl	_	_
+12-13	השלד	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	PronType=Art	13	det:def	_	_
+13	שלד	שלד	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+14	(	(	PUNCT	PUNCT	_	5	punct	_	_
+15-16	ציור	_	_	_	_	_	_	_	_
+15	ציור	ציור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	appos	_	_
+16	_הור	_הור	PROPN	PROPN	_	15	compound:smixut	_	_
+17	2	2	NUM	NUM	_	15	nummod	_	_
+
+
+1	2	2	NUM	NUM	_	6	nummod	_	_
+2	)	)	PUNCT	PUNCT	_	6	punct	_	_
+3	,	,	PUNCT	PUNCT	_	6	punct	_	_
+4	ראה	ראה	NOUN	NOUN	_	0	root	_	_
+5	גם	גם	ADV	ADV	_	6	det	_	_
+6	סעיף	סעיף	NOUN	NOUN	Gender=Masc|Number=Sing	4	dep	_	_
+7	2	2	NUM	NUM	_	6	nummod	_	_
+
+
+1	4	4	NUM	NUM	_	0	root	_	_
+
+
+1	ב	ב	PROPN	PROPN	_	0	root	_	_
+
+
+1	קירות	קיר	NOUN	NOUN	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	נושאים	נשא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
+3-4	המשולבים	_	_	_	_	_	_	_	_
+3	ה	ה	SCONJ	SCONJ	_	4	mark	_	_
+4	משולבים	שולב	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Pass	1	acl:relcl	_	_
+5-6	בשלד	_	_	_	_	_	_	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	שלד	שלד	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+7-8	באופן	_	_	_	_	_	_	_	_
+7	ב	ב	ADP	ADP	_	8	case	_	_
+8	אופן	אופן	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+9	מלא	מלא	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
+10	(	(	PUNCT	PUNCT	_	11	punct	_	_
+11-12	ציור	_	_	_	_	_	_	_	_
+11	ציור	ציור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	appos	_	_
+12	_הור	_הור	NOUN	NOUN	_	11	compound:smixut	_	_
+13	2	2	NUM	NUM	_	11	nummod	_	_
+
+
+1	3	3	NUM	NUM	_	0	root	_	_
+2	)	)	PUNCT	PUNCT	_	1	punct	_	_
+
+
+1	ג	ג	PROPN	PROPN	_	0	root	_	_
+
+
+1	קירות לא	קירות לא	ADV	ADV	Polarity=Neg	0	root	_	_
+2-4	נושאים	_	_	_	_	_	_	_	_
+2	נושא_	נושא	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	1	dep	_	_
+3	_של_	של	ADP	ADP	_	4	case:gen	_	_
+4	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nmod:poss	_	_
+5-6	המשמשים	_	_	_	_	_	_	_	_
+5	ה	ה	SCONJ	SCONJ	_	6	mark	_	_
+6	משמשים	שימש	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	2	acl:relcl	_	_
+7	חיבורי	חיבור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	6	dep	_	_
+8-9	גז	_	_	_	_	_	_	_	_
+8	גז	גז	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	compound:smixut	_	_
+9	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nmod:poss	_	_
+10-12	ירה	_	_	_	_	_	_	_	_
+10	יר_	יר	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	14	nsubj	_	_
+11	_של_	של	ADP	ADP	_	12	case:gen	_	_
+12	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nmod:poss	_	_
+13-14	בין	_	_	_	_	_	_	_	_
+13	ב	ב	PROPN	PROPN	HebSource=ConvUncertainHead	14	dep	_	_
+14	ין	ין	PROPN	PROPN	HebSource=ConvUncertainHead	2	dep	_	_
+15-16	אל	_	_	_	_	_	_	_	_
+15	אל	אל	ADP	ADP	_	16	case	_	_
+16	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nmod	_	_
+17-18	מנט	_	_	_	_	_	_	_	_
+17	מ	מ	PROPN	PROPN	HebSource=ConvUncertainHead	18	dep	_	_
+18	נט	נט	PROPN	PROPN	HebSource=ConvUncertainHead	14	dep	_	_
+19	י	וי	PROPN	PROPN	_	18	flat:name	_	_
+20-21	השלד	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	PronType=Art	21	det:def	_	_
+21	שלד	שלד	NOUN	NOUN	Gender=Masc|Number=Sing	18	nmod	_	_
+22-23	הלחוצים	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	PronType=Art	23	det:def	_	_
+23	לחוצים	לחוץ	ADJ	ADJ	Gender=Masc|Number=Plur	21	amod	_	_
+24	(	(	PUNCT	PUNCT	_	18	punct	_	_
+25-26	ציור	_	_	_	_	_	_	_	_
+25	ציור	ציור	NOUN	NOUN	Definite=Cons|Gender=Masc|HebSource=ConvUncertainHead|Number=Sing	18	appos	_	_
+26	_הור	_הור	PROPN	PROPN	_	25	compound:smixut	_	_
+27	2	2	NUM	NUM	_	25	nummod	_	_
+
+
+1	4	4	NUM	NUM	_	0	root	_	_
+2	)	)	PUNCT	PUNCT	_	1	punct	_	_
+
+
+1	4	4	NUM	NUM	_	0	root	_	_
+
+
+1	זיון	זיון	NOUN	NOUN	Gender=Masc|Number=Sing	27	nsubj	_	_
+2-3	בספין	_	_	_	_	_	_	_	_
+2	ב	ב	ADP	ADP	_	3	case	_	_
+3	ספין	ספין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	nmod	_	_
+4	"	"	PUNCT	PUNCT	_	5	punct	_	_
+5	כריך	כריך	NOUN	NOUN	Gender=Masc|Number=Sing	3	compound:smixut	_	_
+6	"	"	PUNCT	PUNCT	_	5	punct	_	_
+7	,	,	PUNCT	PUNCT	_	1	punct	_	_
+8	חיבורים	חיבור	NOUN	NOUN	Gender=Masc|Number=Plur	1	conj	_	_
+9-10	בים	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	ים	ים	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	8	nmod	_	_
+11	שכבות	שכבה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	10	compound:smixut	_	_
+12-13	בטון	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	compound:smixut	_	_
+13	טון	טון	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+14-15	וזמן	_	_	_	_	_	_	_	_
+14	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+15	זמן	זמן	NOUN	NOUN	Gender=Masc|Number=Sing	1	conj	_	_
+16-17	בספין	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	ספין	ספין	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	_
+18-19	מסך	_	_	_	_	_	_	_	_
+18	מ	מ	ADP	ADP	_	19	case	_	_
+19	סך	סך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	nmod	_	_
+20-21	הזיון	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	PronType=Art	21	det:def	_	_
+21	זיון	זיון	NOUN	NOUN	Gender=Masc|Number=Sing	19	compound:smixut	_	_
+22-23	בספיך	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	_	23	case	_	_
+23	ספיך	ספיך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	21	nmod	_	_
+24	"	"	PUNCT	PUNCT	_	25	punct	_	_
+25	כריך	כריך	NOUN	NOUN	_	23	appos	_	_
+26	"	"	PUNCT	PUNCT	_	25	punct	_	_
+27	מורכב	מורכב	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
+28-29	מסולמות	_	_	_	_	_	_	_	_
+28	מ	מ	ADP	ADP	_	29	case	_	_
+29	סולמות	סולמה	NOUN	NOUN	Gender=Masc|Number=Plur	27	obl	_	_
+30-31	לאורך	_	_	_	_	_	_	_	_
+30	ל	ל	ADP	ADP	_	31	case	_	_
+31	אורך	אורך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	29	nmod	_	_
+32	רשתות	רשת	NOUN	NOUN	Gender=Fem|Number=Plur	31	compound:smixut	_	_
+33	בתוך	בתוך	ADP	ADP	_	35	case	_	_
+34-35	השכבות	_	_	_	_	_	_	_	_
+34	ה	ה	DET	DET	PronType=Art	35	det:def	_	_
+35	שכבות	שכבה	NOUN	NOUN	Gender=Fem|Number=Plur	32	nmod	_	_
+36	(	(	PUNCT	PUNCT	_	27	punct	_	_
+37-38	ציור	_	_	_	_	_	_	_	_
+37	ציור	ציור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	27	parataxis	_	_
+38	_הור	_הור	NOUN	NOUN	_	37	nmod	_	_
+39	4	4	NUM	NUM	_	37	nummod	_	_
+
+
+1	1	1	NUM	NUM	_	0	root	_	_
+2	)	)	PUNCT	PUNCT	_	1	punct	_	_
+
+
+1-2	הקשר	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
+2	קשר	קשר	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+3-4	בין	_	_	_	_	_	_	_	_
+3	ב	ב	ADP	ADP	_	4	case	_	_
+4	ין	ין	NOUN	NOUN	_	0	root	_	_
+5-6	השכב	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	PronType=Art	6	det:def	_	_
+6	שכב	שכב	NOUN	NOUN	Gender=Masc|Number=Sing	4	flat:name	_	_
+7-8	ות	_	_	_	_	_	_	_	_
+7	ו	ו	CCONJ	CCONJ	HebSource=ConvUncertainHead	6	dep	_	_
+8	ת	ת	PROPN	PROPN	HebSource=ConvUncertainHead	6	dep	_	_
+9-9	י	_	_	_	_	_	_	_	_
+9	י	וי	PROPN	PROPN	HebSource=ConvUncertainHead	6	dep	_	_
+10-11	בוצע	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	וצע	וצע	NOUN	NOUN	_	6	dep	_	_
+12	ע״י	ע״י	ADP	ADP	Abbr=Yes	13	case	_	_
+13-14	מוטות ניצבים	_	_	_	_	_	_	_	_
+13	מ	מ	PROPN	PROPN	_	14	dep	_	_
+14	וטותטניצבים	וטותטניצבי	NOUN	NOUN	_	6	dep	_	_
+15-16	בס	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	ס	ס	PROPN	PROPN	_	14	nmod	_	_
+17-18	ולמות	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+18	למות	מת	NOUN	NOUN	_	16	conj	_	_
+19-20	וע	_	_	_	_	_	_	_	_
+19	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+20	ע	ע	PROPN	PROPN	_	22	case	_	_
+21-22	״י תליות	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	PronType=Art	22	det:def	_	_
+22	יצתליות	יצתליות	NOUN	NOUN	_	16	conj	_	_
+23-24	לגובה	_	_	_	_	_	_	_	_
+23	ל	ל	ADP	ADP	_	24	case	_	_
+24	גובה	גובה	NOUN	NOUN	Gender=Masc|Number=Sing	22	nmod	_	_
+25-26	ולאורך	_	_	_	_	_	_	_	_
+25	ו	ו	CCONJ	CCONJ	_	28	dep	_	_
+26	לאורך	לאורך	ADV	ADV	_	28	case	_	_
+27-28	כמת	_	_	_	_	_	_	_	_
+27	כ	כ	ADP	ADP	_	28	case	_	_
+28	מת	מת	PROPN	PROPN	_	24	conj	_	_
+29-30	ואר	_	_	_	_	_	_	_	_
+29	ו	ו	CCONJ	CCONJ	_	30	cc	_	_
+30	אר	אר	PROPN	PROPN	_	28	conj	_	_
+31-32	בציור	_	_	_	_	_	_	_	_
+31	ב	ב	ADP	ADP	_	32	case	_	_
+32	ציור	ציור	NOUN	NOUN	Gender=Masc|Number=Sing	28	nmod	_	_
+
+
+1	כל	כול	DET	DET	Definite=Cons	3	det	_	_
+2-3	הז	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	PronType=Art	3	det:def	_	_
+3	ז	ז	NOUN	NOUN	Gender=Masc|Number=Sing	17	nsubj	_	_
+4-5	יון	_	_	_	_	_	_	_	_
+4	יון	יון	NOUN	NOUN	Gender=Masc|Number=Sing	17	nsubj	_	_
+5	_הן	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Plur|Person=3|PronType=Prs	3	nmod:poss	_	_
+6-7	העובר	_	_	_	_	_	_	_	_
+6	ה	ה	SCONJ	SCONJ	_	7	mark	_	_
+7	עובר	עבר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	3	acl:relcl	_	_
+8-8	ב	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	10	case	_	_
+9-10	שכב	_	_	_	_	_	_	_	_
+9	ש	ש	NOUN	NOUN	_	7	obl	_	_
+10	כב	כב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	obl	_	_
+11-11	ת	_	_	_	_	_	_	_	_
+11	ת	ת	NOUN	NOUN	Xtra=Junk	10	compound:smixut	_	_
+12-13	הבי	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	PronType=Art	13	det:def	_	_
+13	בי	ב	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+14-14	דוד	_	_	_	_	_	_	_	_
+14	דוד	דוד	NOUN	NOUN	Gender=Masc|Number=Sing	13	compound:smixut	_	_
+15-16	התרמי	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	PronType=Art	16	det:def	_	_
+16	תרמי	תרמי	ADJ	ADJ	Gender=Masc|Number=Sing	13	amod	_	_
+17	ייעשה עמיד	היעשה	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+18	בפני	בפני	ADP	ADP	_	19	case	_	_
+19-21	קורוז	_	_	_	_	_	_	_	_
+19	קורוז	קורוז	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+20	את	את	ADP	ADP	Case=Acc	21	case	_	_
+21	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	dep	_	_
+22-24	ייה	_	_	_	_	_	_	_	_
+22	יים_	יים	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	21	dep	_	_
+23	_של_	של	ADP	ADP	_	24	case:gen	_	_
+24	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nmod:poss	_	_
+25	ע״י	ע״י	ADP	ADP	Abbr=Yes	26	case	_	_
+26	צי	צה	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+27-28	פוי מסויים	_	_	_	_	_	_	_	_
+27	פו	פו	PROPN	PROPN	_	26	flat:name	_	_
+28	יצמסויים	יצמסויים	PROPN	PROPN	_	26	flat:name	_	_
+29	או	או	CCONJ	CCONJ	_	32	cc	_	_
+30	ע״י	ע״י	ADP	ADP	Abbr=Yes	32	case	_	_
+31-32	שימוש	_	_	_	_	_	_	_	_
+31	ש	ש	SCONJ	SCONJ	_	32	mark	_	_
+32	ימוש	מש	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	17	conj	_	_
+33-33	ב	_	_	_	_	_	_	_	_
+33	ב	ב	ADP	ADP	_	34	case	_	_
+34-35	פל	_	_	_	_	_	_	_	_
+34	פל	פל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	32	obl	_	_
+35	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	obl	_	_
+36-36	דת	_	_	_	_	_	_	_	_
+36	דת	דת	NOUN	NOUN	Gender=Fem|Number=Sing	32	obj	_	_
+37-39	נירוס	_	_	_	_	_	_	_	_
+37	נירוס	נירוס	VERB	VERB	HebBinyan=PAAL|HebSource=ConvUncertainHead|VerbForm=Inf|Voice=Act	36	acl	_	_
+38	את	את	ADP	ADP	Case=Acc	39	case	_	_
+39	_היא	הוא	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	37	obj	_	_
+40-41	טה	_	_	_	_	_	_	_	_
+40	ט_	ט	NOUN	NOUN	Definite=Def|Gender=Fem|Number=Sing	37	obj	_	_
+41	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	40	nmod:poss	_	_
+
+
+1	קטרי	קטר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	9	nsubj	_	_
+2	מוטות	מוט	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	1	compound:smixut	_	_
+3-4	החיבורים	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	PronType=Art	4	det:def	_	_
+4	חיבורים	חיבור	NOUN	NOUN	Gender=Masc|Number=Plur	2	compound:smixut	_	_
+5	בין	בין	ADP	ADP	_	6	case	_	_
+6	שכבות	שכבה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	4	nmod	_	_
+7-8	הבטון	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	PronType=Art	8	det:def	_	_
+8	בטון	בטון	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+9	ייקבעו	נקבע	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Fut|Voice=Mid	0	root	_	_
+10	על	על	ADP	ADP	_	11	case	_	_
+11	סמך	סמך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	9	obl	_	_
+12-13	החישוב	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	PronType=Art	13	det:def	_	_
+13	חישוב	חישוב	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
+14	(	(	PUNCT	PUNCT	_	9	punct	_	_
+15	ראה	ראה	VERB	VERB	_	9	parataxis	_	_
+16	סעיף	סעיף	NOUN	NOUN	Gender=Masc|Number=Sing	15	obj	_	_
+17	6	6	NUM	NUM	_	16	nummod	_	_
+
+
+1	2	2	NUM	NUM	_	0	root	_	_
+2	)	)	PUNCT	PUNCT	_	1	dep	_	_
+
+
+1	קטרי	קטר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	10	nsubj	_	_
+2-3	המוטות	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	PronType=Art	3	det:def	_	_
+3	מוטות	מוט	VERB	VERB	Gender=Masc|Number=Plur	1	compound:smixut	_	_
+4-5	בסולמות	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	סולמות	סולמה	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	_
+6-7	וברשת	_	_	_	_	_	_	_	_
+6	ו	ו	CCONJ	CCONJ	_	7	cc	_	_
+7	ברשת	ברשת	ADP	ADP	_	5	conj	_	_
+8-9	ות	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	HebSource=ConvUncertainHead	7	flat:name	_	_
+9	ת	ת	NOUN	NOUN	_	7	fixed	_	_
+10	ייקבעו	נקבע	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Fut|Voice=Mid	0	root	_	_
+11	לפי חלק	לפי חלק	NOUN	NOUN	_	10	obl	_	_
+12	4	4	NUM	NUM	_	11	nummod	_	_
+13	של	של	ADP	ADP	Case=Gen	14	case:gen	_	_
+14-14	חוק	_	_	_	_	_	_	_	_
+14	חוק	חוק	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	nmod:poss	_	_
+15	ת	ת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	14	compound:smixut	_	_
+16-17	הב	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	PronType=Art	18	det:def	_	_
+17	ב	ב	NOUN	NOUN	_	15	compound:smixut	_	_
+18-19	טון	_	_	_	_	_	_	_	_
+18	טון	טון	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+19	_הן	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Plur|Person=3|PronType=Prs	15	nmod:poss	_	_
+20	(	(	PUNCT	PUNCT	_	21	punct	_	_
+21-21	ת	_	_	_	_	_	_	_	_
+21	ת	ת	PROPN	PROPN	_	14	appos	_	_
+22	"	"	PUNCT	PUNCT	_	21	punct	_	_
+23	י	וי	PROPN	PROPN	_	21	dep	_	_
+24	466	466	NUM	NUM	_	21	nummod	_	_
+25	)	)	PUNCT	PUNCT	_	21	punct	_	_
+
+
+1	6	6	NUM	NUM	_	0	root	_	_
+
+
+1-2	הדרישות	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
+2	דרישות	דרישה	NOUN	NOUN	Gender=Fem|Number=Plur	0	root	_	_
+3-4	התפקודיות	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	PronType=Art	4	det:def	_	_
+4	תפקודיות	תפקודי	ADJ	ADJ	Gender=Fem|Number=Plur	2	amod	_	_
+5-6	לקירות	_	_	_	_	_	_	_	_
+5	ל	ל	ADP	ADP	_	6	case	_	_
+6	קירות	קיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	2	nmod	_	_
+7	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+8-12	ולחיבוריהם	_	_	_	_	_	_	_	_
+8	ו	ו	CCONJ	CCONJ	_	10	cc	_	_
+9	ל	ל	ADP	ADP	_	10	case	_	_
+10	חיבורים_	חיבורים	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	6	conj	_	_
+11	_של_	של	ADP	ADP	_	12	case:gen	_	_
+12	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	nmod:poss	_	_
+13	6	6	NUM	NUM	_	2	nummod	_	_
+
+
+1	1	1	NUM	NUM	_	4	punct	_	_
+2-3	כללי	_	_	_	_	_	_	_	_
+2	כללי	כלל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	dep	_	_
+3	_אני	הוא	PRON	PRON	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	compound:smixut	_	_
+4-5	מבחינים	_	_	_	_	_	_	_	_
+4	מ	מ	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	5	dep	_	_
+5	בחינים	בחין	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
+6	בין	בין	ADP	ADP	_	7	case	_	_
+7-8	מצב גבולי	_	_	_	_	_	_	_	_
+7	מ	מ	ADP	ADP	_	5	obl	_	_
+8	צבפגבולי	צבפגבולי	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
+9-12	של הרס	_	_	_	_	_	_	_	_
+9	ש	ש	SCONJ	SCONJ	_	12	mark	_	_
+10	ל	ל	ADP	ADP	_	12	case	_	_
+11	ה_	ה	DET	DET	PronType=Art	12	det:def	_	_
+12	אהרס	אהרס	PROPN	PROPN	_	7	acl:relcl	_	_
+13-14	לבין	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	15	case	_	_
+14	בין	בין	ADP	ADP	_	15	case	_	_
+15-16	מצב גבולי	_	_	_	_	_	_	_	_
+15	מ	מ	NOUN	NOUN	Gender=Masc|Number=Sing	7	conj	_	_
+16	צבפגבולי	צבפגבולי	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	_
+17-20	של שירות	_	_	_	_	_	_	_	_
+17	ש	ש	SCONJ	SCONJ	_	20	mark	_	_
+18	ל	ל	ADP	ADP	_	20	case	_	_
+19	ה_	ה	DET	DET	PronType=Art	20	det:def	_	_
+20	פשירות	פשירות	NOUN	NOUN	Gender=Fem|Number=Sing	15	acl:relcl	_	_
+
+
+1	מצב	מצב	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
+2	גבולי	גבולי	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
+3	של	של	ADP	ADP	Case=Gen	7	case:gen	_	_
+4	הרס	הרס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	obl	_	_
+5-6	הקיר	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	PronType=Art	6	det:def	_	_
+6	קיר	קיר	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+7	מתבטא	התבטא	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|VerbForm=Part	0	root	_	_
+8-9	בהרס	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	7	case	_	_
+9	הרס	הרס	NOUN	NOUN	PronType=Art	7	obl	_	_
+10-12	חתחיו	_	_	_	_	_	_	_	_
+10	חתח_	חתח	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	14	compound:smixut	_	_
+11	_של_	של	ADP	ADP	PronType=Art	12	case:gen	_	_
+12	_הוא	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nmod:poss	_	_
+13-14	האופקיים	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	PronType=Art	14	det:def	_	_
+14	אופקיים	אופקי	ADJ	ADJ	Gender=Masc|Number=Sing	7	dep	_	_
+15-16	ללחיצה	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	16	case	_	_
+16	לחיצה	לחיצה	NOUN	NOUN	Gender=Fem|Number=Sing	14	advmod	_	_
+17	או	או	CCONJ	CCONJ	_	7	cc	_	_
+18-19	בהרס	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	16	case	_	_
+19	הרס	הרס	NOUN	NOUN	PronType=Art	7	obl	_	_
+20-22	חיבוריו	_	_	_	_	_	_	_	_
+20	חיבור_	חיבור	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	19	compound:smixut	_	_
+21	_של_	של	ADP	ADP	_	22	case:gen	_	_
+22	_הוא	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nmod:poss	_	_
+23	ע□	ע□	NOUN	NOUN	_	7	dep	_	_
+24-25	השלד	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	PronType=Art	25	det:def	_	_
+25	שלד	שלד	NOUN	NOUN	Gender=Masc|Number=Sing	7	dep	_	_
+26-28	לגזירה	_	_	_	_	_	_	_	_
+26	ל	ל	ADP	ADP	_	25	case	_	_
+27	ה_	ה	DET	DET	PronType=Art	28	det:def	_	_
+28	גזירה	גזירה	NOUN	NOUN	Gender=Fem|Number=Sing	25	nmod	_	_
+
+
+1-2	מצב גבולי	_	_	_	_	_	_	_	_
+1	מ	מ	ADP	ADP	_	2	case	_	_
+2	צבפגבולי	צבפגבולי	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+3-6	של שירות	_	_	_	_	_	_	_	_
+3	ש	ש	SCONJ	SCONJ	_	6	mark	_	_
+4	ל	ל	ADP	ADP	_	6	case	_	_
+5	ה_	ה	DET	DET	PronType=Art	6	det:def	_	_
+6	פשירות	פשירות	NOUN	NOUN	Gender=Fem|Number=Sing	2	acl:relcl	_	_
+7-10	מתבטא בהנתקות הקיר	_	_	_	_	_	_	_	_
+7	מ	מ	ADP	ADP	_	8	case	_	_
+8	תבטאטט	תבטאטט	PROPN	PROPN	_	6	nmod	_	_
+9	קתקב	קתקב	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	flat:name	_	_
+10	קתפקיר	קתפקיר	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	compound:smixut	_	_
+11-12	לאורך	_	_	_	_	_	_	_	_
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	אורך	אורך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	nmod	_	_
+13-14	החיבור	_	_	_	_	_	_	_	_
+13	ה	ה	DET	DET	PronType=Art	14	det:def	_	_
+14	חיבור	חיבור	NOUN	NOUN	Gender=Masc|Number=Sing	12	compound:smixut	_	_
+15-16	האופקי	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	PronType=Art	16	det:def	_	_
+16	אופקי	אופקי	ADJ	ADJ	Gender=Masc|Number=Sing	14	amod	_	_
+17-17	או	_	_	_	_	_	_	_	_
+17	או	או	CCONJ	CCONJ	_	19	cc	_	_
+18-19	לתזו	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	תזו	תזו	NOUN	NOUN	_	12	conj	_	_
+20-21	זה	_	_	_	_	_	_	_	_
+20	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	19	nmod	_	_
+21	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nmod	_	_
+22-25	של הקיר	_	_	_	_	_	_	_	_
+22	ש	ש	SCONJ	SCONJ	_	25	mark	_	_
+23	ל	ל	ADP	ADP	_	25	case	_	_
+24	ה_	ה	DET	DET	PronType=Art	25	det:def	_	_
+25	אהקיר	אהקיר	NOUN	NOUN	Gender=Masc|Number=Sing	19	acl:relcl	_	_
+26-27	לעומת	_	_	_	_	_	_	_	_
+26	ל	ל	ADP	ADP	_	27	case	_	_
+27	עומת	עומת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	25	nmod	_	_
+28-29	השלד	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	PronType=Art	32	det:def	_	_
+29	שלד	שלד	NOUN	NOUN	Gender=Masc|Number=Sing	32	nmod	_	_
+30	-	-	PUNCT	PUNCT	_	32	punct	_	_
+31-32	הגורמות לסדיקה	_	_	_	_	_	_	_	_
+31	ה	ה	DET	DET	PronType=Art	32	det:def	_	_
+32	גורמותטסדיקה	גורמותטסדיקה	PROPN	PROPN	_	27	compound:smixut	_	_
+33-35	יתירה	_	_	_	_	_	_	_	_
+33	יתיר_	יתיר	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	32	nmod	_	_
+34	_של_	של	ADP	ADP	_	35	case:gen	_	_
+35	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	nmod:poss	_	_
+
+
+1	6	6	NOUN	NOUN	_	0	root	_	_
+
+
+1	2	2	NUM	NUM	_	5	dep	_	_
+2-4	דרישה תיפ	_	_	_	_	_	_	_	_
+2	דרישה_	דרישה	NOUN	NOUN	Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	_של_	של	ADP	ADP	_	4	case:gen	_	_
+4	_אניפ	הוא	PRON	PRON	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	_	_
+5-7	קודית	_	_	_	_	_	_	_	_
+5	קודית	קדה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
+6	את	את	ADP	ADP	Case=Acc	7	case	_	_
+7	_היא	הוא	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+8-9	למצב	_	_	_	_	_	_	_	_
+8	ל	ל	ADP	ADP	_	9	case	_	_
+9	מצב	מצב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+10-11	גב	_	_	_	_	_	_	_	_
+10	גב	גב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	compound:smixut	_	_
+11	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nmod:poss	_	_
+12-14	ולי	_	_	_	_	_	_	_	_
+12	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+13	ל_	ל	ADP	ADP	_	14	case	_	_
+14	_אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	9	conj	_	_
+15-18	של הרס	_	_	_	_	_	_	_	_
+15	ש	ש	SCONJ	SCONJ	_	19	mark	_	_
+16	ל	ל	ADP	ADP	_	18	case	_	_
+17	ה_	ה	DET	DET	PronType=Art	18	det:def	_	_
+18	אהרס	אהרס	PROPN	PROPN	_	19	obl	_	_
+19-22	תובטח רמת האמי	_	_	_	_	_	_	_	_
+19	תובטח	הובטח	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	9	acl:relcl	_	_
+20	.	.	PUNCT	PUNCT	_	5	punct	_	_
+21	רמת	רמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	dep	_	_
+22	האמי	האם	NOUN	NOUN	PronType=Art	23	det:def	_	_
+23-23	נות	_	_	_	_	_	_	_	_
+23	נות	נות	NOUN	NOUN	Gender=Fem|Number=Sing	21	compound:smixut	_	_
+24-25	לתס	_	_	_	_	_	_	_	_
+24	ל	ל	ADP	ADP	_	25	case	_	_
+25	תס	תס	PROPN	PROPN	HebSource=ConvUncertainHead	21	nmod	_	_
+26-27	בולת	_	_	_	_	_	_	_	_
+26	ב	ב	PROPN	PROPN	_	25	flat:name	_	_
+27	ולת	ולת	PROPN	PROPN	_	25	flat:name	_	_
+28-31	של הקיר	_	_	_	_	_	_	_	_
+28	ש	ש	SCONJ	SCONJ	_	31	mark	_	_
+29	ל	ל	ADP	ADP	_	31	case	_	_
+30	ה_	ה	DET	DET	PronType=Art	31	det:def	_	_
+31	אהקיר	אהקיר	NOUN	NOUN	HebSource=ConvUncertainHead	25	nmod	_	_
+32-33	ושל חיבור	_	_	_	_	_	_	_	_
+32	ו	ו	CCONJ	CCONJ	HebSource=ConvUncertainHead	33	cc	_	_
+33	שלחחיבור	שלחח	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	21	conj	_	_
+34-35	יו	_	_	_	_	_	_	_	_
+34	יו	יו	NOUN	NOUN	_	33	compound:smixut	_	_
+35	_הוא	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	flat:name	_	_
+36-37	באופן	_	_	_	_	_	_	_	_
+36	ב	ב	ADP	ADP	_	37	case	_	_
+37	אופן	אופן	NOUN	NOUN	Gender=Masc|Number=Sing	33	obl	_	_
+38	שי	שי	X	X	_	39	mark	_	_
+39-41	מלאו	_	_	_	_	_	_	_	_
+39	מלא_	ליא	VERB	VERB	Definite=Def|Gender=Masc|Number=Sing	33	nsubj	_	_
+40	_של_	של	ADP	ADP	_	41	case:gen	_	_
+41	_הוא	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	nmod:poss	_	_
+42-44	את תפקידם	_	_	_	_	_	_	_	_
+42	אתפתפקיד_	אתפתפקיד	NOUN	NOUN	Case=Acc	39	obj	_	_
+43	_של_	של	ADP	ADP	_	44	case:gen	_	_
+44	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	42	nmod:poss	_	_
+45-47	כיאות	_	_	_	_	_	_	_	_
+45	כ	כ	ADP	ADP	_	47	case	_	_
+46	ה_	ה	DET	DET	PronType=Art	47	det:def	_	_
+47	יאות	יאות	NOUN	NOUN	HebSource=ConvUncertainHead	42	nmod	_	_
+48	בתנאי שירות קבוע,	בתנאי שירות קבוע,	NOUN	NOUN	_	57	dep	_	_
+49-51	זמני	_	_	_	_	_	_	_	_
+49	זמן_	זמן	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	33	dep	_	_
+50	_של_	של	ADP	ADP	_	51	case:gen	_	_
+51	_אני	הוא	PRON	PRON	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	49	nmod:poss	_	_
+52-53	ואקראי מבלי	_	_	_	_	_	_	_	_
+52	ו	ו	CCONJ	CCONJ	_	53	cc	_	_
+53	אקראיצמבלי	אקראיצמבלי	PROPN	PROPN	_	49	conj	_	_
+54-55	להגיע	_	_	_	_	_	_	_	_
+54	ל	ל	ADP	ADP	_	55	case	_	_
+55	הגיע	הגיע	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	53	advcl	_	_
+56-57	למצב	_	_	_	_	_	_	_	_
+56	ל	ל	ADP	ADP	_	57	case	_	_
+57	מצב	מצב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	55	obl	_	_
+58-60	גבולי	_	_	_	_	_	_	_	_
+58	גבול_	גבול	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	57	compound:smixut	_	_
+59	_של_	של	ADP	ADP	_	60	case:gen	_	_
+60	_אני	הוא	PRON	PRON	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	58	nmod:poss	_	_
+61-64	של הרס	_	_	_	_	_	_	_	_
+61	ש	ש	SCONJ	SCONJ	_	64	mark	_	_
+62	ל	ל	ADP	ADP	_	64	case	_	_
+63	ה_	ה	DET	DET	PronType=Art	64	det:def	_	_
+64	אהרס	אהרס	PROPN	PROPN	HebSource=ConvUncertainHead	57	acl:relcl	_	_
+
+
+1	6	6	NUM	NUM	_	0	root	_	_
+
+
+1	3	3	NUM	NUM	_	9	dep	_	_
+2	דרישה	דרישה	NOUN	NOUN	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	תיפקודית	תיפקודית	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+4-5	למצב	_	_	_	_	_	_	_	_
+4	ל	ל	ADP	ADP	_	5	case	_	_
+5	מצב	מצב	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
+6	גבולי	גבולי	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+7	של	של	ADP	ADP	Case=Gen	8	case:gen	_	_
+8	שירות	שירות	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod	_	_
+9	תובטח	הובטח	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=3|Tense=Fut|Voice=Pass	0	root	_	_
+10	רמת	רמה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	nsubj	_	_
+11-12	האמינות	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	PronType=Art	12	det:def	_	_
+12	אמינות	אמינות	NOUN	NOUN	Gender=Fem|Number=Sing	10	compound:smixut	_	_
+13-14	בעמידות	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	עמידות	עמידות	NOUN	NOUN	Gender=Fem|Number=Sing	10	nmod	_	_
+15	של	של	ADP	ADP	Case=Gen	17	case:gen	_	_
+16-17	הקיר	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	PronType=Art	17	det:def	_	_
+17	קיר	קיר	NOUN	NOUN	Gender=Masc|Number=Sing	14	nmod:poss	_	_
+18-19	ושל	_	_	_	_	_	_	_	_
+18	ו	ו	CCONJ	CCONJ	_	20	cc	_	_
+19	של	של	ADP	ADP	Case=Gen	20	case:gen	_	_
+20-22	חיבוריו	_	_	_	_	_	_	_	_
+20	חיבור_	חיבור	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	17	conj	_	_
+21	_של_	של	ADP	ADP	_	22	case:gen	_	_
+22	_הוא	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nmod:poss	_	_
+23	בפני	בפני	ADP	ADP	_	24	case	_	_
+24	סדיקה	סדיקה	NOUN	NOUN	Gender=Fem|Number=Sing	14	nmod	_	_
+25	או	או	CCONJ	CCONJ	_	26	cc	_	_
+26	הינתקות	הינתקות	NOUN	NOUN	Gender=Fem|Number=Sing	24	conj	_	_
+27	,	,	PUNCT	PUNCT	_	9	punct	_	_
+28-29	באופן	_	_	_	_	_	_	_	_
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	אופן	אופן	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+30-31	שרוחב	_	_	_	_	_	_	_	_
+30	ש	ש	SCONJ	SCONJ	_	47	mark	_	_
+31	רוחב	רוחב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	47	nsubj	_	_
+32-33	הסדקים	_	_	_	_	_	_	_	_
+32	ה	ה	DET	DET	PronType=Art	33	det:def	_	_
+33	סדקים	סדק	NOUN	NOUN	Gender=Masc|Number=Plur	31	compound:smixut	_	_
+34	בין	בין	ADP	ADP	_	36	case	_	_
+35-36	הרכיבים	_	_	_	_	_	_	_	_
+35	ה	ה	DET	DET	PronType=Art	36	det:def	_	_
+36	רכיבים	רכיב	NOUN	NOUN	Gender=Masc|Number=Plur	31	nmod	_	_
+37-38	הטרומי	_	_	_	_	_	_	_	_
+37	ה	ה	DET	DET	PronType=Art	38	det:def	_	_
+38	טרומי	טרומי	ADJ	ADJ	Gender=Masc|Number=Sing	36	amod	_	_
+39	□	□	PROPN	PROPN	_	36	advmod	_	_
+40-41	ובתוך	_	_	_	_	_	_	_	_
+40	ו	ו	CCONJ	CCONJ	_	43	cc	_	_
+41	בתוך	בתוך	ADP	ADP	_	43	case	_	_
+42-43	הרכיבים	_	_	_	_	_	_	_	_
+42	ה	ה	DET	DET	PronType=Art	43	det:def	_	_
+43	רכיבים	רכיב	NOUN	NOUN	Gender=Masc|Number=Plur	36	conj	_	_
+44	עצמם	עצמו	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Emp|Reflex=Yes	43	nmod	_	_
+45	לא	לא	ADV	ADV	Polarity=Neg	47	advmod	_	_
+46	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	47	cop	_	_
+47	יתיר	יתיר	ADJ	ADJ	Gender=Masc|Number=Sing	29	acl:relcl	_	_
+
+
+1	7	7	NUM	NUM	_	0	root	_	_
+
+
+1	שילובי	_	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	0	root	_	_
+2-3	העומס	_	_	_	_	_	_	_	_
+2	ה	ה	DET	DET	PronType=Art	3	det:def	_	_
+3	עומס	עומס	NOUN	NOUN	Xtra=Junk	1	compound:smixut	_	_
+4-6	ים	_	_	_	_	_	_	_	_
+4	ים_	ים	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	3	nmod	_	_
+5	_של_	של	ADP	ADP	_	6	case:gen	_	_
+6	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nmod:poss	_	_
+7	ל	ל	ADP	ADP	_	8	case	_	_
+8	בדיקת	בדיקה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	nmod	_	_
+9-10	הקירות	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	PronType=Art	10	det:def	_	_
+10	קירות	קיר	NOUN	NOUN	Gender=Masc|Number=Plur	8	compound:smixut	_	_
+11-12	ו	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	_	13	cc	_	_
+12	_הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	dep	_	_
+13-15	חיבוריהם	_	_	_	_	_	_	_	_
+13	חיבור_	חיבור	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	3	conj	_	_
+14	_של_	של	ADP	ADP	_	15	case:gen	_	_
+15	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	nmod:poss	_	_
+16-17	למצב	_	_	_	_	_	_	_	_
+16	ל	ל	ADP	ADP	_	18	case	_	_
+17	מצב	מצב	NOUN	NOUN	Gender=Masc|Number=Plur	13	nmod	_	_
+18-20	ים	_	_	_	_	_	_	_	_
+18	ים_	ים	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	13	nmod	_	_
+19	_של_	של	ADP	ADP	_	20	case:gen	_	_
+20	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	18	nmod:poss	_	_
+21-21	ג	_	_	_	_	_	_	_	_
+21	ג	ג	PROPN	PROPN	HebSource=ConvUncertainHead	3	dep	_	_
+22-23	בוליים	_	_	_	_	_	_	_	_
+22	ב	ב	PROPN	PROPN	_	21	flat:name	_	_
+23	וליים	וליים	PROPN	PROPN	_	21	flat:name	_	_
+24-27	של הרס	_	_	_	_	_	_	_	_
+24	ש	ש	SCONJ	SCONJ	_	52	mark	_	_
+25	ל	ל	ADP	ADP	_	27	case	_	_
+26	ה_	ה	DET	DET	PronType=Art	27	det:def	_	_
+27	אהרס	אהרס	NOUN	NOUN	Gender=Masc|Number=Sing	52	obl	_	_
+28-30	ערכים	_	_	_	_	_	_	_	_
+28	ערך_	ערך	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	52	nsubj	_	_
+29	_של_	של	ADP	ADP	_	30	case:gen	_	_
+30	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	28	nmod:poss	_	_
+31	או	או	CCONJ	CCONJ	_	32	cc	_	_
+32-33	פיי	_	_	_	_	_	_	_	_
+32	פ_	פ	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	28	conj	_	_
+33	_אני	הוא	PRON	PRON	_	32	conj	_	_
+34-36	ניים	_	_	_	_	_	_	_	_
+34	ניים_	ניים	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	32	conj	_	_
+35	_של_	של	ADP	ADP	_	36	case:gen	_	_
+36	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	34	nmod:poss	_	_
+37	של	של	ADP	ADP	Case=Gen	39	case:gen	_	_
+38-39	העו	_	_	_	_	_	_	_	_
+38	ה	ה	DET	DET	PronType=Art	39	det:def	_	_
+39	עו	עו	NOUN	NOUN	Gender=Masc|Number=Sing	34	nmod:poss	_	_
+40-41	מס	_	_	_	_	_	_	_	_
+40	מ	מ	ADP	ADP	_	42	case	_	_
+41	ס	ס	NOUN	NOUN	Gender=Masc|Number=Plur	42	nmod	_	_
+42-44	ים	_	_	_	_	_	_	_	_
+42	ים_	ים	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	52	obl	_	_
+43	_של_	של	ADP	ADP	_	44	case:gen	_	_
+44	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	42	nmod:poss	_	_
+45-46	הקבועים	_	_	_	_	_	_	_	_
+45	ה	ה	DET	DET	PronType=Art	46	det:def	_	_
+46	קבועים	קבוע	ADJ	ADJ	Gender=Masc|Number=Plur	42	amod	_	_
+47-49	והמשת	_	_	_	_	_	_	_	_
+47	ו	ו	CCONJ	CCONJ	_	49	cc	_	_
+48	ה	ה	DET	DET	PronType=Art	49	det:def	_	_
+49	משת	משת	VERB	VERB	Gender=Masc|Number=Plur	46	conj	_	_
+50-51	נים	_	_	_	_	_	_	_	_
+50	נים	נים	ADJ	ADJ	Gender=Masc|Number=Plur	46	conj	_	_
+51	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	50	nmod:poss	_	_
+52-54	נקובים	_	_	_	_	_	_	_	_
+52	נקובים	נקבה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	21	dep	_	_
+53	את	את	ADP	ADP	Case=Acc	54	case	_	_
+54	_הם	הוא	PRON	PRON	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	52	obj	_	_
+55	בת"	בת"	NOUN	NOUN	Abbr=Yes	52	dep	_	_
+56-56	י	_	_	_	_	_	_	_	_
+56	י	וי	NOUN	NOUN	HebSource=ConvUncertainHead	57	dep	_	_
+57-57	4	_	_	_	_	_	_	_	_
+57	4	4	NUM	NUM	HebSource=ConvUncertainHead	52	dep	_	_
+58-59	12	_	_	_	_	_	_	_	_
+58	1	1	NUM	NUM	HebSource=ConvUncertainHead	57	nummod	_	_
+59	2	2	NUM	NUM	_	57	nummod	_	_
+60	,	,	PUNCT	PUNCT	_	28	punct	_	_
+61-62	עומסי□	_	_	_	_	_	_	_	_
+61	עו	עו	PROPN	PROPN	HebSource=ConvUncertainHead	28	dep	_	_
+62	מסיק	מסיק	NOUN	NOUN	HebSource=ConvUncertainHead	61	nmod	_	_
+63-64	בבני	_	_	_	_	_	_	_	_
+63	ב	ב	ADP	ADP	_	65	case	_	_
+64	בני	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	61	nmod	_	_
+65-67	ינים	_	_	_	_	_	_	_	_
+65	ינים_	ינים	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	61	nmod	_	_
+66	_של_	של	ADP	ADP	_	67	case:gen	_	_
+67	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	65	nmod:poss	_	_
+68-69	ושילוב	_	_	_	_	_	_	_	_
+68	ו	ו	CCONJ	CCONJ	_	69	cc	_	_
+69	שילוב	שילוב	NOUN	NOUN	Gender=Masc|Number=Sing	28	conj	_	_
+70-71	יהם	_	_	_	_	_	_	_	_
+70	יהם	הוא	ADP	ADP	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	69	nsubj	_	_
+71	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	69	nmod:poss	_	_
+
+
+1-2	העו	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
+2	עו	עו	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
+3-4	מס	_	_	_	_	_	_	_	_
+3	מ	מ	ADP	ADP	_	2	flat:name	_	_
+4	ס	ס	PROPN	PROPN	_	2	nmod	_	_
+5	הנובע מפעולת	הנובעטמע	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+6-8	רעידת	_	_	_	_	_	_	_	_
+6	רעידת	רעידה	NOUN	NOUN	Gender=Fem|Number=Sing	5	acl	_	_
+7	את	את	ADP	ADP	Case=Acc	8	case	_	_
+8	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+9-11	אדמה	_	_	_	_	_	_	_	_
+9	אדם_	אדם	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	_
+10	_של_	של	ADP	ADP	_	11	case:gen	_	_
+11	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nmod:poss	_	_
+12	נקוב	נקוב	VERB	VERB	_	5	acl	_	_
+13-14	בת	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	ת	ת	NOUN	NOUN	_	12	obl	_	_
+15	"	"	PUNCT	PUNCT	_	12	punct	_	_
+16-16	י	_	_	_	_	_	_	_	_
+16	י	וי	PROPN	PROPN	_	12	obl	_	_
+17	4	4	NUM	NUM	_	12	dep	_	_
+18	13	13	NUM	NUM	_	17	nummod	_	_
+
+
+1-2	עומס	_	_	_	_	_	_	_	_
+1	עומס	עומס	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	nsubj	_	_
+2	_הן	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Plur|Person=3|PronType=Prs	1	nmod:poss	_	_
+3	רעידת	רעידה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	acl	_	_
+4-5	האד	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	PronType=Art	5	det:def	_	_
+5	אד	אד	NOUN	NOUN	Gender=Masc|Number=Sing	3	compound:smixut	_	_
+6-7	מה	_	_	_	_	_	_	_	_
+6	מ	מ	ADP	ADP	_	9	case	_	_
+7	ה	ה	DET	DET	PronType=Art	9	det:def	_	_
+8-9	הנופל	_	_	_	_	_	_	_	_
+8	ה	ה	SCONJ	SCONJ	_	9	det:def	_	_
+9	נופל	נפל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	3	nmod	_	_
+10-11	לספיר	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	11	case	_	_
+11	ספיר	ספיר	PROPN	PROPN	_	9	obl	_	_
+12	יחושב	חושב	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Fut|Voice=Act	0	root	_	_
+13-14	לרום	_	_	_	_	_	_	_	_
+13	ל	ל	ADP	ADP	_	14	case	_	_
+14	רום	רום	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
+15-16	המתאים	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	PronType=Art	16	det:def	_	_
+16	מתאים	מתאים	ADJ	ADJ	Gender=Masc|Number=Sing	14	amod	_	_
+17	;	;	PUNCT	PUNCT	_	26	cc	_	_
+18-19	בכל	_	_	_	_	_	_	_	_
+18	ב	ב	ADP	ADP	_	20	case	_	_
+19	כל	כול	DET	DET	Definite=Cons	20	det	_	_
+20-22	מקרה	_	_	_	_	_	_	_	_
+20	מקר_	מקר	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	26	obl	_	_
+21	_של_	של	ADP	ADP	_	22	case:gen	_	_
+22	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nmod:poss	_	_
+23	מקדם	מקדם	ADP	ADP	_	20	case	_	_
+24	£	£	PROPN	PROPN	_	20	nmod	_	_
+25	לא	לא	ADV	ADV	Polarity=Neg	29	advmod	_	_
+26	יהיה	היה	AUX	AUX	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbType=Cop	12	conj	_	_
+27	פחות מ	פחות מ	ADP	ADP	_	29	advmod	_	_
+28	-	-	PUNCT	PUNCT	_	29	punct	_	_
+29	0	0	NUM	NUM	_	26	ccomp	_	_
+
+
+1	1	1	NUM	NUM	_	0	root	_	_
+2	(	(	PUNCT	PUNCT	_	6	punct	_	_
+3-4	לפי	_	_	_	_	_	_	_	_
+3	ל	ל	ADP	ADP	_	6	case	_	_
+4	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	fixed	_	_
+5-6	הצעה	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	PronType=Art	6	det:def	_	_
+6	צעה	צעה	NOUN	NOUN	Gender=Fem|Number=Sing	1	obl	_	_
+7-9	חדשה	_	_	_	_	_	_	_	_
+7	חדש_	חדש	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	_
+8	_של_	של	ADP	ADP	_	9	case:gen	_	_
+9	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nmod:poss	_	_
+10-12	Rah	_	_	_	_	_	_	_	_
+10	פ	פ	PROPN	PROPN	HebSource=ConvUncertainHead	6	dep	_	_
+11	ה_	ה	DET	DET	PronType=Art	10	det:def	_	_
+12	חח	חח	X	X	HebSource=ConvUncertainHead	10	nmod	_	_
+13	)	)	PUNCT	PUNCT	_	6	punct	_	_
+
+
+1	עומס רעיד	עומס רעיד	PROPN	PROPN	_	0	root	_	_
+2	ת	ת	NOUN	NOUN	_	4	det:def	_	_
+3-4	האד	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	PronType=Art	4	det:def	_	_
+4	אד	אד	NOUN	NOUN	Gender=Masc|Number=Sing	1	obj	_	_
+5-6	מה	_	_	_	_	_	_	_	_
+5	מ	מ	ADP	ADP	_	8	case	_	_
+6	ה	ה	DET	DET	PronType=Art	8	det:def	_	_
+7-7	י	_	_	_	_	_	_	_	_
+7	י	וי	NOUN	NOUN	_	1	obl	_	_
+8-10	חוש	_	_	_	_	_	_	_	_
+8	חוש_	חוש	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	1	obl	_	_
+9	_של_	של	ADP	ADP	_	10	case:gen	_	_
+10	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nmod:poss	_	_
+11	ב כמפורס שווה	ב כמפורס שווה	PROPN	PROPN	_	7	dep	_	_
+12-13	במי	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	מי	מי	ADV	ADV	PronType=Int	11	dep	_	_
+14-15	שור הספיר	_	_	_	_	_	_	_	_
+14	ש	ש	SCONJ	SCONJ	_	15	mark	_	_
+15	ורטהספיר	ורטהספיר	PROPN	PROPN	_	13	flat:name	_	_
+
+
+1	9	9	NUM	NUM	_	0	root	_	_
+
+
+1	בדיקת	בדיקה	NOUN	NOUN	_	33	obj	_	_
+2-4	קירות	_	_	_	_	_	_	_	_
+2	קירות_	קירות	NOUN	NOUN	_	16	compound:smixut	_	_
+3	_של_	של	ADP	ADP	_	16	case:gen	_	_
+4	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	51	advmod	_	_
+5	-	-	PUNCT	PUNCT	_	45	punct	_	_
+6-7	מסך	_	_	_	_	_	_	_	_
+6	מ	מ	ADV	ADV	_	33	advmod	_	_
+7	סך	סך	NOUN	NOUN	_	33	obj	_	_
+8	ו	ו	CCONJ	CCONJ	_	51	dep	_	_
+9-10	חיבור	_	_	_	_	_	_	_	_
+9	חיבור	חיבור	NOUN	NOUN	Gender=Masc|Number=Sing	51	advmod	_	_
+10	_הור	הור	DET	DET	PronType=Art	33	dep	_	_
+11-12	יהם	_	_	_	_	_	_	_	_
+11	יהם	יהם	ADJ	ADJ	_	38	advmod	_	_
+12	_הם	הוא	PRON	PRON	_	33	advmod	_	_
+13-14	עם	_	_	_	_	_	_	_	_
+13	עם	עם	PUNCT	PUNCT	_	33	dep	_	_
+14	_הם	הוא	PRON	PRON	_	45	conj	_	_
+15-16	השלד	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	_	16	det:def	_	_
+16	שלד	שלד	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+17-18	לפעולת	_	_	_	_	_	_	_	_
+17	ל	ל	ADP	ADP	_	45	dep	_	_
+18	פעולת	פעולה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	33	nsubj	_	_
+19-21	רע	_	_	_	_	_	_	_	_
+19	רע_	רע	NOUN	NOUN	_	33	nsubj	_	_
+20	_של_	של	ADP	ADP	_	16	case:gen	_	_
+21	_היא	הוא	NOUN	NOUN	Gender=Fem|Number=Sing|Person=3|PronType=Prs	51	advmod	_	_
+22-24	יד	_	_	_	_	_	_	_	_
+22	יד_	יד	NOUN	NOUN	_	33	obj	_	_
+23	_של_	של	ADP	ADP	_	16	case:gen	_	_
+24	_היא	הוא	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	51	dep	_	_
+25-25	ת	_	_	_	_	_	_	_	_
+25	ת	ת	PUNCT	PUNCT	_	33	dep	_	_
+26-28	אדמה	_	_	_	_	_	_	_	_
+26	אדם_	אדם	NOUN	NOUN	_	16	dep	_	_
+27	_של_	של	ADP	ADP	_	16	case:gen	_	_
+28	_היא	הוא	NOUN	NOUN	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	dep	_	_
+29	כל	כול	ADV	ADV	_	33	dep	_	_
+30-32	ספין־מסך	_	_	_	_	_	_	_	_
+30	ספין_	ספין	NOUN	NOUN	_	33	obj	_	_
+31	_של_	של	ADP	ADP	_	16	case:gen	_	_
+32	_אתה	הוא	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	33	obj	_	_
+33	ייבדק	נבדק	VERB	VERB	_	16	dep	_	_
+34-35	לשילוב	_	_	_	_	_	_	_	_
+34	ל	ל	ADP	ADP	_	33	dep	_	_
+35	שילוב	שילוב	NOUN	NOUN	Gender=Masc|Number=Sing	33	obl	_	_
+36	י	וי	PUNCT	PUNCT	_	33	dep	_	_
+37-38	העומס	_	_	_	_	_	_	_	_
+37	ה	ה	DET	DET	PronType=Art	33	dep	_	_
+38	עומס	עומס	DET	DET	Definite=Cons|Gender=Masc|Number=Sing	33	nsubj	_	_
+39-41	ים	_	_	_	_	_	_	_	_
+39	ים_	ים	NOUN	NOUN	_	16	compound:smixut	_	_
+40	_של_	של	ADP	ADP	_	16	case:gen	_	_
+41	_הם	הוא	PRON	PRON	_	16	dep	_	_
+42-43	עם	_	_	_	_	_	_	_	_
+42	עם	עם	PUNCT	PUNCT	_	45	punct	_	_
+43	_הם	הוא	PRON	PRON	_	45	conj	_	_
+44-45	פעולות	_	_	_	_	_	_	_	_
+44	פ	פ	ADV	ADV	_	33	obj	_	_
+45	עולות	עלה	NOUN	NOUN	_	33	obj	_	_
+46-47	רעידות אדמה	_	_	_	_	_	_	_	_
+46	רעידות	רעידה	NOUN	NOUN	_	33	obj	_	_
+47	צאדמה	צאדמה	NOUN	NOUN	_	33	obj	_	_
+48-49	בשני	_	_	_	_	_	_	_	_
+48	ב	ב	ADP	ADP	_	33	dep	_	_
+49	שני	שני	NUM	NUM	Definite=Cons|Gender=Masc|Number=Plur	33	advmod	_	_
+50-51	הכיו	_	_	_	_	_	_	_	_
+50	ה	ה	DET	DET	PronType=Art	21	det:def	_	_
+51	כיו	כיו	DET	DET	PronType=Art	33	nsubj	_	_
+52-53	ונים	_	_	_	_	_	_	_	_
+52	ו	ו	DET	DET	PronType=Art	33	nsubj	_	_
+53	נים	נים	NOUN	NOUN	_	33	advmod	_	_
+54-56	במישור	_	_	_	_	_	_	_	_
+54	ב	ב	ADP	ADP	_	33	dep	_	_
+55	ה_	ה	DET	DET	PronType=Art	56	det:def	_	_
+56	מישור	מישור	NOUN	NOUN	Gender=Masc|Number=Sing	33	obl	_	_
+57-58	הספין	_	_	_	_	_	_	_	_
+57	ה	ה	DET	DET	PronType=Art	16	det:def	_	_
+58	ספין	ספין	NOUN	NOUN	Gender=Masc|Number=Sing	33	advmod	_	_
+59	(	(	PUNCT	PUNCT	_	45	punct	_	_
+60-61	ציור	_	_	_	_	_	_	_	_
+60	ציור	ציור	NOUN	NOUN	Gender=Masc|Number=Sing	16	dep	_	_
+61	_הור	_הור	NOUN	NOUN	PronType=Art	33	dep	_	_
+62	9	9	NUM	NUM	_	45	dep	_	_
+
+
+1	1	1	NUM	NUM	_	0	root	_	_
+2	א’	א’	PROPN	PROPN	_	1	nummod	_	_
+3	)	)	PUNCT	PUNCT	_	1	punct	_	_
+4-5	ובניצב	_	_	_	_	_	_	_	_
+4	ו	ו	CCONJ	CCONJ	_	5	cc	_	_
+5	בניצב	בניצב	NOUN	NOUN	_	1	conj	_	_
+6-8	למישור	_	_	_	_	_	_	_	_
+6	ל	ל	ADP	ADP	_	8	case	_	_
+7	ה_	ה	DET	DET	PronType=Art	8	det:def	_	_
+8	מישור	מישור	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod	_	_
+9-10	הקיר	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	PronType=Art	10	det:def	_	_
+10	קיר	קיר	NOUN	NOUN	Gender=Masc|Number=Sing	8	amod	_	_
+
+
+1-2	העומס הסכומי	_	_	_	_	_	_	_	_
+1	העומס	העומס	NOUN	NOUN	_	28	nsubj	_	_
+2	אכהסומי	אכהסומי	ADJ	ADJ	_	1	amod	_	_
+3-4	המשולב	_	_	_	_	_	_	_	_
+3	ה	ה	DET	DET	PronType=Art	4	det:def	_	_
+4	משולב	שולב	VERB	VERB	Gender=Masc|Number=Sing	1	amod	_	_
+5-7	מפעולותיהם	_	_	_	_	_	_	_	_
+5	מפעולה_	מפעולה	NOUN	NOUN	Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	_
+6	_של_	של	ADP	ADP	_	7	case:gen	_	_
+7	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nmod:poss	_	_
+8	של	של	ADP	ADP	Case=Gen	9	case:gen	_	_
+9-10	משקל הספין	_	_	_	_	_	_	_	_
+9	משקלט	משקלט	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	nmod:poss	_	_
+10	הספין	הספין	NOUN	NOUN	_	9	compound:smixut	_	_
+11-12	העצמי	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	PronType=Art	12	det:def	_	_
+12	עצמי	עצמו	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	9	amod	_	_
+13-14	ושל	_	_	_	_	_	_	_	_
+13	ו	ו	CCONJ	CCONJ	_	15	cc	_	_
+14	של	של	ADP	ADP	Case=Gen	15	case:gen	_	_
+15	רעידת	רעידה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	9	conj	_	_
+16-17	האד	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	PronType=Art	17	det:def	_	_
+17	אד	אד	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
+18-19	מה	_	_	_	_	_	_	_	_
+18	מ	מ	ADP	ADP	_	19	case	_	_
+19	ה	ה	DET	DET	PronType=Art	15	nmod	_	_
+20	,	,	PUNCT	PUNCT	_	15	punct	_	_
+21-23	יפורס במישור הספיו	_	_	_	_	_	_	_	_
+21	יפורסטישוראב	יפורסטישוראב	PROPN	PROPN	_	15	appos	_	_
+22	ה_	ה	DET	DET	PronType=Art	23	det:def	_	_
+23	מרלפיו	רילפ	VERB	VERB	_	21	amod	_	_
+24-27	באופו	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	אוף_	אוף	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	28	obl	_	_
+26	_של_	של	ADP	ADP	_	27	case:gen	_	_
+27	_הוא	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nmod:poss	_	_
+28	שווה	שווה	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+
+
+1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
+2-3	חיבור	_	_	_	_	_	_	_	_
+2	חיבור	חיבור	NOUN	NOUN	Gender=Masc|Number=Sing	17	nsubj	_	_
+3	_הור	הוא	X	X	Xtra=Junk	4	nmod:poss	_	_
+4-6	ים	_	_	_	_	_	_	_	_
+4	ים_	הוא	X	X	Definite=Def|Gender=Masc|Number=Plur	2	nmod	_	_
+5	_של_	של	ADP	ADP	_	6	case:gen	_	_
+6	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nmod:poss	_	_
+7	בין	בין	ADP	ADP	_	9	case	_	_
+8-9	הס	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	PronType=Art	9	det:def	_	_
+9	ס	ס	NOUN	NOUN	Gender=Masc|Number=Plur	2	nmod	_	_
+10-11	פין	_	_	_	_	_	_	_	_
+10	פין	פין	NOUN	NOUN	Gender=Fem,Masc|Number=Sing	2	nmod	_	_
+11	_הן	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Plur|Person=3|PronType=Prs	10	nmod:poss	_	_
+12-14	והש	_	_	_	_	_	_	_	_
+12	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
+13	ה	ה	DET	DET	PronType=Art	14	det:def	_	_
+14	ש	ש	NOUN	NOUN	_	10	conj	_	_
+15-16	לד	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	16	case	_	_
+16	ד	ד	PROPN	PROPN	_	10	conj	_	_
+17	ייבדקו	נבדק	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Fut|Voice=Mid	0	root	_	_
+18-19	לריאקציות	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	ריאקציות	ריאקציות	NOUN	NOUN	Gender=Fem|Number=Plur	17	obl	_	_
+20	הנובעות	הנובע	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	19	acl	_	_
+21	מפעולת	מפעולת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	20	obl	_	_
+22-23	העומס	_	_	_	_	_	_	_	_
+22	ה	ה	DET	DET	PronType=Art	23	det:def	_	_
+23	עומס	עומס	NOUN	NOUN	Gender=Masc|Number=Sing	21	compound:smixut	_	_
+24-25	המשולב	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	PronType=Art	25	det:def	_	_
+25	משולב	משולב	ADJ	ADJ	Gender=Masc|Number=Sing	23	amod	_	_
+26-27	המופעל	_	_	_	_	_	_	_	_
+26	ה	ה	SCONJ	SCONJ	_	27	mark	_	_
+27	מופעל	הופעל	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Pass	23	acl:relcl	_	_
+28	על	על	ADP	ADP	_	31	case	_	_
+29-30	הס	_	_	_	_	_	_	_	_
+29	ה	ה	DET	DET	PronType=Art	31	det:def	_	_
+30	ס	ס	NOUN	NOUN	Gender=Fem,Masc|Number=Plur	27	obl	_	_
+31-32	פין	_	_	_	_	_	_	_	_
+31	פין	פין	NOUN	NOUN	Gender=Masc|Number=Sing	27	obl	_	_
+32	_הן	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Plur|Person=3|PronType=Prs	31	nmod:poss	_	_
+33-34	ברום	_	_	_	_	_	_	_	_
+33	ב	ב	ADP	ADP	_	34	case	_	_
+34	רום	רום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	27	obl	_	_
+35-36	המבנה	_	_	_	_	_	_	_	_
+35	ה	ה	DET	DET	PronType=Art	36	det:def	_	_
+36	מבנה	מבנה	NOUN	NOUN	Gender=Masc|Number=Sing	34	compound:smixut	_	_
+37-38	הנבדק	_	_	_	_	_	_	_	_
+37	ה	ה	DET	DET	PronType=Art	38	det:def	_	_
+38	נבדק	נבדק	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Mid	36	amod	_	_
+
+
+1-2	לצורך	_	_	_	_	_	_	_	_
+1	ל	ל	ADP	ADP	_	16	dep	_	_
+2	צורך	צורך	NOUN	NOUN	_	16	advmod	_	_
+3-3	אחידות	_	_	_	_	_	_	_	_
+3	אחידות	אחידות	NOUN	NOUN	_	16	dep	_	_
+4-5	החיבור	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	PronType=Art	10	det:def	_	_
+5	חיבור	חיבור	NOUN	NOUN	Gender=Masc|Number=Sing	10	dep	_	_
+6-8	ים	_	_	_	_	_	_	_	_
+6	ים_	ים	NOUN	NOUN	_	16	advmod	_	_
+7	_של_	של	ADP	ADP	_	16	advmod	_	_
+8	_הם	הוא	PRON	PRON	_	16	advmod	_	_
+9-10	הם נבדקים	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	PronType=Art	10	det:def	_	_
+10	וצנבדקים	וצנבדק	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+11-14	למצבם	_	_	_	_	_	_	_	_
+11	ל	ל	ADP	ADP	_	16	dep	_	_
+12	מצב_	מצב	NOUN	NOUN	_	16	compound:smixut	_	_
+13	_של_	של	ADP	ADP	_	16	advmod	_	_
+14	_הם	הוא	PRON	PRON	_	16	advmod	_	_
+15-16	הגרוע	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	_	16	det:def	_	_
+16	גרוע	גרוע	NOUN	NOUN	Gender=Masc|Number=Sing	10	dep	_	_
+17-18	ביותר	_	_	_	_	_	_	_	_
+17	ב	ב	ADV	ADV	_	16	dep	_	_
+18	יותר	יותר	ADV	ADV	_	16	advmod	_	_
+19	-	-	PUNCT	PUNCT	_	16	punct	_	_
+20	עבור	עבור	ADV	ADV	_	16	dep	_	_
+21-22	הקומה	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	PronType=Art	10	det:def	_	_
+22	קומה	קומה	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
+23-24	העלי	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	_	16	det:def	_	_
+24	עלי	עלה	NOUN	NOUN	Gender=Masc|Number=Sing	10	advmod	_	_
+25-26	ונה	_	_	_	_	_	_	_	_
+25	ו	ו	DET	DET	PronType=Art	10	dep	_	_
+26	נה	נה	NOUN	NOUN	_	10	advmod	_	_
+
+
+1	10	10	NUM	NUM	_	0	root	_	_
+
+
+1	כפיפת	כפיפה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	nsubj	_	_
+2-4	ספיני קירות	_	_	_	_	_	_	_	_
+2	ספיניטקירות_	ספיניטקירות	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	1	compound:smixut	_	_
+3	_של_	של	ADP	ADP	_	4	case:gen	_	_
+4	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	_
+5-7	חוץ	_	_	_	_	_	_	_	_
+5	חוץ_	חוץ	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	_
+6	_של_	של	ADP	ADP	_	7	case:gen	_	_
+7	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nmod:poss	_	_
+8	בהשפעת	בהשפעת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	11	dep	_	_
+9-11	שינויי טמפרטורה	_	_	_	_	_	_	_	_
+9	ש	ש	PROPN	PROPN	_	8	compound:smixut	_	_
+10	ינויטטיט	ינויטטיט	PROPN	PROPN	_	8	compound:smixut	_	_
+11	מפטורה	הפטורה	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
+12	10	10	NUM	NUM	_	11	dep	_	_
+
+
+1	1	1	NUM	NUM	_	5	dep	_	_
+2	כללי	כלל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	nsubj	_	_
+3	פנל קיר	פנל קיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	3	compound:smixut	_	_
+5	יתכופף	התכופף	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Fut	0	root	_	_
+6-7	בתנאי	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	תנאי	תנאי	NOUN	NOUN	Gender=Masc|Number=Sing	5	obl	_	_
+8-11	שחלקו	_	_	_	_	_	_	_	_
+8	ש	ש	SCONJ	SCONJ	_	17	mark	_	_
+9	חלק_	חלק	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	17	nsubj	_	_
+10	_של_	של	ADP	ADP	_	11	case:gen	_	_
+11	_הוא	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nmod:poss	_	_
+12-13	החשוף	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	PronType=Art	13	mark	_	_
+13	חשוף	חשוף	ADJ	ADJ	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	9	acl:relcl	_	_
+14-15	לשינויי	_	_	_	_	_	_	_	_
+14	ל	ל	ADP	ADP	_	15	case	_	_
+15	שינויי	שינוי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	13	obl	_	_
+16	טמפרטורה	טמפרטורה	NOUN	NOUN	Gender=Fem|Number=Sing	15	compound:smixut	_	_
+17	מחובר	חובר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Pass	7	acl:relcl	_	_
+18	עם	עם	ADP	ADP	_	20	case	_	_
+19-20	החלק	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	PronType=Art	20	det:def	_	_
+20	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	_
+21-22	הפנימי	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	PronType=Art	22	det:def	_	_
+22	פנימי	פנימי	ADJ	ADJ	Gender=Masc|Number=Sing	20	amod	_	_
+23	או	או	CCONJ	CCONJ	_	26	cc	_	_
+24	עם	עם	ADP	ADP	_	26	case	_	_
+25-26	השלד	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	PronType=Art	26	det:def	_	_
+26	שלד	שלד	NOUN	NOUN	Gender=Masc|Number=Sing	20	conj	_	_
+27	ע״י	ע״י	ADP	ADP	Abbr=Yes	29	case	_	_
+28-29	החיבורים	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	PronType=Art	29	det:def	_	_
+29	חיבורים	חיבור	NOUN	NOUN	Gender=Masc|Number=Plur	17	obl	_	_
+30-31	הלא	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	PronType=Art	33	det:def	_	_
+31	לא	לא	ADV	ADV	Polarity=Neg	33	advmod	_	_
+32	-	-	PUNCT	PUNCT	_	33	punct	_	_
+33	גמישים	גמיש	ADJ	ADJ	Gender=Masc|Number=Plur	29	amod	_	_
+34	,	,	PUNCT	PUNCT	_	29	punct	_	_
+35-38	שקשיחותם	_	_	_	_	_	_	_	_
+35	ש	ש	SCONJ	SCONJ	_	39	mark	_	_
+36	קשיחות_	קשיחות	NOUN	NOUN	Definite=Def|Gender=Fem|Number=Sing	39	nsubj	_	_
+37	_של_	של	ADP	ADP	_	38	case:gen	_	_
+38	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	36	nmod:poss	_	_
+39	משמעותית	משמעותי	ADJ	ADJ	Gender=Fem|Number=Sing	29	acl:relcl	_	_
+40	כדי	כדי	ADP	ADP	_	41	case	_	_
+41	יצירת	יצירה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	39	obl	_	_
+42	כוחות	כוח	NOUN	NOUN	Gender=Masc|Number=Plur	41	compound:smixut	_	_
+43	בין	בין	ADP	ADP	_	45	case	_	_
+44-45	החלקים	_	_	_	_	_	_	_	_
+44	ה	ה	DET	DET	PronType=Art	45	det:def	_	_
+45	חלקים	חלק	NOUN	NOUN	Gender=Masc|Number=Plur	42	nmod	_	_
+46-47	האלה	_	_	_	_	_	_	_	_
+46	ה	ה	DET	DET	PronType=Art	47	det:def	_	_
+47	אלה	אלה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	45	det	_	_
+
+
+1-2	באופן	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	אופן	אופן	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
+3	עקרוני	עקרוני	ADV	ADV	_	2	amod	_	_
+4	ישנן	שינן	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Mid	0	root	_	_
+5	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	6	nummod	_	_
+6	אפשרויות	אפשרות	NOUN	NOUN	Gender=Fem|Number=Plur	4	nsubj	_	_
+7	:	:	PUNCT	PUNCT	_	4	punct	_	_
+8	1	1	NUM	NUM	_	18	parataxis	_	_
+9	)	)	PUNCT	PUNCT	_	18	punct	_	_
+10	ספין	ספין	NOUN	NOUN	Gender=Fem,Masc|Number=Sing	18	nsubj	_	_
+11	קיר	קיר	NOUN	NOUN	Definite=Cons|Gender=Masc|HebSource=ConvUncertainHead|Number=Sing	18	dep	_	_
+12-13	החוץ	_	_	_	_	_	_	_	_
+12	ה	ה	DET	DET	PronType=Art	13	det:def	_	_
+13	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+14	או	או	CCONJ	CCONJ	_	18	dep	_	_
+15-17	שכבותיו	_	_	_	_	_	_	_	_
+15	שכב_	שכב	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	18	nsubj	_	_
+16	_של_	של	ADP	ADP	_	17	case:gen	_	_
+17	_הוא	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nmod:poss	_	_
+18	קשורות	קשר	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	6	acl	_	_
+19	ע"י	ע"י	ADP	ADP	Abbr=Yes	18	advmod	_	_
+20	גשרי	גשר	NOUN	NOUN	Definite=Cons	18	nsubj	_	_
+21	בטון	בטון	NOUN	NOUN	_	18	nsubj	_	_
+22	מסביב	מסביב	ADP	ADP	_	19	case	_	_
+23-24	הספין	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	PronType=Art	24	det:def	_	_
+24	ספין	ספין	NOUN	NOUN	Gender=Fem,Masc|Number=Sing	18	obj	_	_
+25-26	ובתוך	_	_	_	_	_	_	_	_
+25	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+26	בתוך	בתוך	ADP	ADP	_	10	case	_	_
+27-28	השדה	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	PronType=Art	28	det:def	_	_
+28	שדה	שדה	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
+
+
+1	2	2	NUM	NUM	_	0	root	_	_
+2	)	)	PUNCT	PUNCT	_	1	punct	_	_
+3	ספין	ספין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	dep	_	_
+4-5	החוץ	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	PronType=Art	5	det:def	_	_
+5	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	3	compound:smixut	_	_
+6-7	התלת	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	PronType=Art	9	det:def	_	_
+7	תלת	תלת	ADV	ADV	Prefix=Yes	9	compound:affix	_	_
+8	-	-	PUNCT	PUNCT	_	9	punct	_	_
+9	שכבתי	שכבתי	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	_
+
+
+1-2	והשכב	_	_	_	_	_	_	_	_
+1	ו	ו	CCONJ	CCONJ	_	2	cc	_	_
+2	השכב	השכב	NOUN	NOUN	_	0	root	_	_
+3-4	ות	_	_	_	_	_	_	_	_
+3	ו	ו	CCONJ	CCONJ	_	5	cc	_	_
+4	ת	ת	NOUN	NOUN	_	2	dep	_	_
+5	קשורות	קשר	NOUN	NOUN	Gender=Fem|Number=Plur	2	dep	_	_
+6	חלקית	חלקית	ADV	ADV	_	5	advmod	_	_
+7	עי׳י	עין	NOUN	NOUN	_	8	case	_	_
+8-9	חיבור	_	_	_	_	_	_	_	_
+8	חיבור	חיבור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	obl	_	_
+9	_הור	_הור	NOUN	NOUN	_	8	compound:smixut	_	_
+10-12	ים	_	_	_	_	_	_	_	_
+10	ים_	ים	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	8	compound:smixut	_	_
+11	_של_	של	ADP	ADP	_	12	case:gen	_	_
+12	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	nmod:poss	_	_
+13-15	גמישים	_	_	_	_	_	_	_	_
+13	גמיש_	גמיש	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	8	compound:smixut	_	_
+14	_של_	של	ADP	ADP	_	15	case:gen	_	_
+15	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	nmod:poss	_	_
+
+
+1	10	10	NUM	NUM	_	0	root	_	_
+
+
+1	2	2	NUM	NUM	_	2	nummod	_	_
+2	חישוב	חישוב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
+3-5	ספיני	_	_	_	_	_	_	_	_
+3	ספין_	ספין	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	2	compound:smixut	_	_
+4	_של_	של	ADP	ADP	_	5	case:gen	_	_
+5	_אני	הוא	PRON	PRON	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	3	nmod:poss	_	_
+6-8	קירות	_	_	_	_	_	_	_	_
+6	קירות_	קירות	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	2	compound:smixut	_	_
+7	_של_	של	ADP	ADP	_	8	case:gen	_	_
+8	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	_
+9-10	מלאים	_	_	_	_	_	_	_	_
+9	מ	מ	ADP	ADP	_	10	case	_	_
+10	לאים	לאים	PROPN	PROPN	_	6	nmod	_	_
+11-12	וחיבור	_	_	_	_	_	_	_	_
+11	ו	ו	CCONJ	CCONJ	_	12	cc	_	_
+12	חיבור	חיבור	NOUN	NOUN	Gender=Masc|Number=Sing	6	conj	_	_
+13-14	יהם	_	_	_	_	_	_	_	_
+13	יהם	הוא	ADP	ADP	_	12	nmod	_	_
+14	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	nmod	_	_
+15-16	לכפיפה	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	16	case	_	_
+16	כפיפה	כפיפה	NOUN	NOUN	Gender=Fem|Number=Sing	12	nmod	_	_
+17-18	הנובעת	_	_	_	_	_	_	_	_
+17	ה	ה	SCONJ	SCONJ	_	18	mark	_	_
+18	נובעת	נבע	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	16	acl:relcl	_	_
+19-20	משינויי	_	_	_	_	_	_	_	_
+19	מ	מ	ADP	ADP	_	20	case	_	_
+20	שינויי	שינוי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	18	obl	_	_
+21-23	טמפרטורה	_	_	_	_	_	_	_	_
+21	טמפרטור_	טמפרטור	NOUN	NOUN	Definite=Def|Gender=Fem|Number=Sing	20	compound:smixut	_	_
+22	_של_	של	ADP	ADP	_	23	case:gen	_	_
+23	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nmod:poss	_	_
+24-25	מבחינים	_	_	_	_	_	_	_	_
+24	מ	מ	ADP	ADP	_	25	case	_	_
+25	בחינים	בחין	NOUN	NOUN	Gender=Masc|Number=Plur	18	obl	_	_
+26	בין	בין	ADP	ADP	_	28	case	_	_
+27-28	התנהגות הפנלים	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	PronType=Art	28	det:def	_	_
+28	תנהגותטהפללים	תנהג	NOUN	NOUN	Xtra=Junk	25	nmod	_	_
+29	של	של	ADP	ADP	Case=Gen	31	case:gen	_	_
+30-31	הבניינים	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	PronType=Art	31	det:def	_	_
+31	בניינים	בניין	NOUN	NOUN	Gender=Masc|Number=Plur	28	nmod:poss	_	_
+32-33	הבנויים	_	_	_	_	_	_	_	_
+32	ה	ה	SCONJ	SCONJ	_	33	mark	_	_
+33	בנויים	בנוי	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	31	acl:relcl	_	_
+34-35	בחורף	_	_	_	_	_	_	_	_
+34	ב	ב	ADP	ADP	_	35	case	_	_
+35	חורף	חורף	NOUN	NOUN	Gender=Masc|Number=Sing	33	obl	_	_
+36-37	ובקיץ	_	_	_	_	_	_	_	_
+36	ו	ו	CCONJ	CCONJ	_	37	cc	_	_
+37	בקיץ	בקיץ	NOUN	NOUN	Gender=Masc|Number=Sing	35	conj	_	_
+
+
+1-2	באופן	_	_	_	_	_	_	_	_
+1	ב	ב	ADP	ADP	_	9	case	_	_
+2	אופן	אופן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	9	obl	_	_
+3-5	עקרוני	_	_	_	_	_	_	_	_
+3	עקרון_	עקרון	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	2	compound:smixut	_	_
+4	_של_	של	ADP	ADP	_	7	case:gen	_	_
+5	_אני	הוא	PRON	PRON	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	3	nmod:poss	_	_
+6-7	הם	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	PronType=Art	9	dep	_	_
+7	ם	ם	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
+8-9	מחוברים	_	_	_	_	_	_	_	_
+8	מ	מ	NOUN	NOUN	Gender=Masc|Number=Sing	9	dep	_	_
+9	חוברים	חובר	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+10	עם	עם	ADP	ADP	_	9	case	_	_
+11-12	השלד	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	PronType=Art	12	det:def	_	_
+12	שלד	שלד	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod	_	_
+13-14	באמצע	_	_	_	_	_	_	_	_
+13	ב	ב	ADP	ADP	_	14	case	_	_
+14	אמצע	אמצע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	nmod	_	_
+15-16	המפתח	_	_	_	_	_	_	_	_
+15	ה	ה	DET	DET	PronType=Art	16	det:def	_	_
+16	מפתח	מפתח	NOUN	NOUN	Gender=Masc|Number=Sing	14	compound:smixut	_	_
+17-18	ובקצוות	_	_	_	_	_	_	_	_
+17	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
+18	בקצוות	בקצה	NOUN	NOUN	Gender=Masc|Number=Plur	14	conj	_	_
+
+
+1	10	10	NUM	NUM	_	0	root	_	_
+
+
+1	2	2	NUM	NUM	_	0	root	_	_
+
+
+1	1	1	NUM	NUM	_	2	nummod	_	_
+2	חישוב	חישוב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
+3	ספיני	ספין	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	2	compound:smixut	_	_
+4	קיר	קיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	compound:smixut	_	_
+5	חוץ	חוץ	NOUN	NOUN	Gender=Masc|Number=Sing	4	compound:smixut	_	_
+6-7	הבנויים	_	_	_	_	_	_	_	_
+6	ה	ה	SCONJ	SCONJ	_	7	mark	_	_
+7	בנויים	בנוי	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	3	acl:relcl	_	_
+8-9	בחורף	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	9	case	_	_
+9	חורף	חורף	NOUN	NOUN	Gender=Masc|Number=Sing	7	obl	_	_
+10	סכימות	סכימה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	2	nmod	_	_
+11	כפיפת	כפיפה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	10	compound:smixut	_	_
+12	ספינים	ספין	NOUN	NOUN	Gender=Masc|Number=Plur	11	compound:smixut	_	_
+13	מיוצגות	יוצג	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Pass	10	acl	_	_
+14-15	בציור	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	ציור	ציור	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
+16	10	10	NUM	NUM	_	2	nummod	_	_
+
+
+1	1	1	NUM	NUM	_	0	root	_	_
+
+
+1	b	b	PROPN	PROPN	_	0	root	_	_
+2	-	-	PUNCT	PUNCT	_	1	punct	_	_
+3-4	רוח	_	_	_	_	_	_	_	_
+3	רוח	רוח	NOUN	NOUN	Gender=Fem|Number=Sing	1	nsubj	_	_
+4	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6-8	רצועת	_	_	_	_	_	_	_	_
+6	רצועת	רצועה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	nmod	_	_
+7	את	את	ADP	ADP	Case=Acc	8	case	_	_
+8	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	_
+9-10	הס	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	PronType=Art	10	det:def	_	_
+10	ס	ס	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	_
+11-12	פין	_	_	_	_	_	_	_	_
+11	פין	פין	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
+12	_הן	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Plur|Person=3|PronType=Prs	11	nmod:poss	_	_
+13-14	הנחשבת	_	_	_	_	_	_	_	_
+13	ה	ה	SCONJ	SCONJ	_	14	mark	_	_
+14	נחשבת	נחשב	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Mid	10	acl:relcl	_	_
+15-16	בכפיפה	_	_	_	_	_	_	_	_
+15	ב	ב	ADP	ADP	_	16	case	_	_
+16	כפיפה	כפיפה	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
+
+
+1	Ag	Ag	NOUN	NOUN	_	11	dep	_	_
+2	-	-	PUNCT	PUNCT	_	1	punct	_	_
+3	שטח	שטח	NOUN	NOUN	_	1	dep	_	_
+4	חתך	חתך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	nsubj	_	_
+5-6	הזיון	_	_	_	_	_	_	_	_
+5	ה	ה	DET	DET	PronType=Art	1	det:def	_	_
+6	זיון	זיון	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
+7	לאורך	לאורך	ADJ	ADJ	_	11	dep	_	_
+8-9	הרצועה	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	PronType=Art	9	det:def	_	_
+9	רצועה	רצועה	NOUN	NOUN	Gender=Fem|Number=Sing	11	nsubj	_	_
+10-11	הנמצא	_	_	_	_	_	_	_	_
+10	ה	ה	DET	DET	PronType=Art	11	mark	_	_
+11	נמצא	נמצא	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
+12-13	באיזור	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	_	13	case	_	_
+13	איזור	איזור	NOUN	NOUN	Gender=Masc|Number=Sing	11	dep	_	_
+14-15	המתיחה	_	_	_	_	_	_	_	_
+14	ה	ה	DET	DET	PronType=Art	11	det:def	_	_
+15	מתיחה	מתיחה	NOUN	NOUN	Gender=Fem|Number=Sing	13	compound:smixut	_	_
+16	בלבד	בלבד	ADV	ADV	_	13	advmod	_	_
+17	d	d	PROPN	PROPN	_	11	dep	_	_
+18	-	-	PUNCT	PUNCT	_	1	punct	_	_
+19-20	המרחק	_	_	_	_	_	_	_	_
+19	ה	ה	DET	DET	PronType=Art	1	det:def	_	_
+20	מרחק	מרחק	NOUN	NOUN	Gender=Masc|Number=Sing	1	advmod	_	_
+21	בין	בין	ADV	ADV	_	1	det	_	_
+22	ציר	ציר	NOUN	NOUN	_	11	dep	_	_
+23-24	הפלדה	_	_	_	_	_	_	_	_
+23	ה	ה	DET	DET	PronType=Art	1	det:def	_	_
+24	פלדה	פלדה	NOUN	NOUN	Gender=Fem|Number=Sing	1	nsubj	_	_
+25-26	המתוחה	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	PronType=Art	11	dep	_	_
+26	מתוחה	מתוח	VERB	VERB	_	1	amod	_	_
+27	לבין	לבין	ADV	ADV	_	11	dep	_	_
+28-29	הסיב	_	_	_	_	_	_	_	_
+28	ה	ה	DET	DET	PronType=Art	11	det:def	_	_
+29	סיב	סיב	NOUN	NOUN	Gender=Masc|Number=Sing	11	nsubj	_	_
+30-31	הלחוץ	_	_	_	_	_	_	_	_
+30	ה	ה	DET	DET	PronType=Art	11	det:def	_	_
+31	לחוץ	לחוץ	NOUN	NOUN	Gender=Masc|Number=Sing	11	advmod	_	_
+32-33	הקיצוני	_	_	_	_	_	_	_	_
+32	ה	ה	DET	DET	PronType=Art	11	det:def	_	_
+33	קיצוני	קיצוני	NOUN	NOUN	Gender=Masc|Number=Sing	11	dep	_	_
+34	(	(	PUNCT	PUNCT	_	1	punct	_	_
+35-36	הסיב	_	_	_	_	_	_	_	_
+35	ה	ה	DET	DET	PronType=Art	36	det:def	_	_
+36	סיב	סיב	NOUN	NOUN	Gender=Masc|Number=Sing	1	advmod	_	_
+37-38	המתחמם	_	_	_	_	_	_	_	_
+37	ה	ה	DET	DET	_	11	dep	_	_
+38	מתחמם	התחמם	VERB	VERB	_	1	dep	_	_
+39	ביותר	ביותר	ADV	ADV	_	1	det	_	_
+40	)	)	PUNCT	PUNCT	_	1	punct	_	_
+41	Es	Es	ADV	ADV	_	1	dep	_	_
+42	-	-	PUNCT	PUNCT	_	1	punct	_	_
+43	מודול	מודול	NOUN	NOUN	_	1	dep	_	_
+44	אלסטיות	אלסטיות	NOUN	NOUN	_	11	nsubj	_	_
+45	של	של	ADP	ADP	Case=Gen	1	case:gen	_	_
+46	פלדת	פלדה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	dep	_	_
+47-48	הזיון	_	_	_	_	_	_	_	_
+47	ה	ה	DET	DET	PronType=Art	29	det:def	_	_
+48	זיון	זיון	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	_
+49-50	המתוח	_	_	_	_	_	_	_	_
+49	ה	ה	DET	DET	PronType=Art	11	det:def	_	_
+50	מתוח	מתוח	NOUN	NOUN	Gender=Masc|Number=Sing	11	advmod	_	_
+51	Ec	Ec	ADV	ADV	_	11	dep	_	_
+52	-	-	PUNCT	PUNCT	_	1	punct	_	_
+53	מודול	מודול	NOUN	NOUN	_	11	dep	_	_
+54	אלסטיות	אלסטיות	NOUN	NOUN	_	11	nsubj	_	_
+55	של	של	ADP	ADP	Case=Gen	1	case:gen	_	_
+56	בטון	בטון	NOUN	NOUN	_	38	obj	_	_
+57-58	הספין	_	_	_	_	_	_	_	_
+57	ה	ה	DET	DET	PronType=Art	1	det:def	_	_
+58	ספין	ספין	NOUN	NOUN	Gender=Masc|Number=Sing	1	advmod	_	_
+59-60	המתכופף	_	_	_	_	_	_	_	_
+59	ה	ה	DET	DET	PronType=Art	11	dep	_	_
+60	מתכופף	התכופף	VERB	VERB	Definite=Cons|Gender=Masc|Number=Sing	1	dep	_	_
+
+
+1	10	10	NUM	NUM	_	0	root	_	_
+
+
+1	2	2	NUM	NUM	_	0	root	_	_
+
+
+1	2	2	NUM	NUM	_	2	punct	_	_
+2-5	חישוב ספיני קיר חוץ	_	_	_	_	_	_	_	_
+2	חישוב	חישוב	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+3	פיט	פיט	NOUN	NOUN	HebSource=ConvUncertainHead	2	dep	_	_
+4	פיט	פיט	NOUN	NOUN	HebSource=ConvUncertainHead	3	dep	_	_
+5	קירחחוץ	קירחחוץ	NOUN	NOUN	_	3	dep	_	_
+6-7	בנויים	_	_	_	_	_	_	_	_
+6	ב	ב	ADP	ADP	_	7	case	_	_
+7	נויים	נויים	NOUN	NOUN	_	5	dep	_	_
+8-10	בקיץ	_	_	_	_	_	_	_	_
+8	ב	ב	ADP	ADP	_	7	case	_	_
+9	ה_	ה	DET	DET	PronType=Art	10	det:def	_	_
+10	קיץ	קיץ	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
+11-13	סכימת כפיפת ספין	_	_	_	_	_	_	_	_
+11	סכימת	סכים	VERB	VERB	HebSource=ConvUncertainHead	12	acl	_	_
+12	פיפת	פיפה	NOUN	NOUN	Definite=Cons	15	dep	_	_
+13	ציפפין	ציפפין	NOUN	NOUN	_	12	compound:smixut	_	_
+14-15	מיוצגת	_	_	_	_	_	_	_	_
+14	מ	מ	ADP	ADP	_	15	case	_	_
+15	יוצגת	יצג	VERB	VERB	VerbForm=Inf	2	acl	_	_
+16-17	בציור	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	ציור	ציור	NOUN	NOUN	Gender=Masc|Number=Sing	15	obl	_	_
+18	10	10	NUM	NUM	_	15	punct	_	_
+
+
+1	2	2	NUM	NUM	_	0	root	_	_
+
+
