@@ -13,6 +13,8 @@ The corpus consists of Hebrew documents from a wide variety of contemporary and 
 
 **The corpus holds 22,382,594 words in 1218 documents.**
 
+Using the **CQPweb** interface, you can browse the corpus contents and run textual queries on its items. To access this system, please contact omrish@technion.ac.il.
+
 This work was supported by the Israel Innovation Authority. The corpus is available for all types of uses for NLP research and development according to the CC BY 4.0 license (Attribution 4.0 International).  
 
 We wish to thank Vicky Davydov, Lena Avrahami and Shai Zack from the Library of the Faculty of Architecture and Town Planning (Technion), as well as Moti Yeger, Director of the Technion's Central Library, and Prof. Rafael Sacks, Head of the National Building Research Institute, for the help they have been providing for the project since its inception. 
