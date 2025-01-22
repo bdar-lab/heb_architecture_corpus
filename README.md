@@ -23,8 +23,6 @@ Cite: Aleksandrowicz, O., Rosenberg, D., Shafer-Raviv, O., Ordan, N. (2024). Heb
 
 ## Contents
 - /conllu/ - Morphologically analyzed texts in CONLLU format
-- /csv/ - Morphologically analyzed texts in CSV format
-- /jsonl/ - Named entities in JSONL format
 - /txt/ - Plain text
 - full_IIA_corpus_8.2.2024.csv - Full corpus metadata
 
