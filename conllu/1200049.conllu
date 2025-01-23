@@ -1,540 +1,552 @@
-1	התנהגות	התנהגות	NOUN	NOUN	Gender=Fem|Number=Sing	14	nsubj	_	_
-2	של	של	ADP	ADP	Case=Gen	3	case:gen	_	_
+# file = txt/1200049.txt
+# filelineno = 1
+# sentno = 1
+# text = התנהגות של מנהרה מדופנת בעמיסה סייסמית שלב ג'
+# raw = {'id': 1, 'text': "התנהגות של מנהרה מדופנת בעמיסה סייסמית שלב ג'", 'dspan': (0, 45), 'tokens': [{'id': 1, 'text': 'התנהגות', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 4, 'deprel': 'nsubj:pass', 'dspan': (0, 7), 'span': (0, 7), 'lemma': 'התנהגות'}, {'id': 2, 'text': 'של', 'upos': 'ADP', 'xpos': 'ADP', 'feats': 'Case=Gen', 'head': 3, 'deprel': 'case', 'dspan': (8, 10), 'span': (8, 10), 'lemma': 'של'}, {'id': 3, 'text': 'מנהרה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 1, 'deprel': 'nmod:poss', 'dspan': (11, 16), 'span': (11, 16), 'lemma': 'מנהרה'}, {'id': 4, 'text': 'מדופנת', 'upos': 'VERB', 'xpos': 'VERB', 'feats': 'Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Pass', 'head': 0, 'deprel': 'root', 'dspan': (17, 23), 'span': (17, 23), 'lemma': 'מדופנת'}, {'id': (5, 6), 'text': 'בעמיסה', 'expanded': [{'id': 5, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 6, 'deprel': 'case', 'lemma': 'ב'}, {'id': 6, 'text': 'עמיסה', 'upos': 'PROPN', 'xpos': 'PROPN', 'feats': 'Gender=Fem|Number=Sing', 'head': 4, 'deprel': 'obl', 'lemma': 'עמיסה'}], 'span': (24, 30), 'dspan': (24, 30)}, {'id': 7, 'text': 'סייסמית', 'upos': 'PROPN', 'xpos': 'PROPN', 'head': 6, 'deprel': 'amod', 'dspan': (31, 38), 'span': (31, 38), 'lemma': 'סייסמית'}, {'id': 8, 'text': 'שלב', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Masc|Number=Sing', 'head': 6, 'deprel': 'appos', 'dspan': (39, 42), 'span': (39, 42), 'lemma': 'שלב'}, {'id': 9, 'text': "ג'", 'upos': 'NUM', 'xpos': 'NUM', 'head': 8, 'deprel': 'nummod', 'dspan': (43, 45), 'span': (43, 45), 'lemma': "ג'"}]}
+1	התנהגות	התנהגות	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+2	של	של	ADP	ADP	Case=Gen	3	case	_	_
 3	מנהרה	מנהרה	NOUN	NOUN	Gender=Fem|Number=Sing	1	nmod:poss	_	_
-4	מדופנת	דופן	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Pass	3	amod	_	_
+4	מדופנת	מדופנת	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
 5-6	בעמיסה	_	_	_	_	_	_	_	_
 5	ב	ב	ADP	ADP	_	6	case	_	_
-6	עמיסה	עמיסה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nmod	_	_
-7	סייסמית	סייסמי	ADJ	ADJ	_	6	amod	_	_
-8	שלב	שלב	NOUN	NOUN	Gender=Masc|Number=Sing	1	nmod	_	_
-9	ג	ג	PROPN	PROPN	_	8	compound:smixut	_	_
-10	'	'	PUNCT	PUNCT	_	8	punct	_	_
-11	תקציר	תקציר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	nsubj	_	_
-12-13	המחקר	_	_	_	_	_	_	_	_
-12	ה	ה	DET	DET	PronType=Art	13	det:def	_	_
-13	מחקר	מחקר	NOUN	NOUN	Gender=Masc|Number=Sing	11	compound:smixut	_	_
-14	עוסק	עסק	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
-15-16	בפתרון	_	_	_	_	_	_	_	_
+6	עמיסה	עמיסה	PROPN	PROPN	Gender=Fem|Number=Sing	4	obl	_	_
+7	סייסמית	סייסמית	PROPN	PROPN	_	6	amod	_	_
+8	שלב	שלב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	appos	_	_
+9	ג'	ג'	NUM	NUM	_	8	nummod	_	_
+
+# file = txt/1200049.txt
+# filelineno = 2
+# sentno = 1
+# text = תקציר
+# raw = {'id': 1, 'text': 'תקציר', 'dspan': (0, 5), 'tokens': [{'id': 1, 'text': 'תקציר', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 0, 'deprel': 'root', 'dspan': (0, 5), 'span': (0, 5), 'lemma': 'תקציר'}]}
+1	תקציר	תקציר	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
+
+# file = txt/1200049.txt
+# filelineno = 3
+# sentno = 1
+# text = המחקר עוסק בפתרון הבעיה של תגובה סיסמית של מנהרה עמוקה מדופנת בדיפון גמיש לפעולת גלי לחץ או גזירה הנתונים על ידי אקסלרוגרמה של רעידת אדמה אשר מתפתחים בקרקע ליניארית עם שכבה אלסטית הממוקמת בין מבנה לקרקע.
+# raw = {'id': 1, 'text': 'המחקר עוסק בפתרון הבעיה של תגובה סיסמית של מנהרה עמוקה מדופנת בדיפון גמיש לפעולת גלי לחץ או גזירה הנתונים על ידי אקסלרוגרמה של רעידת אדמה אשר מתפתחים בקרקע ליניארית עם שכבה אלסטית הממוקמת בין מבנה לקרקע.', 'dspan': (0, 203), 'tokens': [{'id': (1, 2), 'text': 'המחקר', 'expanded': [{'id': 1, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 2, 'deprel': 'det', 'lemma': 'ה'}, {'id': 2, 'text': 'מחקר', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 3, 'deprel': 'nsubj', 'lemma': 'מחקר'}], 'span': (0, 5), 'dspan': (0, 5)}, {'id': 3, 'text': 'עוסק', 'upos': 'VERB', 'xpos': 'VERB', 'feats': 'Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act', 'head': 0, 'deprel': 'root', 'dspan': (6, 10), 'span': (6, 10), 'lemma': 'עסק'}, {'id': (4, 5), 'text': 'בפתרון', 'expanded': [{'id': 4, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 5, 'deprel': 'case', 'lemma': 'ב'}, {'id': 5, 'text': 'פתרון', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Masc|Number=Sing', 'head': 3, 'deprel': 'obl', 'lemma': 'פתרון'}], 'span': (11, 17), 'dspan': (11, 17)}, {'id': (6, 7), 'text': 'הבעיה', 'expanded': [{'id': 6, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 7, 'deprel': 'det', 'lemma': 'ה'}, {'id': 7, 'text': 'בעיה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 5, 'deprel': 'compound:smixut', 'lemma': 'בעיה'}], 'span': (18, 23), 'dspan': (18, 23)}, {'id': 8, 'text': 'של', 'upos': 'ADP', 'xpos': 'ADP', 'feats': 'Case=Gen', 'head': 9, 'deprel': 'case:gen', 'dspan': (24, 26), 'span': (24, 26), 'lemma': 'של'}, {'id': 9, 'text': 'תגובה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 7, 'deprel': 'nmod:poss', 'dspan': (27, 32), 'span': (27, 32), 'lemma': 'תגובה'}, {'id': 10, 'text': 'סיסמית', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Fem|Number=Sing', 'head': 9, 'deprel': 'amod', 'dspan': (33, 39), 'span': (33, 39), 'lemma': 'סיסמית'}, {'id': 11, 'text': 'של', 'upos': 'ADP', 'xpos': 'ADP', 'feats': 'Case=Gen', 'head': 12, 'deprel': 'case:gen', 'dspan': (40, 42), 'span': (40, 42), 'lemma': 'של'}, {'id': 12, 'text': 'מנהרה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 9, 'deprel': 'nmod', 'dspan': (43, 48), 'span': (43, 48), 'lemma': 'מנהרה'}, {'id': 13, 'text': 'עמוקה', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Fem|Number=Sing', 'head': 12, 'deprel': 'amod', 'dspan': (49, 54), 'span': (49, 54), 'lemma': 'עמוק'}, {'id': 14, 'text': 'מדופנת', 'upos': 'VERB', 'xpos': 'VERB', 'feats': 'Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Pass', 'head': 9, 'deprel': 'amod', 'dspan': (55, 61), 'span': (55, 61), 'lemma': 'מדופנת'}, {'id': (15, 16), 'text': 'בדיפון', 'expanded': [{'id': 15, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 16, 'deprel': 'case', 'lemma': 'ב'}, {'id': 16, 'text': 'דיפון', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 14, 'deprel': 'obl', 'lemma': 'דיפון'}], 'span': (62, 68), 'dspan': (62, 68)}, {'id': 17, 'text': 'גמיש', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Masc|Number=Sing', 'head': 16, 'deprel': 'amod', 'dspan': (69, 73), 'span': (69, 73), 'lemma': 'גמיש'}, {'id': (18, 19), 'text': 'לפעולת', 'expanded': [{'id': 18, 'text': 'ל', 'upos': 'ADP', 'xpos': 'ADP', 'head': 19, 'deprel': 'case', 'lemma': 'ל'}, {'id': 19, 'text': 'פעולת', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Fem|Number=Sing', 'head': 16, 'deprel': 'nmod', 'lemma': 'פעולה'}], 'span': (74, 80), 'dspan': (74, 80)}, {'id': 20, 'text': 'גלי', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Masc|Number=Plur', 'head': 19, 'deprel': 'compound:smixut', 'dspan': (81, 84), 'span': (81, 84), 'lemma': 'גל'}, {'id': 21, 'text': 'לחץ', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 20, 'deprel': 'compound:smixut', 'dspan': (85, 88), 'span': (85, 88), 'lemma': 'לחץ'}, {'id': 22, 'text': 'או', 'upos': 'CCONJ', 'xpos': 'CCONJ', 'head': 23, 'deprel': 'cc', 'dspan': (89, 91), 'span': (89, 91), 'lemma': 'או'}, {'id': 23, 'text': 'גזירה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 20, 'deprel': 'conj', 'dspan': (92, 97), 'span': (92, 97), 'lemma': 'גזירה'}, {'id': (24, 25), 'text': 'הנתונים', 'expanded': [{'id': 24, 'text': 'ה', 'upos': 'SCONJ', 'xpos': 'SCONJ', 'head': 25, 'deprel': 'mark', 'lemma': 'ה'}, {'id': 25, 'text': 'נתונים', 'upos': 'VERB', 'xpos': 'VERB', 'feats': 'Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act', 'head': 9, 'deprel': 'acl:relcl', 'lemma': 'נתן'}], 'span': (98, 105), 'dspan': (98, 105)}, {'id': 26, 'text': 'על', 'upos': 'ADP', 'xpos': 'ADP', 'head': 28, 'deprel': 'case', 'dspan': (106, 108), 'span': (106, 108), 'lemma': 'על'}, {'id': 27, 'text': 'ידי', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Fem|Number=Plur', 'head': 26, 'deprel': 'fixed', 'dspan': (109, 112), 'span': (109, 112), 'lemma': 'יד'}, {'id': 28, 'text': 'אקסלרוג', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Masc|Number=Plur', 'head': 25, 'deprel': 'obl', 'dspan': (113, 120), 'span': (113, 120), 'lemma': 'אקסלרוג'}, {'id': 29, 'text': 'רמה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 28, 'deprel': 'compound:smixut', 'dspan': (120, 123), 'span': (120, 123), 'lemma': 'רמה'}, {'id': 30, 'text': 'של', 'upos': 'ADP', 'xpos': 'ADP', 'feats': 'Case=Gen', 'head': 31, 'deprel': 'case:gen', 'dspan': (124, 126), 'span': (124, 126), 'lemma': 'של'}, {'id': 31, 'text': 'רעידת', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Fem|Number=Sing', 'head': 28, 'deprel': 'nmod:poss', 'dspan': (127, 132), 'span': (127, 132), 'lemma': 'רעידה'}, {'id': 32, 'text': 'אדמה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 31, 'deprel': 'compound:smixut', 'dspan': (133, 137), 'span': (133, 137), 'lemma': 'אדמה'}, {'id': 33, 'text': 'אשר', 'upos': 'SCONJ', 'xpos': 'SCONJ', 'head': 34, 'deprel': 'mark', 'dspan': (138, 141), 'span': (138, 141), 'lemma': 'אשר'}, {'id': 34, 'text': 'מתפתחים', 'upos': 'VERB', 'xpos': 'VERB', 'feats': 'Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|VerbForm=Part', 'head': 28, 'deprel': 'acl:relcl', 'dspan': (142, 149), 'span': (142, 149), 'lemma': 'מתפתחים'}, {'id': (35, 36), 'text': 'בקרקע', 'expanded': [{'id': 35, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 36, 'deprel': 'case', 'lemma': 'ב'}, {'id': 36, 'text': 'קרקע', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 34, 'deprel': 'obl', 'lemma': 'קרקע'}], 'span': (150, 155), 'dspan': (150, 155)}, {'id': 37, 'text': 'ליניארית', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Fem|Number=Sing', 'head': 36, 'deprel': 'amod', 'dspan': (156, 164), 'span': (156, 164), 'lemma': 'ליניארית'}, {'id': 38, 'text': 'עם', 'upos': 'ADP', 'xpos': 'ADP', 'head': 39, 'deprel': 'case', 'dspan': (165, 167), 'span': (165, 167), 'lemma': 'עם'}, {'id': 39, 'text': 'שכבה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 36, 'deprel': 'nmod', 'dspan': (168, 172), 'span': (168, 172), 'lemma': 'שכבה'}, {'id': 40, 'text': 'אלסטית', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Fem|Number=Sing', 'head': 39, 'deprel': 'amod', 'dspan': (173, 179), 'span': (173, 179), 'lemma': 'אלסטית'}, {'id': (41, 42), 'text': 'הממוקמת', 'expanded': [{'id': 41, 'text': 'ה', 'upos': 'SCONJ', 'xpos': 'SCONJ', 'head': 42, 'deprel': 'mark', 'lemma': 'ה'}, {'id': 42, 'text': 'ממוקמת', 'upos': 'VERB', 'xpos': 'VERB', 'feats': 'Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Pass', 'head': 39, 'deprel': 'acl:relcl', 'lemma': 'מוקם'}], 'span': (180, 187), 'dspan': (180, 187)}, {'id': 43, 'text': 'בין', 'upos': 'ADP', 'xpos': 'ADP', 'head': 44, 'deprel': 'case', 'dspan': (188, 191), 'span': (188, 191), 'lemma': 'בין'}, {'id': 44, 'text': 'מבנה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 42, 'deprel': 'obl', 'dspan': (192, 196), 'span': (192, 196), 'lemma': 'מבנה'}, {'id': (45, 47), 'text': 'לקרקע', 'expanded': [{'id': 45, 'text': 'ל', 'upos': 'ADP', 'xpos': 'ADP', 'head': 47, 'deprel': 'case', 'lemma': 'ל'}, {'id': 46, 'text': 'ה_', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 47, 'deprel': 'det', 'lemma': 'ה'}, {'id': 47, 'text': 'קרקע', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 44, 'deprel': 'conj', 'lemma': 'קרקע'}], 'span': (197, 202), 'dspan': (197, 202)}, {'id': 48, 'text': '.', 'upos': 'PUNCT', 'xpos': 'PUNCT', 'head': 3, 'deprel': 'punct', 'dspan': (202, 203), 'span': (202, 203), 'lemma': '.'}]}
+1-2	המחקר	_	_	_	_	_	_	_	_
+1	ה	ה	DET	DET	PronType=Art	2	det	_	_
+2	מחקר	מחקר	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	עוסק	עסק	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
+4-5	בפתרון	_	_	_	_	_	_	_	_
+4	ב	ב	ADP	ADP	_	5	case	_	_
+5	פתרון	פתרון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	obl	_	_
+6-7	הבעיה	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	PronType=Art	7	det	_	_
+7	בעיה	בעיה	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound:smixut	_	_
+8	של	של	ADP	ADP	Case=Gen	9	case:gen	_	_
+9	תגובה	תגובה	NOUN	NOUN	Gender=Fem|Number=Sing	7	nmod:poss	_	_
+10	סיסמית	סיסמית	ADJ	ADJ	Gender=Fem|Number=Sing	9	amod	_	_
+11	של	של	ADP	ADP	Case=Gen	12	case:gen	_	_
+12	מנהרה	מנהרה	NOUN	NOUN	Gender=Fem|Number=Sing	9	nmod	_	_
+13	עמוקה	עמוק	ADJ	ADJ	Gender=Fem|Number=Sing	12	amod	_	_
+14	מדופנת	מדופנת	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Pass	9	amod	_	_
+15-16	בדיפון	_	_	_	_	_	_	_	_
 15	ב	ב	ADP	ADP	_	16	case	_	_
-16	פתרון	פתרון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	14	obl	_	_
-17-18	הבעיה	_	_	_	_	_	_	_	_
-17	ה	ה	DET	DET	PronType=Art	18	det:def	_	_
-18	בעיה	בעיה	NOUN	NOUN	Gender=Fem|Number=Sing	16	compound:smixut	_	_
-19	של	של	ADP	ADP	Case=Gen	20	case:gen	_	_
-20	תגובה	תגובה	NOUN	NOUN	Gender=Fem|Number=Sing	16	nmod:poss	_	_
-21	סיסמית	סיסמי	ADJ	ADJ	Gender=Fem|Number=Sing	20	amod	_	_
-22	של	של	ADP	ADP	Case=Gen	23	case:gen	_	_
-23	מנהרה	מנהרה	NOUN	NOUN	Gender=Fem|Number=Sing	20	nmod	_	_
-24	עמוקה	עמוק	ADJ	ADJ	Gender=Fem|Number=Sing	23	amod	_	_
-25	מדופנת	דופן	VERB	VERB	Gender=Fem|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Pass	23	amod	_	_
-26-28	בדיפון	_	_	_	_	_	_	_	_
-26	ב	ב	ADP	ADP	_	28	case	_	_
-27	ה_	ה	DET	DET	PronType=Art	28	det:def	_	_
-28	דיפון	דיפון	NOUN	NOUN	Gender=Masc|Number=Sing	20	nmod	_	_
-29	גמיש	גמיש	ADJ	ADJ	Gender=Masc|Number=Sing	28	amod	_	_
-30-31	לפעולת	_	_	_	_	_	_	_	_
-30	ל	ל	ADP	ADP	_	31	case	_	_
-31	פעולת	פעולה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	20	nmod	_	_
-32	גלי	גל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	31	compound:smixut	_	_
-33	לחץ	לחץ	NOUN	NOUN	Gender=Masc|Number=Sing	32	compound:smixut	_	_
-34	או	או	CCONJ	CCONJ	_	35	cc	_	_
-35	גזירה	גזירה	NOUN	NOUN	Gender=Fem|Number=Sing	32	conj	_	_
-36-37	הנתונים	_	_	_	_	_	_	_	_
-36	ה	ה	SCONJ	SCONJ	_	37	mark	_	_
-37	נתונים	נתן	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	35	acl:relcl	_	_
-38	על	על	ADP	ADP	_	40	case	_	_
-39	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	38	fixed	_	_
-40-41	אקסלרוגרמה	_	_	_	_	_	_	_	_
-40	אקסלרוג	אקסלרוג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	37	obl	_	_
-41	רמה	רמה	NOUN	NOUN	Gender=Fem|Number=Sing	40	compound:smixut	_	_
-42	של	של	ADP	ADP	Case=Gen	43	case:gen	_	_
-43	רעידת	רעידה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	40	nmod:poss	_	_
-44	אדמה	אדמה	NOUN	NOUN	Gender=Fem|Number=Sing	43	compound:smixut	_	_
-45	אשר	אשר	SCONJ	SCONJ	_	46	mark	_	_
-46	מתפתחים	התפתח	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|VerbForm=Part	40	acl:relcl	_	_
-47-48	בקרקע	_	_	_	_	_	_	_	_
-47	ב	ב	ADP	ADP	_	48	case	_	_
-48	קרקע	קרקע	NOUN	NOUN	Gender=Fem|Number=Sing	46	obl	_	_
-49	ליניארית	ליניארי	ADJ	ADJ	Gender=Fem|Number=Sing	48	amod	_	_
-50	עם	עם	ADP	ADP	_	51	case	_	_
-51	שכבה	שכבה	NOUN	NOUN	Gender=Fem|Number=Sing	48	nmod	_	_
-52	אלסטית	אלסטי	ADJ	ADJ	Gender=Fem|Number=Sing	51	amod	_	_
-53-54	הממוקמת	_	_	_	_	_	_	_	_
-53	ה	ה	SCONJ	SCONJ	_	54	mark	_	_
-54	ממוקמת	מוקם	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Pass	51	acl:relcl	_	_
-55	בין	בין	ADP	ADP	_	56	case	_	_
-56	מבנה	מבנה	NOUN	NOUN	Gender=Masc|Number=Sing	54	obl	_	_
-57-59	לקרקע	_	_	_	_	_	_	_	_
-57	ל	ל	ADP	ADP	_	59	case	_	_
-58	ה_	ה	DET	DET	PronType=Art	59	det:def	_	_
-59	קרקע	קרקע	NOUN	NOUN	Gender=Fem|Number=Sing	56	conj	_	_
+16	דיפון	דיפון	NOUN	NOUN	Gender=Masc|Number=Sing	14	obl	_	_
+17	גמיש	גמיש	ADJ	ADJ	Gender=Masc|Number=Sing	16	amod	_	_
+18-19	לפעולת	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	_	19	case	_	_
+19	פעולת	פעולה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	16	nmod	_	_
+20	גלי	גל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	19	compound:smixut	_	_
+21	לחץ	לחץ	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	_
+22	או	או	CCONJ	CCONJ	_	23	cc	_	_
+23	גזירה	גזירה	NOUN	NOUN	Gender=Fem|Number=Sing	20	conj	_	_
+24-25	הנתונים	_	_	_	_	_	_	_	_
+24	ה	ה	SCONJ	SCONJ	_	25	mark	_	_
+25	נתונים	נתן	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	9	acl:relcl	_	_
+26	על	על	ADP	ADP	_	28	case	_	_
+27	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	26	fixed	_	_
+28	אקסלרוג	אקסלרוג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	25	obl	_	_
+29	רמה	רמה	NOUN	NOUN	Gender=Fem|Number=Sing	28	compound:smixut	_	_
+30	של	של	ADP	ADP	Case=Gen	31	case:gen	_	_
+31	רעידת	רעידה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	28	nmod:poss	_	_
+32	אדמה	אדמה	NOUN	NOUN	Gender=Fem|Number=Sing	31	compound:smixut	_	_
+33	אשר	אשר	SCONJ	SCONJ	_	34	mark	_	_
+34	מתפתחים	מתפתחים	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=1,2,3|VerbForm=Part	28	acl:relcl	_	_
+35-36	בקרקע	_	_	_	_	_	_	_	_
+35	ב	ב	ADP	ADP	_	36	case	_	_
+36	קרקע	קרקע	NOUN	NOUN	Gender=Fem|Number=Sing	34	obl	_	_
+37	ליניארית	ליניארית	ADJ	ADJ	Gender=Fem|Number=Sing	36	amod	_	_
+38	עם	עם	ADP	ADP	_	39	case	_	_
+39	שכבה	שכבה	NOUN	NOUN	Gender=Fem|Number=Sing	36	nmod	_	_
+40	אלסטית	אלסטית	ADJ	ADJ	Gender=Fem|Number=Sing	39	amod	_	_
+41-42	הממוקמת	_	_	_	_	_	_	_	_
+41	ה	ה	SCONJ	SCONJ	_	42	mark	_	_
+42	ממוקמת	מוקם	VERB	VERB	Gender=Fem|HebBinyan=PUAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Pass	39	acl:relcl	_	_
+43	בין	בין	ADP	ADP	_	44	case	_	_
+44	מבנה	מבנה	NOUN	NOUN	Gender=Masc|Number=Sing	42	obl	_	_
+45-47	לקרקע	_	_	_	_	_	_	_	_
+45	ל	ל	ADP	ADP	_	47	case	_	_
+46	ה_	ה	DET	DET	PronType=Art	47	det	_	_
+47	קרקע	קרקע	NOUN	NOUN	Gender=Fem|Number=Sing	44	conj	_	_
+48	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-
-1	משתמשים	השתמש	ADJ	ADJ	_	36	dep	_	_
+# file = txt/1200049.txt
+# filelineno = 3
+# sentno = 2
+# text = משתמשים בשילוב של תוכנה של אלמנטים גבוליים (עבור קרקע) עם תוכנות של אלמנטים דיסקרטיים (עבור דיפון עגול טרומי) או אלמנטים סופיים (עבור דיפון רצוף בעל צורה כלשהיא) המטפלות בבעיה של תנאי גבול אלסטיים כאשר בגבול דיפון-קרקע נתון קשר ליניארי בין מאמצי מגע לתזוזות יחסיות.
+# raw = {'id': 2, 'text': 'משתמשים בשילוב של תוכנה של אלמנטים גבוליים (עבור קרקע) עם תוכנות של אלמנטים דיסקרטיים (עבור דיפון עגול טרומי) או אלמנטים סופיים (עבור דיפון רצוף בעל צורה כלשהיא) המטפלות בבעיה של תנאי גבול אלסטיים כאשר בגבול דיפון-קרקע נתון קשר ליניארי בין מאמצי מגע לתזוזות יחסיות.', 'dspan': (204, 469), 'tokens': [{'id': 1, 'text': 'משתמשים', 'upos': 'VERB', 'xpos': 'VERB', 'feats': 'Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Act', 'head': 0, 'deprel': 'root', 'dspan': (204, 211), 'span': (0, 7), 'lemma': 'השתמש'}, {'id': (2, 3), 'text': 'בשילוב', 'expanded': [{'id': 2, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 3, 'deprel': 'case', 'lemma': 'ב'}, {'id': 3, 'text': 'שילוב', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 1, 'deprel': 'obl', 'lemma': 'שילוב'}], 'span': (8, 14), 'dspan': (212, 218)}, {'id': 4, 'text': 'של', 'upos': 'ADP', 'xpos': 'ADP', 'feats': 'Case=Gen', 'head': 5, 'deprel': 'case', 'dspan': (219, 221), 'span': (15, 17), 'lemma': 'של'}, {'id': 5, 'text': 'תוכנה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 3, 'deprel': 'nmod:poss', 'dspan': (222, 227), 'span': (18, 23), 'lemma': 'תוכנה'}, {'id': 6, 'text': 'של', 'upos': 'ADP', 'xpos': 'ADP', 'feats': 'Case=Gen', 'head': 7, 'deprel': 'case', 'dspan': (228, 230), 'span': (24, 26), 'lemma': 'של'}, {'id': 7, 'text': 'אלמנטים', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Plur', 'head': 5, 'deprel': 'nmod:poss', 'dspan': (231, 238), 'span': (27, 34), 'lemma': 'אלמנט'}, {'id': 8, 'text': 'גבוליים', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Masc|Number=Plur', 'head': 7, 'deprel': 'amod', 'dspan': (239, 246), 'span': (35, 42), 'lemma': 'גבוליים'}, {'id': 9, 'text': '(', 'upos': 'PUNCT', 'xpos': 'PUNCT', 'head': 11, 'deprel': 'punct', 'dspan': (247, 248), 'span': (43, 44), 'lemma': '('}, {'id': 10, 'text': 'עבור', 'upos': 'ADP', 'xpos': 'ADP', 'head': 11, 'deprel': 'case', 'dspan': (248, 252), 'span': (44, 48), 'lemma': 'עבור'}, {'id': 11, 'text': 'קרקע', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 7, 'deprel': 'nmod', 'dspan': (253, 257), 'span': (49, 53), 'lemma': 'קרקע'}, {'id': 12, 'text': ')', 'upos': 'PUNCT', 'xpos': 'PUNCT', 'head': 11, 'deprel': 'punct', 'dspan': (257, 258), 'span': (53, 54), 'lemma': ')'}, {'id': 13, 'text': 'עם', 'upos': 'ADP', 'xpos': 'ADP', 'head': 14, 'deprel': 'case', 'dspan': (259, 261), 'span': (55, 57), 'lemma': 'עם'}, {'id': 14, 'text': 'תוכנות', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Plur', 'head': 3, 'deprel': 'nmod', 'dspan': (262, 268), 'span': (58, 64), 'lemma': 'תוכנה'}, {'id': 15, 'text': 'של', 'upos': 'ADP', 'xpos': 'ADP', 'feats': 'Case=Gen', 'head': 16, 'deprel': 'case', 'dspan': (269, 271), 'span': (65, 67), 'lemma': 'של'}, {'id': 16, 'text': 'אלמנטים', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Plur', 'head': 14, 'deprel': 'nmod:poss', 'dspan': (272, 279), 'span': (68, 75), 'lemma': 'אלמנט'}, {'id': 17, 'text': 'דיסקרטיים', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Masc|Number=Plur', 'head': 16, 'deprel': 'amod', 'dspan': (280, 289), 'span': (76, 85), 'lemma': 'דיסקרטיים'}, {'id': 18, 'text': '(', 'upos': 'PUNCT', 'xpos': 'PUNCT', 'head': 20, 'deprel': 'punct', 'dspan': (290, 291), 'span': (86, 87), 'lemma': '('}, {'id': 19, 'text': 'עבור', 'upos': 'ADP', 'xpos': 'ADP', 'head': 20, 'deprel': 'case', 'dspan': (291, 295), 'span': (87, 91), 'lemma': 'עבור'}, {'id': 20, 'text': 'דיפון', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 16, 'deprel': 'nmod', 'dspan': (296, 301), 'span': (92, 97), 'lemma': 'דיפון'}, {'id': 21, 'text': 'עגול', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Masc|Number=Sing', 'head': 20, 'deprel': 'amod', 'dspan': (302, 306), 'span': (98, 102), 'lemma': 'עגול'}, {'id': 22, 'text': 'טרומי', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Masc|Number=Sing', 'head': 20, 'deprel': 'amod', 'dspan': (307, 312), 'span': (103, 108), 'lemma': 'טרומי'}, {'id': 23, 'text': ')', 'upos': 'PUNCT', 'xpos': 'PUNCT', 'head': 20, 'deprel': 'punct', 'dspan': (312, 313), 'span': (108, 109), 'lemma': ')'}, {'id': 24, 'text': 'או', 'upos': 'CCONJ', 'xpos': 'CCONJ', 'head': 25, 'deprel': 'cc', 'dspan': (314, 316), 'span': (110, 112), 'lemma': 'או'}, {'id': 25, 'text': 'אלמנטים', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Plur', 'head': 16, 'deprel': 'conj', 'dspan': (317, 324), 'span': (113, 120), 'lemma': 'אלמנט'}, {'id': 26, 'text': 'סופיים', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Masc|Number=Plur', 'head': 25, 'deprel': 'amod', 'dspan': (325, 331), 'span': (121, 127), 'lemma': 'סופי'}, {'id': 27, 'text': '(', 'upos': 'PUNCT', 'xpos': 'PUNCT', 'head': 29, 'deprel': 'punct', 'dspan': (332, 333), 'span': (128, 129), 'lemma': '('}, {'id': 28, 'text': 'עבור', 'upos': 'ADP', 'xpos': 'ADP', 'head': 29, 'deprel': 'case', 'dspan': (333, 337), 'span': (129, 133), 'lemma': 'עבור'}, {'id': 29, 'text': 'דיפון', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 25, 'deprel': 'appos', 'dspan': (338, 343), 'span': (134, 139), 'lemma': 'דיפון'}, {'id': 30, 'text': 'רצוף', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Masc|Number=Sing', 'head': 29, 'deprel': 'amod', 'dspan': (344, 348), 'span': (140, 144), 'lemma': 'רצוף'}, {'id': 31, 'text': 'בעל', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Masc|Number=Sing', 'head': 29, 'deprel': 'acl', 'dspan': (349, 352), 'span': (145, 148), 'lemma': 'בעל'}, {'id': 32, 'text': 'צורה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 31, 'deprel': 'compound', 'dspan': (353, 357), 'span': (149, 153), 'lemma': 'צורה'}, {'id': 33, 'text': 'כלשהיא', 'upos': 'PRON', 'xpos': 'PRON', 'feats': 'Gender=Fem|Number=Sing|Person=3|PronType=Ind', 'head': 32, 'deprel': 'det', 'dspan': (358, 364), 'span': (154, 160), 'lemma': 'כלשהיא'}, {'id': 34, 'text': ')', 'upos': 'PUNCT', 'xpos': 'PUNCT', 'head': 29, 'deprel': 'punct', 'dspan': (364, 365), 'span': (160, 161), 'lemma': ')'}, {'id': (35, 36), 'text': 'המטפלות', 'expanded': [{'id': 35, 'text': 'ה', 'upos': 'SCONJ', 'xpos': 'SCONJ', 'head': 36, 'deprel': 'mark', 'lemma': 'ה'}, {'id': 36, 'text': 'מטפלות', 'upos': 'VERB', 'xpos': 'VERB', 'feats': 'Gender=Fem|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Act', 'head': 25, 'deprel': 'acl:relcl', 'lemma': 'טיפל'}], 'span': (162, 169), 'dspan': (366, 373)}, {'id': (37, 38), 'text': 'בבעיה', 'expanded': [{'id': 37, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 38, 'deprel': 'case', 'lemma': 'ב'}, {'id': 38, 'text': 'בעיה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 36, 'deprel': 'obl', 'lemma': 'בעיה'}], 'span': (170, 175), 'dspan': (374, 379)}, {'id': 39, 'text': 'של', 'upos': 'ADP', 'xpos': 'ADP', 'feats': 'Case=Gen', 'head': 40, 'deprel': 'case', 'dspan': (380, 382), 'span': (176, 178), 'lemma': 'של'}, {'id': 40, 'text': 'תנאי', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Masc|Number=Plur', 'head': 38, 'deprel': 'nmod:poss', 'dspan': (383, 387), 'span': (179, 183), 'lemma': 'תנאי'}, {'id': 41, 'text': 'גבול', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 40, 'deprel': 'compound', 'dspan': (388, 392), 'span': (184, 188), 'lemma': 'גבול'}, {'id': 42, 'text': 'אלסטיים', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Masc|Number=Plur', 'head': 40, 'deprel': 'amod', 'dspan': (393, 400), 'span': (189, 196), 'lemma': 'אלסטיים'}, {'id': 43, 'text': 'כאשר', 'upos': 'SCONJ', 'xpos': 'SCONJ', 'head': 49, 'deprel': 'mark', 'dspan': (401, 405), 'span': (197, 201), 'lemma': 'כאשר'}, {'id': (44, 45), 'text': 'בגבול', 'expanded': [{'id': 44, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 45, 'deprel': 'case', 'lemma': 'ב'}, {'id': 45, 'text': 'גבול', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Masc|Number=Sing', 'head': 49, 'deprel': 'obl', 'lemma': 'גבול'}], 'span': (202, 207), 'dspan': (406, 411)}, {'id': 46, 'text': 'דיפון', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Masc|Number=Sing', 'head': 45, 'deprel': 'compound', 'dspan': (412, 417), 'span': (208, 213), 'lemma': 'דיפון'}, {'id': 47, 'text': '-', 'upos': 'PUNCT', 'xpos': 'PUNCT', 'head': 48, 'deprel': 'punct', 'dspan': (417, 418), 'span': (213, 214), 'lemma': '-'}, {'id': 48, 'text': 'קרקע', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 46, 'deprel': 'compound', 'dspan': (418, 422), 'span': (214, 218), 'lemma': 'קרקע'}, {'id': 49, 'text': 'נתון', 'upos': 'VERB', 'xpos': 'VERB', 'feats': 'Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act', 'head': 36, 'deprel': 'advcl', 'dspan': (423, 427), 'span': (219, 223), 'lemma': 'נתן'}, {'id': 50, 'text': 'קשר', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 49, 'deprel': 'nsubj', 'dspan': (428, 431), 'span': (224, 227), 'lemma': 'קשר'}, {'id': 51, 'text': 'ליניארי', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Masc|Number=Sing', 'head': 50, 'deprel': 'amod', 'dspan': (432, 439), 'span': (228, 235), 'lemma': 'ליניארי'}, {'id': 52, 'text': 'בין', 'upos': 'ADP', 'xpos': 'ADP', 'head': 53, 'deprel': 'case', 'dspan': (440, 443), 'span': (236, 239), 'lemma': 'בין'}, {'id': 53, 'text': 'מאמצי', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Masc|Number=Plur', 'head': 50, 'deprel': 'nmod', 'dspan': (444, 449), 'span': (240, 245), 'lemma': 'מאמץ'}, {'id': 54, 'text': 'מגע', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 53, 'deprel': 'compound', 'dspan': (450, 453), 'span': (246, 249), 'lemma': 'מגע'}, {'id': (55, 56), 'text': 'לתזוזות', 'expanded': [{'id': 55, 'text': 'ל', 'upos': 'ADP', 'xpos': 'ADP', 'head': 56, 'deprel': 'case', 'lemma': 'ל'}, {'id': 56, 'text': 'תזוזות', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Plur', 'head': 53, 'deprel': 'conj', 'lemma': 'תזוזות'}], 'span': (250, 257), 'dspan': (454, 461)}, {'id': 57, 'text': 'יחסיות', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Fem|Number=Plur', 'head': 56, 'deprel': 'amod', 'dspan': (462, 468), 'span': (258, 264), 'lemma': 'יחסיות'}, {'id': 58, 'text': '.', 'upos': 'PUNCT', 'xpos': 'PUNCT', 'head': 1, 'deprel': 'punct', 'dspan': (468, 469), 'span': (264, 265), 'lemma': '.'}]}
+1	משתמשים	השתמש	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
 2-3	בשילוב	_	_	_	_	_	_	_	_
-2	ב	ב	ADP	ADP	PronType=Art	46	case	_	_
-3	שילוב	שילוב	NOUN	NOUN	Gender=Masc|Number=Sing	36	advmod	_	_
-4	של	של	ADV	ADV	_	36	dep	_	_
-5	תוכנה	תוכנה	NOUN	NOUN	_	36	nsubj	_	_
-6	של	של	PUNCT	PUNCT	Case=Gen	36	dep	_	_
-7	אלמנטים	אלמנט	NOUN	NOUN	_	36	obj	_	_
-8	גבוליים	גבולי	ADJ	ADJ	_	36	dep	_	_
-9	(	(	PUNCT	PUNCT	_	36	punct	_	_
-10	עבור	עבור	ADV	ADV	_	36	dep	_	_
-11	קרקע	קרקע	ADV	ADV	_	36	obj	_	_
-12	)	)	PUNCT	PUNCT	_	36	punct	_	_
-13	עם	עם	PUNCT	PUNCT	_	17	dep	_	_
-14	תוכנות	תוכנה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	36	dep	_	_
-15	של	של	PUNCT	PUNCT	_	36	dep	_	_
-16	אלמנטים	אלמנט	NOUN	NOUN	_	17	dep	_	_
-17	דיסקרטיים	דיסקרטי	ADJ	ADJ	_	36	dep	_	_
-18	(	(	PUNCT	PUNCT	_	17	punct	_	_
-19	עבור	עבור	ADV	ADV	_	17	dep	_	_
-20	דיפון	דיפון	NOUN	NOUN	_	17	obj	_	_
-21	עגול	עגול	NOUN	NOUN	_	17	obj	_	_
-22	טרומי	טרומי	ADJ	ADJ	_	17	advmod	_	_
-23	)	)	PUNCT	PUNCT	_	17	punct	_	_
-24	או	או	ADV	ADV	_	17	dep	_	_
-25	אלמנטים	אלמנט	NOUN	NOUN	_	36	dep	_	_
-26	סופיים	סופי	ADJ	ADJ	_	14	dep	_	_
-27	(	(	PUNCT	PUNCT	_	17	punct	_	_
-28	עבור	עבור	ADV	ADV	_	17	punct	_	_
-29	דיפון	דיפון	NOUN	NOUN	_	17	obj	_	_
-30	רצוף	רצוף	NOUN	NOUN	_	17	dep	_	_
-31	בעל	בעל	ADJ	ADJ	_	32	dep	_	_
-32	צורה	צורה	NOUN	NOUN	_	36	nsubj	_	_
-33	כלשהיא	כלשהיא	ADJ	ADJ	_	32	advmod	_	_
-34	)	)	PUNCT	PUNCT	_	17	punct	_	_
+2	ב	ב	ADP	ADP	_	3	case	_	_
+3	שילוב	שילוב	NOUN	NOUN	Gender=Masc|Number=Sing	1	obl	_	_
+4	של	של	ADP	ADP	Case=Gen	5	case	_	_
+5	תוכנה	תוכנה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nmod:poss	_	_
+6	של	של	ADP	ADP	Case=Gen	7	case	_	_
+7	אלמנטים	אלמנט	NOUN	NOUN	Gender=Masc|Number=Plur	5	nmod:poss	_	_
+8	גבוליים	גבוליים	ADJ	ADJ	Gender=Masc|Number=Plur	7	amod	_	_
+9	(	(	PUNCT	PUNCT	_	11	punct	_	_
+10	עבור	עבור	ADP	ADP	_	11	case	_	_
+11	קרקע	קרקע	NOUN	NOUN	Gender=Fem|Number=Sing	7	nmod	_	_
+12	)	)	PUNCT	PUNCT	_	11	punct	_	_
+13	עם	עם	ADP	ADP	_	14	case	_	_
+14	תוכנות	תוכנה	NOUN	NOUN	Gender=Fem|Number=Plur	3	nmod	_	_
+15	של	של	ADP	ADP	Case=Gen	16	case	_	_
+16	אלמנטים	אלמנט	NOUN	NOUN	Gender=Masc|Number=Plur	14	nmod:poss	_	_
+17	דיסקרטיים	דיסקרטיים	ADJ	ADJ	Gender=Masc|Number=Plur	16	amod	_	_
+18	(	(	PUNCT	PUNCT	_	20	punct	_	_
+19	עבור	עבור	ADP	ADP	_	20	case	_	_
+20	דיפון	דיפון	NOUN	NOUN	Gender=Masc|Number=Sing	16	nmod	_	_
+21	עגול	עגול	ADJ	ADJ	Gender=Masc|Number=Sing	20	amod	_	_
+22	טרומי	טרומי	ADJ	ADJ	Gender=Masc|Number=Sing	20	amod	_	_
+23	)	)	PUNCT	PUNCT	_	20	punct	_	_
+24	או	או	CCONJ	CCONJ	_	25	cc	_	_
+25	אלמנטים	אלמנט	NOUN	NOUN	Gender=Masc|Number=Plur	16	conj	_	_
+26	סופיים	סופי	ADJ	ADJ	Gender=Masc|Number=Plur	25	amod	_	_
+27	(	(	PUNCT	PUNCT	_	29	punct	_	_
+28	עבור	עבור	ADP	ADP	_	29	case	_	_
+29	דיפון	דיפון	NOUN	NOUN	Gender=Masc|Number=Sing	25	appos	_	_
+30	רצוף	רצוף	ADJ	ADJ	Gender=Masc|Number=Sing	29	amod	_	_
+31	בעל	בעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	29	acl	_	_
+32	צורה	צורה	NOUN	NOUN	Gender=Fem|Number=Sing	31	compound	_	_
+33	כלשהיא	כלשהיא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Ind	32	det	_	_
+34	)	)	PUNCT	PUNCT	_	29	punct	_	_
 35-36	המטפלות	_	_	_	_	_	_	_	_
-35	ה	ה	DET	DET	_	36	dep	_	_
-36	מטפלות	טיפל	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
-37-39	בבעיה	_	_	_	_	_	_	_	_
-37	ב	ב	ADP	ADP	_	36	dep	_	_
-38	ה_	ה	NOUN	NOUN	_	36	obl	_	_
-39	בעיה	בעיה	NOUN	NOUN	_	36	obj	_	_
-40	של	של	PUNCT	PUNCT	_	36	dep	_	_
-41	תנאי	תנאי	ADJ	ADJ	_	36	obj	_	_
-42	גבול	גבול	NOUN	NOUN	_	36	obj	_	_
-43	אלסטיים	אלסטיים	NOUN	NOUN	_	36	dep	_	_
-44	כאשר	כאשר	PUNCT	PUNCT	_	36	dep	_	_
-45-46	בגבול	_	_	_	_	_	_	_	_
-45	ב	ב	ADP	ADP	_	36	dep	_	_
-46	גבול	גבול	NOUN	NOUN	Gender=Masc|Number=Sing	36	advmod	_	_
-47	דיפון	דיפון	NOUN	NOUN	_	36	nsubj	_	_
-48	-	-	PUNCT	PUNCT	_	47	punct	_	_
-49	קרקע	קרקע	ADV	ADV	_	32	advmod	_	_
-50	נתון	נתון	NOUN	NOUN	_	36	dep	_	_
-51	קשר	קשר	ADV	ADV	_	36	obj	_	_
-52	ליניארי	ליניאר	NOUN	NOUN	Gender=Masc|Number=Sing	36	nsubj	_	_
-53	בין	בין	ADV	ADV	_	32	dep	_	_
-54	מאמצי	מאמץ	NOUN	NOUN	_	36	dep	_	_
-55	מגע	מגע	NOUN	NOUN	_	36	nsubj	_	_
-56-57	לתזוזות	_	_	_	_	_	_	_	_
-56	ל	ל	PUNCT	PUNCT	_	36	dep	_	_
-57	תזוזות	תזוז	NOUN	NOUN	_	36	obj	_	_
-58	יחסיות	יחסיות	NOUN	NOUN	_	36	dep	_	_
+35	ה	ה	SCONJ	SCONJ	_	36	mark	_	_
+36	מטפלות	טיפל	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	25	acl:relcl	_	_
+37-38	בבעיה	_	_	_	_	_	_	_	_
+37	ב	ב	ADP	ADP	_	38	case	_	_
+38	בעיה	בעיה	NOUN	NOUN	Gender=Fem|Number=Sing	36	obl	_	_
+39	של	של	ADP	ADP	Case=Gen	40	case	_	_
+40	תנאי	תנאי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	38	nmod:poss	_	_
+41	גבול	גבול	NOUN	NOUN	Gender=Masc|Number=Sing	40	compound	_	_
+42	אלסטיים	אלסטיים	ADJ	ADJ	Gender=Masc|Number=Plur	40	amod	_	_
+43	כאשר	כאשר	SCONJ	SCONJ	_	49	mark	_	_
+44-45	בגבול	_	_	_	_	_	_	_	_
+44	ב	ב	ADP	ADP	_	45	case	_	_
+45	גבול	גבול	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	49	obl	_	_
+46	דיפון	דיפון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	45	compound	_	_
+47	-	-	PUNCT	PUNCT	_	48	punct	_	_
+48	קרקע	קרקע	NOUN	NOUN	Gender=Fem|Number=Sing	46	compound	_	_
+49	נתון	נתן	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	36	advcl	_	_
+50	קשר	קשר	NOUN	NOUN	Gender=Masc|Number=Sing	49	nsubj	_	_
+51	ליניארי	ליניארי	ADJ	ADJ	Gender=Masc|Number=Sing	50	amod	_	_
+52	בין	בין	ADP	ADP	_	53	case	_	_
+53	מאמצי	מאמץ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	50	nmod	_	_
+54	מגע	מגע	NOUN	NOUN	Gender=Masc|Number=Sing	53	compound	_	_
+55-56	לתזוזות	_	_	_	_	_	_	_	_
+55	ל	ל	ADP	ADP	_	56	case	_	_
+56	תזוזות	תזוזות	NOUN	NOUN	Gender=Fem|Number=Plur	53	conj	_	_
+57	יחסיות	יחסיות	ADJ	ADJ	Gender=Fem|Number=Plur	56	amod	_	_
+58	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-
+# file = txt/1200049.txt
+# filelineno = 3
+# sentno = 3
+# text = את הבעיה פותרים נומרית על ידי תהליך מיוחד של איטרציות.
+# raw = {'id': 3, 'text': 'את הבעיה פותרים נומרית על ידי תהליך מיוחד של איטרציות.', 'dspan': (470, 524), 'tokens': [{'id': 1, 'text': 'את', 'upos': 'ADP', 'xpos': 'ADP', 'feats': 'Case=Acc', 'head': 3, 'deprel': 'case:acc', 'dspan': (470, 472), 'span': (0, 2), 'lemma': 'את'}, {'id': (2, 3), 'text': 'הבעיה', 'expanded': [{'id': 2, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 3, 'deprel': 'det', 'lemma': 'ה'}, {'id': 3, 'text': 'בעיה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 4, 'deprel': 'obj', 'lemma': 'בעיה'}], 'span': (3, 8), 'dspan': (473, 478)}, {'id': 4, 'text': 'פותרים', 'upos': 'VERB', 'xpos': 'VERB', 'feats': 'Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act', 'head': 0, 'deprel': 'root', 'dspan': (479, 485), 'span': (9, 15), 'lemma': 'פותרים'}, {'id': 5, 'text': 'נומרית', 'upos': 'ADV', 'xpos': 'ADV', 'head': 4, 'deprel': 'advmod', 'dspan': (486, 492), 'span': (16, 22), 'lemma': 'נומרית'}, {'id': 6, 'text': 'על', 'upos': 'ADP', 'xpos': 'ADP', 'head': 8, 'deprel': 'case', 'dspan': (493, 495), 'span': (23, 25), 'lemma': 'על'}, {'id': 7, 'text': 'ידי', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Fem|Number=Plur', 'head': 6, 'deprel': 'fixed', 'dspan': (496, 499), 'span': (26, 29), 'lemma': 'יד'}, {'id': 8, 'text': 'תהליך', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 4, 'deprel': 'obl', 'dspan': (500, 505), 'span': (30, 35), 'lemma': 'תהליך'}, {'id': 9, 'text': 'מיוחד', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Masc|Number=Sing', 'head': 8, 'deprel': 'amod', 'dspan': (506, 511), 'span': (36, 41), 'lemma': 'מיוחד'}, {'id': 10, 'text': 'של', 'upos': 'ADP', 'xpos': 'ADP', 'feats': 'Case=Gen', 'head': 11, 'deprel': 'case:gen', 'dspan': (512, 514), 'span': (42, 44), 'lemma': 'של'}, {'id': 11, 'text': 'איטרציות', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 8, 'deprel': 'nmod', 'dspan': (515, 523), 'span': (45, 53), 'lemma': 'איטרציות'}, {'id': 12, 'text': '.', 'upos': 'PUNCT', 'xpos': 'PUNCT', 'head': 4, 'deprel': 'punct', 'dspan': (523, 524), 'span': (53, 54), 'lemma': '.'}]}
 1	את	את	ADP	ADP	Case=Acc	3	case:acc	_	_
 2-3	הבעיה	_	_	_	_	_	_	_	_
-2	ה	ה	DET	DET	PronType=Art	3	det:def	_	_
+2	ה	ה	DET	DET	PronType=Art	3	det	_	_
 3	בעיה	בעיה	NOUN	NOUN	Gender=Fem|Number=Sing	4	obj	_	_
-4	פותרים	פתר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
-5	נומרית	נומרי	ADJ	ADJ	_	4	advmod	_	_
+4	פותרים	פותרים	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
+5	נומרית	נומרית	ADV	ADV	_	4	advmod	_	_
 6	על	על	ADP	ADP	_	8	case	_	_
 7	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	6	fixed	_	_
 8	תהליך	תהליך	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
 9	מיוחד	מיוחד	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
 10	של	של	ADP	ADP	Case=Gen	11	case:gen	_	_
-11	איטרציות	איטרציה	NOUN	NOUN	Gender=Fem|Number=Plur	8	nmod	_	_
+11	איטרציות	איטרציות	NOUN	NOUN	Gender=Fem|Number=Sing	8	nmod	_	_
+12	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
-
-1	נבנו	נבנה	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
-2	אלגוריתם	אלגורית	NOUN	NOUN	Gender=Masc|Number=Sing	1	nsubj	_	_
+# file = txt/1200049.txt
+# filelineno = 3
+# sentno = 4
+# text = נבנו אלגוריתם ותוכנת מחשב להצגת עומס הפועל על המבנה על ידי טרנספורמציית פורייה של האקסלרוגרמה בשימוש במשפט קוטלניקוב-שנון ולביצוע טרנספורמאציה הפוכה עם שמירת תנאי התחלה של הבעיה.
+# raw = {'id': 4, 'text': 'נבנו אלגוריתם ותוכנת מחשב להצגת עומס הפועל על המבנה על ידי טרנספורמציית פורייה של האקסלרוגרמה בשימוש במשפט קוטלניקוב-שנון ולביצוע טרנספורמאציה הפוכה עם שמירת תנאי התחלה של הבעיה.', 'dspan': (525, 703), 'tokens': [{'id': 1, 'text': 'נבנו', 'upos': 'VERB', 'xpos': 'VERB', 'feats': 'Gender=Fem|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass', 'head': 0, 'deprel': 'root', 'dspan': (525, 529), 'span': (0, 4), 'lemma': 'נבנה'}, {'id': 2, 'text': 'אלגוריתם', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 1, 'deprel': 'nsubj:pass', 'dspan': (530, 538), 'span': (5, 13), 'lemma': 'אלגוריתם'}, {'id': (3, 4), 'text': 'ותוכנת', 'expanded': [{'id': 3, 'text': 'ו', 'upos': 'CCONJ', 'xpos': 'CCONJ', 'head': 4, 'deprel': 'cc', 'lemma': 'ו'}, {'id': 4, 'text': 'תוכנת', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Fem|Number=Sing', 'head': 2, 'deprel': 'conj', 'lemma': 'תוכנת'}], 'span': (14, 20), 'dspan': (539, 545)}, {'id': 5, 'text': 'מחשב', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 4, 'deprel': 'compound', 'dspan': (546, 550), 'span': (21, 25), 'lemma': 'מחשב'}, {'id': (6, 7), 'text': 'להצגת', 'expanded': [{'id': 6, 'text': 'ל', 'upos': 'ADP', 'xpos': 'ADP', 'head': 7, 'deprel': 'case', 'lemma': 'ל'}, {'id': 7, 'text': 'הצגת', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Fem|Number=Sing', 'head': 4, 'deprel': 'nmod', 'lemma': 'הצגה'}], 'span': (26, 31), 'dspan': (551, 556)}, {'id': 8, 'text': 'עומס', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 7, 'deprel': 'compound', 'dspan': (557, 561), 'span': (32, 36), 'lemma': 'עומס'}, {'id': (9, 10), 'text': 'הפועל', 'expanded': [{'id': 9, 'text': 'ה', 'upos': 'SCONJ', 'xpos': 'SCONJ', 'head': 10, 'deprel': 'mark', 'lemma': 'ה'}, {'id': 10, 'text': 'פועל', 'upos': 'VERB', 'xpos': 'VERB', 'feats': 'Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act', 'head': 8, 'deprel': 'acl:relcl', 'lemma': 'פעל'}], 'span': (37, 42), 'dspan': (562, 567)}, {'id': 11, 'text': 'על', 'upos': 'ADP', 'xpos': 'ADP', 'head': 13, 'deprel': 'case', 'dspan': (568, 570), 'span': (43, 45), 'lemma': 'על'}, {'id': (12, 13), 'text': 'המבנה', 'expanded': [{'id': 12, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'Definite=Def|PronType=Art', 'head': 13, 'deprel': 'det', 'lemma': 'ה'}, {'id': 13, 'text': 'מבנה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 10, 'deprel': 'obl', 'lemma': 'מבנה'}], 'span': (46, 51), 'dspan': (571, 576)}, {'id': 14, 'text': 'על', 'upos': 'ADP', 'xpos': 'ADP', 'head': 16, 'deprel': 'case', 'dspan': (577, 579), 'span': (52, 54), 'lemma': 'על'}, {'id': 15, 'text': 'ידי', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Fem|Number=Plur', 'head': 14, 'deprel': 'fixed', 'dspan': (580, 583), 'span': (55, 58), 'lemma': 'יד'}, {'id': 16, 'text': 'טרנספורמציית', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Fem|Number=Sing', 'head': 7, 'deprel': 'nmod', 'dspan': (584, 596), 'span': (59, 71), 'lemma': 'טרנספורמציית'}, {'id': 17, 'text': 'פורייה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 16, 'deprel': 'compound', 'dspan': (597, 603), 'span': (72, 78), 'lemma': 'פורי'}, {'id': 18, 'text': 'של', 'upos': 'ADP', 'xpos': 'ADP', 'feats': 'Case=Gen', 'head': 20, 'deprel': 'case', 'dspan': (604, 606), 'span': (79, 81), 'lemma': 'של'}, {'id': (19, 20), 'text': 'האקסלרוגרמה', 'expanded': [{'id': 19, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'Definite=Def|PronType=Art', 'head': 20, 'deprel': 'det', 'lemma': 'ה'}, {'id': 20, 'text': 'אקסלרוגרמה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 16, 'deprel': 'nmod:poss', 'lemma': 'אקסלרוגרמה'}], 'span': (82, 93), 'dspan': (607, 618)}, {'id': (21, 22), 'text': 'בשימוש', 'expanded': [{'id': 21, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 22, 'deprel': 'case', 'lemma': 'ב'}, {'id': 22, 'text': 'שימוש', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 16, 'deprel': 'nmod', 'lemma': 'שימוש'}], 'span': (94, 100), 'dspan': (619, 625)}, {'id': (23, 24), 'text': 'במשפט', 'expanded': [{'id': 23, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 24, 'deprel': 'case', 'lemma': 'ב'}, {'id': 24, 'text': 'משפט', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 22, 'deprel': 'nmod', 'lemma': 'משפט'}], 'span': (101, 106), 'dspan': (626, 631)}, {'id': 25, 'text': 'קוטלניקוב', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 24, 'deprel': 'amod', 'dspan': (632, 641), 'span': (107, 116), 'lemma': 'קוטלניקוב'}, {'id': 26, 'text': '-', 'upos': 'PUNCT', 'xpos': 'PUNCT', 'head': 27, 'deprel': 'punct', 'dspan': (641, 642), 'span': (116, 117), 'lemma': '-'}, {'id': 27, 'text': 'שנון', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Masc|Number=Sing', 'head': 25, 'deprel': 'amod', 'dspan': (642, 646), 'span': (117, 121), 'lemma': 'שנון'}, {'id': (28, 30), 'text': 'ולביצוע', 'expanded': [{'id': 28, 'text': 'ו', 'upos': 'CCONJ', 'xpos': 'CCONJ', 'head': 30, 'deprel': 'cc', 'lemma': 'ו'}, {'id': 29, 'text': 'ל', 'upos': 'ADP', 'xpos': 'ADP', 'head': 30, 'deprel': 'case', 'lemma': 'ל'}, {'id': 30, 'text': 'ביצוע', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Masc|Number=Sing', 'head': 16, 'deprel': 'conj', 'lemma': 'ביצוע'}], 'span': (122, 129), 'dspan': (647, 654)}, {'id': 31, 'text': 'טרנספורמאציה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 30, 'deprel': 'compound', 'dspan': (655, 667), 'span': (130, 142), 'lemma': 'טרנספורמאציה'}, {'id': 32, 'text': 'הפוכה', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Fem|Number=Sing', 'head': 31, 'deprel': 'amod', 'dspan': (668, 673), 'span': (143, 148), 'lemma': 'הפוך'}, {'id': 33, 'text': 'עם', 'upos': 'ADP', 'xpos': 'ADP', 'head': 34, 'deprel': 'case', 'dspan': (674, 676), 'span': (149, 151), 'lemma': 'עם'}, {'id': 34, 'text': 'שמירת', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Fem|Number=Sing', 'head': 31, 'deprel': 'nmod', 'dspan': (677, 682), 'span': (152, 157), 'lemma': 'שמירה'}, {'id': 35, 'text': 'תנאי', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Masc|Number=Plur', 'head': 34, 'deprel': 'compound', 'dspan': (683, 687), 'span': (158, 162), 'lemma': 'תנאי'}, {'id': (36, 37), 'text': 'התחלה', 'expanded': [{'id': 36, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'Definite=Def|PronType=Art', 'head': 37, 'deprel': 'det', 'lemma': 'ה'}, {'id': 37, 'text': 'תחלה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 35, 'deprel': 'compound', 'lemma': 'תחלה'}], 'span': (163, 168), 'dspan': (688, 693)}, {'id': 38, 'text': 'של', 'upos': 'ADP', 'xpos': 'ADP', 'feats': 'Case=Gen', 'head': 40, 'deprel': 'case', 'dspan': (694, 696), 'span': (169, 171), 'lemma': 'של'}, {'id': (39, 40), 'text': 'הבעיה', 'expanded': [{'id': 39, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'Definite=Def|PronType=Art', 'head': 40, 'deprel': 'det', 'lemma': 'ה'}, {'id': 40, 'text': 'בעיה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 35, 'deprel': 'nmod:poss', 'lemma': 'בעיה'}], 'span': (172, 177), 'dspan': (697, 702)}, {'id': 41, 'text': '.', 'upos': 'PUNCT', 'xpos': 'PUNCT', 'head': 1, 'deprel': 'punct', 'dspan': (702, 703), 'span': (177, 178), 'lemma': '.'}]}
+1	נבנו	נבנה	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+2	אלגוריתם	אלגוריתם	NOUN	NOUN	Gender=Fem|Number=Sing	1	nsubj:pass	_	_
 3-4	ותוכנת	_	_	_	_	_	_	_	_
 3	ו	ו	CCONJ	CCONJ	_	4	cc	_	_
-4	תוכנת	תוכנה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	conj	_	_
-5	מחשב	מחשב	NOUN	NOUN	Gender=Masc|Number=Sing	4	compound:smixut	_	_
+4	תוכנת	תוכנת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	conj	_	_
+5	מחשב	מחשב	NOUN	NOUN	Gender=Masc|Number=Sing	4	compound	_	_
 6-7	להצגת	_	_	_	_	_	_	_	_
 6	ל	ל	ADP	ADP	_	7	case	_	_
-7	הצגת	הצגה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	2	nmod	_	_
-8	עומס	עומס	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound:smixut	_	_
+7	הצגת	הצגה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	nmod	_	_
+8	עומס	עומס	NOUN	NOUN	Gender=Masc|Number=Sing	7	compound	_	_
 9-10	הפועל	_	_	_	_	_	_	_	_
 9	ה	ה	SCONJ	SCONJ	_	10	mark	_	_
-10	פועל	פעל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	8	acl:relcl	_	_
+10	פועל	פעל	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	8	acl:relcl	_	_
 11	על	על	ADP	ADP	_	13	case	_	_
 12-13	המבנה	_	_	_	_	_	_	_	_
-12	ה	ה	DET	DET	PronType=Art	13	det:def	_	_
+12	ה	ה	DET	DET	Definite=Def|PronType=Art	13	det	_	_
 13	מבנה	מבנה	NOUN	NOUN	Gender=Masc|Number=Sing	10	obl	_	_
 14	על	על	ADP	ADP	_	16	case	_	_
 15	ידי	יד	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	14	fixed	_	_
-16	טרנספורמציית	טרנספורציה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	nmod	_	_
-17	פורייה	פורייה	NOUN	NOUN	Gender=Fem|Number=Sing	16	compound:smixut	_	_
-18	של	של	ADP	ADP	Case=Gen	20	case:gen	_	_
+16	טרנספורמציית	טרנספורמציית	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	nmod	_	_
+17	פורייה	פורי	NOUN	NOUN	Gender=Fem|Number=Sing	16	compound	_	_
+18	של	של	ADP	ADP	Case=Gen	20	case	_	_
 19-20	האקסלרוגרמה	_	_	_	_	_	_	_	_
-19	ה	ה	DET	DET	PronType=Art	20	det:def	_	_
-20	אקסלרוגרמה	אקסלרוגרמה	NOUN	NOUN	_	16	nmod	_	_
+19	ה	ה	DET	DET	Definite=Def|PronType=Art	20	det	_	_
+20	אקסלרוגרמה	אקסלרוגרמה	NOUN	NOUN	Gender=Fem|Number=Sing	16	nmod:poss	_	_
 21-22	בשימוש	_	_	_	_	_	_	_	_
 21	ב	ב	ADP	ADP	_	22	case	_	_
 22	שימוש	שימוש	NOUN	NOUN	Gender=Masc|Number=Sing	16	nmod	_	_
 23-24	במשפט	_	_	_	_	_	_	_	_
 23	ב	ב	ADP	ADP	_	24	case	_	_
 24	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	22	nmod	_	_
-25	קוטלניקוב	קוטלניקוב	ADJ	ADJ	Gender=Masc|Number=Sing	24	amod	_	_
-26	-	-	PUNCT	PUNCT	_	25	punct	_	_
-27	שנון	שנון	ADJ	ADJ	Gender=Masc|Number=Sing	25	dep	_	_
-28-29	ולביצוע	_	_	_	_	_	_	_	_
-28	ו	ו	CCONJ	CCONJ	_	29	cc	_	_
-29	לביצוע	לביצוע	ADP	ADP	Definite=Cons|Gender=Masc|Number=Sing	16	conj	_	_
-30	טרנספורמאציה	טרנספורמאציה	NOUN	NOUN	Gender=Fem|Number=Sing	29	compound:smixut	_	_
-31	הפוכה	הפוך	ADJ	ADJ	Gender=Fem|Number=Sing	30	amod	_	_
-32	עם	עם	ADP	ADP	_	33	case	_	_
-33	שמירת	שמירה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	30	nmod	_	_
-34	תנאי	תנאי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	33	compound:smixut	_	_
-35-36	התחלה	_	_	_	_	_	_	_	_
-35	ה	ה	DET	DET	PronType=Art	36	det:def	_	_
-36	תחלה	תחלה	NOUN	NOUN	Gender=Fem|Number=Sing	34	compound:smixut	_	_
-37	של	של	ADP	ADP	Case=Gen	39	case:gen	_	_
-38-39	הבעיה	_	_	_	_	_	_	_	_
-38	ה	ה	DET	DET	PronType=Art	39	det:def	_	_
-39	בעיה	בעיה	NOUN	NOUN	Gender=Fem|Number=Sing	34	nmod:poss	_	_
+25	קוטלניקוב	קוטלניקוב	NOUN	NOUN	Gender=Masc|Number=Sing	24	amod	_	_
+26	-	-	PUNCT	PUNCT	_	27	punct	_	_
+27	שנון	שנון	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	_
+28-30	ולביצוע	_	_	_	_	_	_	_	_
+28	ו	ו	CCONJ	CCONJ	_	30	cc	_	_
+29	ל	ל	ADP	ADP	_	30	case	_	_
+30	ביצוע	ביצוע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	conj	_	_
+31	טרנספורמאציה	טרנספורמאציה	NOUN	NOUN	Gender=Fem|Number=Sing	30	compound	_	_
+32	הפוכה	הפוך	ADJ	ADJ	Gender=Fem|Number=Sing	31	amod	_	_
+33	עם	עם	ADP	ADP	_	34	case	_	_
+34	שמירת	שמירה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	31	nmod	_	_
+35	תנאי	תנאי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	34	compound	_	_
+36-37	התחלה	_	_	_	_	_	_	_	_
+36	ה	ה	DET	DET	Definite=Def|PronType=Art	37	det	_	_
+37	תחלה	תחלה	NOUN	NOUN	Gender=Fem|Number=Sing	35	compound	_	_
+38	של	של	ADP	ADP	Case=Gen	40	case	_	_
+39-40	הבעיה	_	_	_	_	_	_	_	_
+39	ה	ה	DET	DET	Definite=Def|PronType=Art	40	det	_	_
+40	בעיה	בעיה	NOUN	NOUN	Gender=Fem|Number=Sing	35	nmod:poss	_	_
+41	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
+# file = txt/1200049.txt
+# filelineno = 4
+# sentno = 1
+# text = נבחנו מומנטי כפיפה ומאמצי המגע בין הקרקע לדיפון עגול או לדיפון בצורת פרסה.
+# raw = {'id': 1, 'text': 'נבחנו מומנטי כפיפה ומאמצי המגע בין הקרקע לדיפון עגול או לדיפון בצורת פרסה.', 'dspan': (0, 74), 'tokens': [{'id': 1, 'text': 'נבחנו', 'upos': 'VERB', 'xpos': 'VERB', 'feats': 'Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass', 'head': 0, 'deprel': 'root', 'dspan': (0, 5), 'span': (0, 5), 'lemma': 'נבחנו'}, {'id': 2, 'text': 'מומנטי', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Masc|Number=Plur', 'head': 1, 'deprel': 'nsubj:pass', 'dspan': (6, 12), 'span': (6, 12), 'lemma': 'מומנטי'}, {'id': 3, 'text': 'כפיפה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 2, 'deprel': 'compound', 'dspan': (13, 18), 'span': (13, 18), 'lemma': 'כפיפה'}, {'id': (4, 5), 'text': 'ומאמצי', 'expanded': [{'id': 4, 'text': 'ו', 'upos': 'CCONJ', 'xpos': 'CCONJ', 'head': 5, 'deprel': 'cc', 'lemma': 'ו'}, {'id': 5, 'text': 'מאמצי', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Masc|Number=Plur', 'head': 2, 'deprel': 'conj', 'lemma': 'מאמץ'}], 'span': (19, 25), 'dspan': (19, 25)}, {'id': (6, 7), 'text': 'המגע', 'expanded': [{'id': 6, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'Definite=Def|PronType=Art', 'head': 7, 'deprel': 'det', 'lemma': 'ה'}, {'id': 7, 'text': 'מגע', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 5, 'deprel': 'compound', 'lemma': 'מגע'}], 'span': (26, 30), 'dspan': (26, 30)}, {'id': 8, 'text': 'בין', 'upos': 'ADP', 'xpos': 'ADP', 'head': 10, 'deprel': 'case', 'dspan': (31, 34), 'span': (31, 34), 'lemma': 'בין'}, {'id': (9, 10), 'text': 'הקרקע', 'expanded': [{'id': 9, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'Definite=Def|PronType=Art', 'head': 10, 'deprel': 'det', 'lemma': 'ה'}, {'id': 10, 'text': 'קרקע', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 7, 'deprel': 'nmod', 'lemma': 'קרקע'}], 'span': (35, 40), 'dspan': (35, 40)}, {'id': (11, 12), 'text': 'לדיפון', 'expanded': [{'id': 11, 'text': 'ל', 'upos': 'ADP', 'xpos': 'ADP', 'head': 12, 'deprel': 'case', 'lemma': 'ל'}, {'id': 12, 'text': 'דיפון', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 10, 'deprel': 'conj', 'lemma': 'דיפון'}], 'span': (41, 47), 'dspan': (41, 47)}, {'id': 13, 'text': 'עגול', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Masc|Number=Sing', 'head': 12, 'deprel': 'amod', 'dspan': (48, 52), 'span': (48, 52), 'lemma': 'עגול'}, {'id': 14, 'text': 'או', 'upos': 'CCONJ', 'xpos': 'CCONJ', 'head': 16, 'deprel': 'cc', 'dspan': (53, 55), 'span': (53, 55), 'lemma': 'או'}, {'id': (15, 16), 'text': 'לדיפון', 'expanded': [{'id': 15, 'text': 'ל', 'upos': 'ADP', 'xpos': 'ADP', 'head': 16, 'deprel': 'case', 'lemma': 'ל'}, {'id': 16, 'text': 'דיפון', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 10, 'deprel': 'conj', 'lemma': 'דיפון'}], 'span': (56, 62), 'dspan': (56, 62)}, {'id': (17, 18), 'text': 'בצורת', 'expanded': [{'id': 17, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 18, 'deprel': 'case', 'lemma': 'ב'}, {'id': 18, 'text': 'צורת', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Fem|Number=Sing', 'head': 16, 'deprel': 'nmod', 'lemma': 'צורה'}], 'span': (63, 68), 'dspan': (63, 68)}, {'id': 19, 'text': 'פרסה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 18, 'deprel': 'compound', 'dspan': (69, 73), 'span': (69, 73), 'lemma': 'פרסה'}, {'id': 20, 'text': '.', 'upos': 'PUNCT', 'xpos': 'PUNCT', 'head': 1, 'deprel': 'punct', 'dspan': (73, 74), 'span': (73, 74), 'lemma': '.'}]}
+1	נבחנו	נבחנו	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Pass	0	root	_	_
+2	מומנטי	מומנטי	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	1	nsubj:pass	_	_
+3	כפיפה	כפיפה	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound	_	_
+4-5	ומאמצי	_	_	_	_	_	_	_	_
+4	ו	ו	CCONJ	CCONJ	_	5	cc	_	_
+5	מאמצי	מאמץ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	2	conj	_	_
+6-7	המגע	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	מגע	מגע	NOUN	NOUN	Gender=Masc|Number=Sing	5	compound	_	_
+8	בין	בין	ADP	ADP	_	10	case	_	_
+9-10	הקרקע	_	_	_	_	_	_	_	_
+9	ה	ה	DET	DET	Definite=Def|PronType=Art	10	det	_	_
+10	קרקע	קרקע	NOUN	NOUN	Gender=Fem|Number=Sing	7	nmod	_	_
+11-12	לדיפון	_	_	_	_	_	_	_	_
+11	ל	ל	ADP	ADP	_	12	case	_	_
+12	דיפון	דיפון	NOUN	NOUN	Gender=Masc|Number=Sing	10	conj	_	_
+13	עגול	עגול	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	_
+14	או	או	CCONJ	CCONJ	_	16	cc	_	_
+15-16	לדיפון	_	_	_	_	_	_	_	_
+15	ל	ל	ADP	ADP	_	16	case	_	_
+16	דיפון	דיפון	NOUN	NOUN	Gender=Masc|Number=Sing	10	conj	_	_
+17-18	בצורת	_	_	_	_	_	_	_	_
+17	ב	ב	ADP	ADP	_	18	case	_	_
+18	צורת	צורה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	16	nmod	_	_
+19	פרסה	פרסה	NOUN	NOUN	Gender=Fem|Number=Sing	18	compound	_	_
+20	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-1	נבחנו	נבחן	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
-2	מומנטי	מומנטי	NOUN	NOUN	Gender=Masc|Number=Plur	1	nsubj	_	_
-3-4	כפיפה	_	_	_	_	_	_	_	_
-3	כ	כ	ADP	ADP	_	2	acl	_	_
-4	פיפה	פיפה	NOUN	NOUN	_	2	nmod	_	_
-5-6	ומאמצי	_	_	_	_	_	_	_	_
-5	ו	ו	CCONJ	CCONJ	_	6	cc	_	_
-6	מאמצי	מאמץ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	2	conj	_	_
-7-8	המגע	_	_	_	_	_	_	_	_
-7	ה	ה	DET	DET	PronType=Art	8	det:def	_	_
-8	מגע	מגע	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
-9	בין	בין	ADP	ADP	_	8	case	_	_
-10-11	הקרקע	_	_	_	_	_	_	_	_
-10	ה	ה	DET	DET	PronType=Art	8	det:def	_	_
-11	קרקע	קרקע	NOUN	NOUN	Gender=Fem|Number=Sing	8	nmod	_	_
-12-14	לדיפון	_	_	_	_	_	_	_	_
-12	ל	ל	ADP	ADP	_	14	case	_	_
-13	ה_	ה	DET	DET	PronType=Art	14	det:def	_	_
-14	דיפון	דיפון	NOUN	NOUN	Gender=Masc|Number=Sing	10	dep	_	_
-15	עגול	עגול	ADJ	ADJ	Gender=Masc|Number=Sing	14	amod	_	_
-16	או	או	CCONJ	CCONJ	_	6	cc	_	_
-17-19	לדיפון	_	_	_	_	_	_	_	_
-17	ל	ל	ADP	ADP	_	19	case	_	_
-18	ה_	ה	DET	DET	PronType=Art	19	det:def	_	_
-19	דיפון	דיפון	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod	_	_
-20	בצורת	בצורת	ADP	ADP	_	21	case	_	_
-21-23	פרסה	_	_	_	_	_	_	_	_
-21	פרס_	פרס	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	19	nmod	_	_
-22	_של_	של	ADP	ADP	_	23	case:gen	_	_
-23	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nmod:poss	_	_
-
-
-1-2	נקבע שמקסימום	_	_	_	_	_	_	_	_
-1	נ	ן	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=1|Tense=Fut|Voice=Act	2	conj	_	_
-2	קבעטשמקסימום	קבעטשמקסימום	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
-3-4	מוחלט	_	_	_	_	_	_	_	_
-3	מ	מ	ADV	ADV	_	2	dep	_	_
-4	וחלט	וחלט	NOUN	NOUN	Gender=Masc|Number=Sing	2	advmod	_	_
-5	של	של	ADV	ADV	_	2	dep	_	_
-6-7	מומנט	_	_	_	_	_	_	_	_
-6	מ	מ	ADV	ADV	_	2	dep	_	_
-7	ומנט	ומנט	NOUN	NOUN	_	2	advmod	_	_
-8-9	הכפיפה	_	_	_	_	_	_	_	_
-8	ה	ה	DET	DET	_	2	dep	_	_
-9	כפיפה	כפיפה	NOUN	NOUN	_	2	advmod	_	_
-10-11	בכל	_	_	_	_	_	_	_	_
-10	ב	ב	ADP	ADP	_	13	dep	_	_
-11	כל	כול	NOUN	NOUN	Definite=Cons	2	advmod	_	_
-12-13	המקרים	_	_	_	_	_	_	_	_
-12	ה	ה	DET	DET	_	13	det:def	_	_
-13	מקרים	מקרה	NOUN	NOUN	_	2	advmod	_	_
-14-15	מתפתח בפינת	_	_	_	_	_	_	_	_
-14	מ	מ	ADV	ADV	_	2	advmod	_	_
-15	תפתחטאבינת	תפתחט	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	dep	_	_
+# file = txt/1200049.txt
+# filelineno = 5
+# sentno = 1
+# text = נקבע שמקסימום מוחלט של מומנט הכפיפה בכל המקרים מתפתח בפינת המבנה.
+# raw = {'id': 1, 'text': 'נקבע שמקסימום מוחלט של מומנט הכפיפה בכל המקרים מתפתח בפינת המבנה.', 'dspan': (0, 65), 'tokens': [{'id': 1, 'text': 'נקבע', 'upos': 'VERB', 'xpos': 'VERB', 'feats': 'Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid', 'head': 0, 'deprel': 'root', 'dspan': (0, 4), 'span': (0, 4), 'lemma': 'נקבע'}, {'id': (2, 3), 'text': 'שמקסימום', 'expanded': [{'id': 2, 'text': 'ש', 'upos': 'SCONJ', 'xpos': 'SCONJ', 'head': 13, 'deprel': 'mark', 'lemma': 'ש'}, {'id': 3, 'text': 'מקסימום', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 13, 'deprel': 'nsubj', 'lemma': 'מקסימום'}], 'span': (5, 13), 'dspan': (5, 13)}, {'id': 4, 'text': 'מוחלט', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Masc|Number=Sing', 'head': 3, 'deprel': 'amod', 'dspan': (14, 19), 'span': (14, 19), 'lemma': 'מוחלט'}, {'id': 5, 'text': 'של', 'upos': 'ADP', 'xpos': 'ADP', 'feats': 'Case=Gen', 'head': 6, 'deprel': 'case', 'dspan': (20, 22), 'span': (20, 22), 'lemma': 'של'}, {'id': 6, 'text': 'מומנט', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Masc|Number=Sing', 'head': 3, 'deprel': 'nmod', 'dspan': (23, 28), 'span': (23, 28), 'lemma': 'מומנט'}, {'id': (7, 8), 'text': 'הכפיפה', 'expanded': [{'id': 7, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'Definite=Def|PronType=Art', 'head': 8, 'deprel': 'det', 'lemma': 'ה'}, {'id': 8, 'text': 'כפיפה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 6, 'deprel': 'compound', 'lemma': 'כפיפה'}], 'span': (29, 35), 'dspan': (29, 35)}, {'id': (9, 10), 'text': 'בכל', 'expanded': [{'id': 9, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 12, 'deprel': 'case', 'lemma': 'ב'}, {'id': 10, 'text': 'כל', 'upos': 'DET', 'xpos': 'DET', 'head': 12, 'deprel': 'det', 'lemma': 'כול'}], 'span': (36, 39), 'dspan': (36, 39)}, {'id': (11, 12), 'text': 'המקרים', 'expanded': [{'id': 11, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'Definite=Def|PronType=Art', 'head': 12, 'deprel': 'det', 'lemma': 'ה'}, {'id': 12, 'text': 'מקרים', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Plur', 'head': 6, 'deprel': 'nmod', 'lemma': 'מקרה'}], 'span': (40, 46), 'dspan': (40, 46)}, {'id': 13, 'text': 'מתפתח', 'upos': 'VERB', 'xpos': 'VERB', 'feats': 'Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Mid', 'head': 1, 'deprel': 'ccomp', 'dspan': (47, 52), 'span': (47, 52), 'lemma': 'התפתח'}, {'id': (14, 15), 'text': 'בפינת', 'expanded': [{'id': 14, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 15, 'deprel': 'case', 'lemma': 'ב'}, {'id': 15, 'text': 'פינת', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Fem|Number=Sing', 'head': 13, 'deprel': 'obl', 'lemma': 'פינה'}], 'span': (53, 58), 'dspan': (53, 58)}, {'id': (16, 17), 'text': 'המבנה', 'expanded': [{'id': 16, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'Definite=Def|PronType=Art', 'head': 17, 'deprel': 'det', 'lemma': 'ה'}, {'id': 17, 'text': 'מבנה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 15, 'deprel': 'compound', 'lemma': 'מבנה'}], 'span': (59, 64), 'dspan': (59, 64)}, {'id': 18, 'text': '.', 'upos': 'PUNCT', 'xpos': 'PUNCT', 'head': 1, 'deprel': 'punct', 'dspan': (64, 65), 'span': (64, 65), 'lemma': '.'}]}
+1	נקבע	נקבע	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
+2-3	שמקסימום	_	_	_	_	_	_	_	_
+2	ש	ש	SCONJ	SCONJ	_	13	mark	_	_
+3	מקסימום	מקסימום	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj	_	_
+4	מוחלט	מוחלט	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	_
+5	של	של	ADP	ADP	Case=Gen	6	case	_	_
+6	מומנט	מומנט	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	3	nmod	_	_
+7-8	הכפיפה	_	_	_	_	_	_	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
+8	כפיפה	כפיפה	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound	_	_
+9-10	בכל	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	12	case	_	_
+10	כל	כול	DET	DET	_	12	det	_	_
+11-12	המקרים	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	מקרים	מקרה	NOUN	NOUN	Gender=Masc|Number=Plur	6	nmod	_	_
+13	מתפתח	התפתח	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Mid	1	ccomp	_	_
+14-15	בפינת	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	פינת	פינה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	13	obl	_	_
 16-17	המבנה	_	_	_	_	_	_	_	_
-16	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
-17	מבנה	מבנה	NOUN	NOUN	Gender=Masc|Number=Sing	2	advmod	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	מבנה	מבנה	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound	_	_
+18	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-
+# file = txt/1200049.txt
+# filelineno = 5
+# sentno = 2
+# text = בנוסף לזה קיימים ערכי מקסימום מקומיים באזור הגג (בארך בזווית של 450) ובחלק התחתון של הקירות (בערך בשליש הגובה).
+# raw = {'id': 2, 'text': 'בנוסף לזה קיימים ערכי מקסימום מקומיים באזור הגג (בארך בזווית של 450) ובחלק התחתון של הקירות (בערך בשליש הגובה).', 'dspan': (66, 177), 'tokens': [{'id': (1, 2), 'text': 'בנוסף', 'expanded': [{'id': 1, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 4, 'deprel': 'case', 'lemma': 'ב'}, {'id': 2, 'text': 'נוסף', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Masc|Number=Sing', 'head': 1, 'deprel': 'fixed', 'lemma': 'נוסף'}], 'span': (0, 5), 'dspan': (66, 71)}, {'id': (3, 4), 'text': 'לזה', 'expanded': [{'id': 3, 'text': 'ל', 'upos': 'ADP', 'xpos': 'ADP', 'feats': 'Definite=Def|PronType=Art', 'head': 1, 'deprel': 'fixed', 'lemma': 'ל'}, {'id': 4, 'text': 'זה', 'upos': 'PRON', 'xpos': 'PRON', 'feats': 'Gender=Masc|Number=Sing|Person=3|PronType=Dem', 'head': 5, 'deprel': 'obl', 'lemma': 'זה'}], 'span': (6, 9), 'dspan': (72, 75)}, {'id': 5, 'text': 'קיימים', 'upos': 'VERB', 'xpos': 'VERB', 'feats': 'VerbForm=Part', 'head': 0, 'deprel': 'root', 'dspan': (76, 82), 'span': (10, 16), 'lemma': 'קיים'}, {'id': 6, 'text': 'ערכי', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Masc|Number=Plur', 'head': 5, 'deprel': 'nsubj', 'dspan': (83, 87), 'span': (17, 21), 'lemma': 'ערך'}, {'id': 7, 'text': 'מקסימום', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 6, 'deprel': 'compound', 'dspan': (88, 95), 'span': (22, 29), 'lemma': 'מקסימום'}, {'id': 8, 'text': 'מקומיים', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Masc|Number=Plur', 'head': 6, 'deprel': 'amod', 'dspan': (96, 103), 'span': (30, 37), 'lemma': 'מקומי'}, {'id': (9, 10), 'text': 'באזור', 'expanded': [{'id': 9, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 10, 'deprel': 'case', 'lemma': 'ב'}, {'id': 10, 'text': 'אזור', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Masc|Number=Sing', 'head': 6, 'deprel': 'nmod', 'lemma': 'אזור'}], 'span': (38, 43), 'dspan': (104, 109)}, {'id': (11, 12), 'text': 'הגג', 'expanded': [{'id': 11, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'Definite=Def|PronType=Art', 'head': 12, 'deprel': 'det', 'lemma': 'ה'}, {'id': 12, 'text': 'גג', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 10, 'deprel': 'compound', 'lemma': 'גג'}], 'span': (44, 47), 'dspan': (110, 113)}, {'id': 13, 'text': '(', 'upos': 'PUNCT', 'xpos': 'PUNCT', 'head': 15, 'deprel': 'punct', 'dspan': (114, 115), 'span': (48, 49), 'lemma': '('}, {'id': (14, 15), 'text': 'בארך', 'expanded': [{'id': 14, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 15, 'deprel': 'case', 'lemma': 'ב'}, {'id': 15, 'text': 'ארך', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 10, 'deprel': 'appos', 'lemma': 'ארך'}], 'span': (49, 53), 'dspan': (115, 119)}, {'id': (16, 17), 'text': 'בזווית', 'expanded': [{'id': 16, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 17, 'deprel': 'case', 'lemma': 'ב'}, {'id': 17, 'text': 'זווית', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 15, 'deprel': 'nmod', 'lemma': 'זווית'}], 'span': (54, 60), 'dspan': (120, 126)}, {'id': 18, 'text': 'של', 'upos': 'ADP', 'xpos': 'ADP', 'feats': 'Case=Gen', 'head': 19, 'deprel': 'case', 'dspan': (127, 129), 'span': (61, 63), 'lemma': 'של'}, {'id': 19, 'text': '450', 'upos': 'NUM', 'xpos': 'NUM', 'head': 17, 'deprel': 'nmod:poss', 'dspan': (130, 133), 'span': (64, 67), 'lemma': '450'}, {'id': 20, 'text': ')', 'upos': 'PUNCT', 'xpos': 'PUNCT', 'head': 15, 'deprel': 'punct', 'dspan': (133, 134), 'span': (67, 68), 'lemma': ')'}, {'id': (21, 23), 'text': 'ובחלק', 'expanded': [{'id': 21, 'text': 'ו', 'upos': 'CCONJ', 'xpos': 'CCONJ', 'head': 23, 'deprel': 'cc', 'lemma': 'ו'}, {'id': 22, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'feats': 'Definite=Def|PronType=Art', 'head': 23, 'deprel': 'case', 'lemma': 'ב'}, {'id': 23, 'text': 'חלק', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 10, 'deprel': 'conj', 'lemma': 'חלק'}], 'span': (69, 74), 'dspan': (135, 140)}, {'id': (24, 25), 'text': 'התחתון', 'expanded': [{'id': 24, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'Definite=Def|PronType=Art', 'head': 25, 'deprel': 'det', 'lemma': 'ה'}, {'id': 25, 'text': 'תחתון', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Masc|Number=Sing', 'head': 23, 'deprel': 'amod', 'lemma': 'תחתון'}], 'span': (75, 81), 'dspan': (141, 147)}, {'id': 26, 'text': 'של', 'upos': 'ADP', 'xpos': 'ADP', 'feats': 'Case=Gen', 'head': 28, 'deprel': 'case', 'dspan': (148, 150), 'span': (82, 84), 'lemma': 'של'}, {'id': (27, 28), 'text': 'הקירות', 'expanded': [{'id': 27, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'Definite=Def|PronType=Art', 'head': 28, 'deprel': 'det', 'lemma': 'ה'}, {'id': 28, 'text': 'קירות', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Plur', 'head': 23, 'deprel': 'nmod:poss', 'lemma': 'קיר'}], 'span': (85, 91), 'dspan': (151, 157)}, {'id': 29, 'text': '(', 'upos': 'PUNCT', 'xpos': 'PUNCT', 'head': 32, 'deprel': 'punct', 'dspan': (158, 159), 'span': (92, 93), 'lemma': '('}, {'id': 30, 'text': 'בערך', 'upos': 'ADV', 'xpos': 'ADV', 'head': 32, 'deprel': 'advmod', 'dspan': (159, 163), 'span': (93, 97), 'lemma': 'בערך'}, {'id': (31, 32), 'text': 'בשליש', 'expanded': [{'id': 31, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 32, 'deprel': 'case', 'lemma': 'ב'}, {'id': 32, 'text': 'שליש', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Masc|Number=Sing', 'head': 23, 'deprel': 'appos', 'lemma': 'שליש'}], 'span': (98, 103), 'dspan': (164, 169)}, {'id': (33, 34), 'text': 'הגובה', 'expanded': [{'id': 33, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'Definite=Def|PronType=Art', 'head': 34, 'deprel': 'det', 'lemma': 'ה'}, {'id': 34, 'text': 'גובה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 32, 'deprel': 'compound', 'lemma': 'גובה'}], 'span': (104, 109), 'dspan': (170, 175)}, {'id': 35, 'text': ')', 'upos': 'PUNCT', 'xpos': 'PUNCT', 'head': 32, 'deprel': 'punct', 'dspan': (175, 176), 'span': (109, 110), 'lemma': ')'}, {'id': 36, 'text': '.', 'upos': 'PUNCT', 'xpos': 'PUNCT', 'head': 5, 'deprel': 'punct', 'dspan': (176, 177), 'span': (110, 111), 'lemma': '.'}]}
 1-2	בנוסף	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	4	case	_	_
-2	נוסף	נוסף	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Mid	1	fixed	_	_
+2	נוסף	נוסף	ADJ	ADJ	Gender=Masc|Number=Sing	1	fixed	_	_
 3-4	לזה	_	_	_	_	_	_	_	_
-3	ל	ל	ADP	ADP	_	1	fixed	_	_
-4	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	5	obl	_	_
+3	ל	ל	ADP	ADP	Definite=Def|PronType=Art	1	fixed	_	_
+4	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	obl	_	_
 5	קיימים	קיים	VERB	VERB	VerbForm=Part	0	root	_	_
 6	ערכי	ערך	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	nsubj	_	_
-7	מקסימום	מקסימום	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound:smixut	_	_
+7	מקסימום	מקסימום	NOUN	NOUN	Gender=Masc|Number=Sing	6	compound	_	_
 8	מקומיים	מקומי	ADJ	ADJ	Gender=Masc|Number=Plur	6	amod	_	_
 9-10	באזור	_	_	_	_	_	_	_	_
 9	ב	ב	ADP	ADP	_	10	case	_	_
 10	אזור	אזור	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	nmod	_	_
 11-12	הגג	_	_	_	_	_	_	_	_
-11	ה	ה	DET	DET	PronType=Art	12	det:def	_	_
-12	גג	גג	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound:smixut	_	_
-13	(	(	PUNCT	PUNCT	_	14	punct	_	_
-14	בארך	בארך	NOUN	NOUN	Gender=Masc|Number=Sing	10	appos	_	_
-15-16	בזווית	_	_	_	_	_	_	_	_
-15	ב	ב	ADP	ADP	_	16	case	_	_
-16	זווית	זווית	NOUN	NOUN	Gender=Fem|Number=Sing	14	nmod	_	_
-17	של	של	ADP	ADP	Case=Gen	18	case:gen	_	_
-18	450	450	NUM	NUM	_	16	nmod:poss	_	_
-19	)	)	PUNCT	PUNCT	_	14	punct	_	_
-20-22	ובחלק	_	_	_	_	_	_	_	_
-20	ו	ו	CCONJ	CCONJ	_	22	cc	_	_
-21	ב	ב	ADP	ADP	_	22	case	_	_
-22	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	10	conj	_	_
-23-24	התחתון	_	_	_	_	_	_	_	_
-23	ה	ה	DET	DET	PronType=Art	24	det:def	_	_
-24	תחתון	תחתון	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	_
-25	של	של	ADP	ADP	Case=Gen	27	case:gen	_	_
-26-27	הקירות	_	_	_	_	_	_	_	_
-26	ה	ה	DET	DET	PronType=Art	27	det:def	_	_
-27	קירות	קיר	NOUN	NOUN	Gender=Masc|Number=Plur	22	nmod	_	_
-28	(	(	PUNCT	PUNCT	_	30	punct	_	_
-29-30	בערך	_	_	_	_	_	_	_	_
-29	ב	ב	ADP	ADP	_	30	case	_	_
-30	ערך	ערך	NOUN	NOUN	Gender=Masc|Number=Sing	22	appos	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	גג	גג	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound	_	_
+13	(	(	PUNCT	PUNCT	_	15	punct	_	_
+14-15	בארך	_	_	_	_	_	_	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	ארך	ארך	NOUN	NOUN	Gender=Masc|Number=Sing	10	appos	_	_
+16-17	בזווית	_	_	_	_	_	_	_	_
+16	ב	ב	ADP	ADP	_	17	case	_	_
+17	זווית	זווית	NOUN	NOUN	Gender=Fem|Number=Sing	15	nmod	_	_
+18	של	של	ADP	ADP	Case=Gen	19	case	_	_
+19	450	450	NUM	NUM	_	17	nmod:poss	_	_
+20	)	)	PUNCT	PUNCT	_	15	punct	_	_
+21-23	ובחלק	_	_	_	_	_	_	_	_
+21	ו	ו	CCONJ	CCONJ	_	23	cc	_	_
+22	ב	ב	ADP	ADP	Definite=Def|PronType=Art	23	case	_	_
+23	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	10	conj	_	_
+24-25	התחתון	_	_	_	_	_	_	_	_
+24	ה	ה	DET	DET	Definite=Def|PronType=Art	25	det	_	_
+25	תחתון	תחתון	ADJ	ADJ	Gender=Masc|Number=Sing	23	amod	_	_
+26	של	של	ADP	ADP	Case=Gen	28	case	_	_
+27-28	הקירות	_	_	_	_	_	_	_	_
+27	ה	ה	DET	DET	Definite=Def|PronType=Art	28	det	_	_
+28	קירות	קיר	NOUN	NOUN	Gender=Masc|Number=Plur	23	nmod:poss	_	_
+29	(	(	PUNCT	PUNCT	_	32	punct	_	_
+30	בערך	בערך	ADV	ADV	_	32	advmod	_	_
 31-32	בשליש	_	_	_	_	_	_	_	_
 31	ב	ב	ADP	ADP	_	32	case	_	_
-32	שליש	שליש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	30	nmod	_	_
+32	שליש	שליש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	23	appos	_	_
 33-34	הגובה	_	_	_	_	_	_	_	_
-33	ה	ה	DET	DET	PronType=Art	34	det:def	_	_
-34	גובה	גובה	NOUN	NOUN	Gender=Masc|Number=Sing	30	nmod	_	_
-35	)	)	PUNCT	PUNCT	_	30	punct	_	_
+33	ה	ה	DET	DET	Definite=Def|PronType=Art	34	det	_	_
+34	גובה	גובה	NOUN	NOUN	Gender=Masc|Number=Sing	32	compound	_	_
+35	)	)	PUNCT	PUNCT	_	32	punct	_	_
+36	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
-
+# file = txt/1200049.txt
+# filelineno = 5
+# sentno = 3
+# text = כל המומנטים האלה קטנים עם קשיחות שכבת הביניים.
+# raw = {'id': 3, 'text': 'כל המומנטים האלה קטנים עם קשיחות שכבת הביניים.', 'dspan': (178, 224), 'tokens': [{'id': 1, 'text': 'כל', 'upos': 'DET', 'xpos': 'DET', 'feats': 'Definite=Cons', 'head': 3, 'deprel': 'det', 'dspan': (178, 180), 'span': (0, 2), 'lemma': 'כול'}, {'id': (2, 3), 'text': 'המומנטים', 'expanded': [{'id': 2, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'Definite=Def|PronType=Art', 'head': 3, 'deprel': 'det', 'lemma': 'ה'}, {'id': 3, 'text': 'מומנטים', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Plur', 'head': 6, 'deprel': 'nsubj', 'lemma': 'מומנטים'}], 'span': (3, 11), 'dspan': (181, 189)}, {'id': (4, 5), 'text': 'האלה', 'expanded': [{'id': 4, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'Definite=Def|PronType=Art', 'head': 5, 'deprel': 'det', 'lemma': 'ה'}, {'id': 5, 'text': 'אלה', 'upos': 'PRON', 'xpos': 'PRON', 'feats': 'Gender=Masc|Number=Plur|Person=3|PronType=Dem', 'head': 3, 'deprel': 'det', 'lemma': 'זה'}], 'span': (12, 16), 'dspan': (190, 194)}, {'id': 6, 'text': 'קטנים', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Masc|Number=Plur', 'head': 0, 'deprel': 'root', 'dspan': (195, 200), 'span': (17, 22), 'lemma': 'קטן'}, {'id': 7, 'text': 'עם', 'upos': 'ADP', 'xpos': 'ADP', 'head': 8, 'deprel': 'case', 'dspan': (201, 203), 'span': (23, 25), 'lemma': 'עם'}, {'id': 8, 'text': 'קשיחות', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Fem|Number=Sing', 'head': 6, 'deprel': 'obl', 'dspan': (204, 210), 'span': (26, 32), 'lemma': 'קשיחות'}, {'id': 9, 'text': 'שכבת', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Fem|Number=Sing', 'head': 8, 'deprel': 'compound', 'dspan': (211, 215), 'span': (33, 37), 'lemma': 'שכבה'}, {'id': (10, 11), 'text': 'הביניים', 'expanded': [{'id': 10, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'Definite=Def|PronType=Art', 'head': 11, 'deprel': 'det', 'lemma': 'ה'}, {'id': 11, 'text': 'ביניים', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 9, 'deprel': 'compound', 'lemma': 'ביניים'}], 'span': (38, 45), 'dspan': (216, 223)}, {'id': 12, 'text': '.', 'upos': 'PUNCT', 'xpos': 'PUNCT', 'head': 6, 'deprel': 'punct', 'dspan': (223, 224), 'span': (45, 46), 'lemma': '.'}]}
 1	כל	כול	DET	DET	Definite=Cons	3	det	_	_
 2-3	המומנטים	_	_	_	_	_	_	_	_
-2	ה	ה	DET	DET	PronType=Art	3	det:def	_	_
-3	מומנטים	מומנט	NOUN	NOUN	Gender=Masc|Number=Plur	6	nsubj	_	_
+2	ה	ה	DET	DET	Definite=Def|PronType=Art	3	det	_	_
+3	מומנטים	מומנטים	NOUN	NOUN	Gender=Masc|Number=Plur	6	nsubj	_	_
 4-5	האלה	_	_	_	_	_	_	_	_
-4	ה	ה	DET	DET	PronType=Art	5	det:def	_	_
-5	אלה	אלה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	3	det	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	אלה	זה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	3	det	_	_
 6	קטנים	קטן	ADJ	ADJ	Gender=Masc|Number=Plur	0	root	_	_
 7	עם	עם	ADP	ADP	_	8	case	_	_
-8	קשיחות	קשיחה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	6	obl	_	_
-9	שכבת	שכבה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	compound:smixut	_	_
+8	קשיחות	קשיחות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	obl	_	_
+9	שכבת	שכבה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	compound	_	_
 10-11	הביניים	_	_	_	_	_	_	_	_
-10	ה	ה	DET	DET	PronType=Art	11	det:def	_	_
-11	ביניים	ביניים	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound:smixut	_	_
+10	ה	ה	DET	DET	Definite=Def|PronType=Art	11	det	_	_
+11	ביניים	ביניים	NOUN	NOUN	Gender=Masc|Number=Sing	9	compound	_	_
+12	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
-
+# file = txt/1200049.txt
+# filelineno = 5
+# sentno = 4
+# text = במקרה של גל גזירה המומנטים המרביים בנקודות מתאימות גדלים כמעט פי 10 יחסית למומנטים אשר מתפתחים בדיפון במקרה של גל לחץ.
+# raw = {'id': 4, 'text': 'במקרה של גל גזירה המומנטים המרביים בנקודות מתאימות גדלים כמעט פי 10 יחסית למומנטים אשר מתפתחים בדיפון במקרה של גל לחץ.', 'dspan': (225, 343), 'tokens': [{'id': (1, 2), 'text': 'במקרה', 'expanded': [{'id': 1, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 2, 'deprel': 'case', 'lemma': 'ב'}, {'id': 2, 'text': 'מקרה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 13, 'deprel': 'obl', 'lemma': 'מקרה'}], 'span': (0, 5), 'dspan': (225, 230)}, {'id': 3, 'text': 'של', 'upos': 'ADP', 'xpos': 'ADP', 'feats': 'Case=Gen', 'head': 4, 'deprel': 'case', 'dspan': (231, 233), 'span': (6, 8), 'lemma': 'של'}, {'id': 4, 'text': 'גל', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Masc|Number=Sing', 'head': 2, 'deprel': 'nmod:poss', 'dspan': (234, 236), 'span': (9, 11), 'lemma': 'גל'}, {'id': 5, 'text': 'גזירה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 4, 'deprel': 'compound', 'dspan': (237, 242), 'span': (12, 17), 'lemma': 'גזירה'}, {'id': (6, 7), 'text': 'המומנטים', 'expanded': [{'id': 6, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'Definite=Def|PronType=Art', 'head': 7, 'deprel': 'det', 'lemma': 'ה'}, {'id': 7, 'text': 'מומנטים', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Plur', 'head': 13, 'deprel': 'nsubj', 'lemma': 'מומנטים'}], 'span': (18, 26), 'dspan': (243, 251)}, {'id': (8, 9), 'text': 'המרביים', 'expanded': [{'id': 8, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'Definite=Def|PronType=Art', 'head': 9, 'deprel': 'det', 'lemma': 'ה'}, {'id': 9, 'text': 'מרביים', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Masc|Number=Plur', 'head': 7, 'deprel': 'amod', 'lemma': 'מרביים'}], 'span': (27, 34), 'dspan': (252, 259)}, {'id': (10, 11), 'text': 'בנקודות', 'expanded': [{'id': 10, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 11, 'deprel': 'case', 'lemma': 'ב'}, {'id': 11, 'text': 'נקודות', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Plur', 'head': 7, 'deprel': 'nmod', 'lemma': 'נקודה'}], 'span': (35, 42), 'dspan': (260, 267)}, {'id': 12, 'text': 'מתאימות', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Fem|Number=Plur', 'head': 11, 'deprel': 'amod', 'dspan': (268, 275), 'span': (43, 50), 'lemma': 'מתאים'}, {'id': 13, 'text': 'גדלים', 'upos': 'VERB', 'xpos': 'VERB', 'feats': 'Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Mid', 'head': 0, 'deprel': 'root', 'dspan': (276, 281), 'span': (51, 56), 'lemma': 'גדל'}, {'id': 14, 'text': 'כמעט', 'upos': 'ADV', 'xpos': 'ADV', 'head': 16, 'deprel': 'advmod', 'dspan': (282, 286), 'span': (57, 61), 'lemma': 'כמעט'}, {'id': 15, 'text': 'פי', 'upos': 'ADV', 'xpos': 'ADV', 'head': 16, 'deprel': 'advmod', 'dspan': (287, 289), 'span': (62, 64), 'lemma': 'פי'}, {'id': 16, 'text': '10', 'upos': 'NUM', 'xpos': 'NUM', 'head': 13, 'deprel': 'obl', 'dspan': (290, 292), 'span': (65, 67), 'lemma': '10'}, {'id': 17, 'text': 'יחסית', 'upos': 'ADV', 'xpos': 'ADV', 'head': 19, 'deprel': 'advmod', 'dspan': (293, 298), 'span': (68, 73), 'lemma': 'יחסית'}, {'id': (18, 19), 'text': 'למומנטים', 'expanded': [{'id': 18, 'text': 'ל', 'upos': 'ADP', 'xpos': 'ADP', 'feats': 'Definite=Def|PronType=Art', 'head': 17, 'deprel': 'fixed', 'lemma': 'ל'}, {'id': 19, 'text': 'מומנטים', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Plur', 'head': 13, 'deprel': 'obl', 'lemma': 'מומנטים'}], 'span': (74, 82), 'dspan': (299, 307)}, {'id': 20, 'text': 'אשר', 'upos': 'SCONJ', 'xpos': 'SCONJ', 'head': 21, 'deprel': 'mark', 'dspan': (308, 311), 'span': (83, 86), 'lemma': 'אשר'}, {'id': 21, 'text': 'מתפתחים', 'upos': 'VERB', 'xpos': 'VERB', 'feats': 'Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Mid', 'head': 19, 'deprel': 'acl:relcl', 'dspan': (312, 319), 'span': (87, 94), 'lemma': 'מתפתחים'}, {'id': (22, 23), 'text': 'בדיפון', 'expanded': [{'id': 22, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'feats': 'Definite=Def|PronType=Art', 'head': 23, 'deprel': 'case', 'lemma': 'ב'}, {'id': 23, 'text': 'דיפון', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 21, 'deprel': 'obl', 'lemma': 'דיפון'}], 'span': (95, 101), 'dspan': (320, 326)}, {'id': (24, 25), 'text': 'במקרה', 'expanded': [{'id': 24, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 25, 'deprel': 'case', 'lemma': 'ב'}, {'id': 25, 'text': 'מקרה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 21, 'deprel': 'obl', 'lemma': 'מקרה'}], 'span': (102, 107), 'dspan': (327, 332)}, {'id': 26, 'text': 'של', 'upos': 'ADP', 'xpos': 'ADP', 'feats': 'Case=Gen', 'head': 27, 'deprel': 'case', 'dspan': (333, 335), 'span': (108, 110), 'lemma': 'של'}, {'id': 27, 'text': 'גל', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Masc|Number=Sing', 'head': 25, 'deprel': 'nmod:poss', 'dspan': (336, 338), 'span': (111, 113), 'lemma': 'גל'}, {'id': 28, 'text': 'לחץ', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 27, 'deprel': 'compound', 'dspan': (339, 342), 'span': (114, 117), 'lemma': 'לחץ'}, {'id': 29, 'text': '.', 'upos': 'PUNCT', 'xpos': 'PUNCT', 'head': 13, 'deprel': 'punct', 'dspan': (342, 343), 'span': (117, 118), 'lemma': '.'}]}
 1-2	במקרה	_	_	_	_	_	_	_	_
-1	ב	ב	ADP	ADP	_	6	case	_	_
-2	מקרה	מקרה	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
-3	של	של	ADP	ADP	Case=Gen	6	case:gen	_	_
-4-5	גל	_	_	_	_	_	_	_	_
-4	גל	גל	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod:poss	_	_
-5	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	_
-6-7	גז	_	_	_	_	_	_	_	_
-6	גז	גז	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
-7	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	_
-8-10	ירה	_	_	_	_	_	_	_	_
-8	יר_	יר	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	_
-9	_של_	של	ADP	ADP	_	10	case:gen	_	_
-10	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nmod:poss	_	_
-11-12	המומנטים	_	_	_	_	_	_	_	_
-11	ה	ה	DET	DET	PronType=Art	12	dep	_	_
-12	מומנטים	מומנט	NOUN	NOUN	Gender=Masc|Number=Plur	6	obj	_	_
-13-14	המרבי	_	_	_	_	_	_	_	_
-13	ה	ה	DET	DET	PronType=Art	14	det:def	_	_
-14	מרבי	מרבי	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	_
-15-17	ים	_	_	_	_	_	_	_	_
-15	ים_	ים	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	12	dep	_	_
-16	_של_	של	ADP	ADP	PronType=Art	17	case:gen	_	_
-17	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	nmod:poss	_	_
-18-19	בנקודות	_	_	_	_	_	_	_	_
-18	ב	ב	NOUN	NOUN	_	19	case	_	_
-19	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	6	nmod	_	_
-20-21	מתאימות	_	_	_	_	_	_	_	_
-20	מ	מ	NOUN	NOUN	_	19	compound:smixut	_	_
-21	תאימות	תאימות	NOUN	NOUN	Gender=Masc|Number=Sing	19	nmod	_	_
-22-24	גדלים	_	_	_	_	_	_	_	_
-22	גדל_	גדל	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	21	compound:smixut	_	_
-23	_של_	של	ADP	ADP	_	24	case:gen	_	_
-24	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	nmod:poss	_	_
-25	כמעט	כמעט	ADV	ADV	_	27	det	_	_
-26	פי	פי	ADV	ADV	_	27	det	_	_
-27	10	10	NUM	NUM	_	6	dep	_	_
-28-30	יחסית	_	_	_	_	_	_	_	_
-28	יחסית	יחסית	ADV	ADV	_	27	det	_	_
-29	את	את	ADP	ADP	Case=Acc	33	case:acc	_	_
-30	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	_
-31-33	למומנט	_	_	_	_	_	_	_	_
-31	ל	ל	ADP	ADP	_	33	case	_	_
-32	ה_	ה	DET	DET	PronType=Art	33	det:def	_	_
-33	מומנט	מומנט	NOUN	NOUN	Gender=Masc|Number=Plur	37	nmod	_	_
-34-36	ים	_	_	_	_	_	_	_	_
-34	ים_	ים	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	33	nmod	_	_
-35	_של_	של	ADP	ADP	_	36	case:gen	_	_
-36	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	33	nmod:poss	_	_
-37-37	אשר מת	_	_	_	_	_	_	_	_
-37	אשרצמת	אשרצמת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	28	dep	_	_
-38-40	פתחים	_	_	_	_	_	_	_	_
-38	פתח_	פתח	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	37	compound:smixut	_	_
-39	_של_	של	ADP	ADP	PronType=Art	40	case:gen	_	_
-40	_הם	הוא	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	38	nmod:poss	_	_
-41-43	בדיפון	_	_	_	_	_	_	_	_
-41	ב	ב	ADP	ADP	_	28	case	_	_
-42	ה_	ה	DET	DET	PronType=Art	43	det:def	_	_
-43	דיפון	דיפון	NOUN	NOUN	Gender=Masc|Number=Sing	38	nmod	_	_
-44-45	במקרה	_	_	_	_	_	_	_	_
-44	ב	ב	ADP	ADP	_	28	dep	_	_
-45	מקרה	מקרה	NOUN	NOUN	Gender=Masc|Number=Sing	37	dep	_	_
-46-49	של גל לחץ	_	_	_	_	_	_	_	_
-46	ש	ש	SCONJ	SCONJ	_	37	dep	_	_
-47	ל	ל	ADP	ADP	_	28	case	_	_
-48	ה_	ה	DET	DET	PronType=Art	49	det:def	_	_
-49	פגלפלחץ	פגלפלחץ	NOUN	NOUN	Gender=Masc|Number=Sing	37	nmod	_	_
+1	ב	ב	ADP	ADP	_	2	case	_	_
+2	מקרה	מקרה	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
+3	של	של	ADP	ADP	Case=Gen	4	case	_	_
+4	גל	גל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	2	nmod:poss	_	_
+5	גזירה	גזירה	NOUN	NOUN	Gender=Fem|Number=Sing	4	compound	_	_
+6-7	המומנטים	_	_	_	_	_	_	_	_
+6	ה	ה	DET	DET	Definite=Def|PronType=Art	7	det	_	_
+7	מומנטים	מומנטים	NOUN	NOUN	Gender=Masc|Number=Plur	13	nsubj	_	_
+8-9	המרביים	_	_	_	_	_	_	_	_
+8	ה	ה	DET	DET	Definite=Def|PronType=Art	9	det	_	_
+9	מרביים	מרביים	ADJ	ADJ	Gender=Masc|Number=Plur	7	amod	_	_
+10-11	בנקודות	_	_	_	_	_	_	_	_
+10	ב	ב	ADP	ADP	_	11	case	_	_
+11	נקודות	נקודה	NOUN	NOUN	Gender=Fem|Number=Plur	7	nmod	_	_
+12	מתאימות	מתאים	ADJ	ADJ	Gender=Fem|Number=Plur	11	amod	_	_
+13	גדלים	גדל	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	_
+14	כמעט	כמעט	ADV	ADV	_	16	advmod	_	_
+15	פי	פי	ADV	ADV	_	16	advmod	_	_
+16	10	10	NUM	NUM	_	13	obl	_	_
+17	יחסית	יחסית	ADV	ADV	_	19	advmod	_	_
+18-19	למומנטים	_	_	_	_	_	_	_	_
+18	ל	ל	ADP	ADP	Definite=Def|PronType=Art	17	fixed	_	_
+19	מומנטים	מומנטים	NOUN	NOUN	Gender=Masc|Number=Plur	13	obl	_	_
+20	אשר	אשר	SCONJ	SCONJ	_	21	mark	_	_
+21	מתפתחים	מתפתחים	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Pres|VerbForm=Part|Voice=Mid	19	acl:relcl	_	_
+22-23	בדיפון	_	_	_	_	_	_	_	_
+22	ב	ב	ADP	ADP	Definite=Def|PronType=Art	23	case	_	_
+23	דיפון	דיפון	NOUN	NOUN	Gender=Masc|Number=Sing	21	obl	_	_
+24-25	במקרה	_	_	_	_	_	_	_	_
+24	ב	ב	ADP	ADP	_	25	case	_	_
+25	מקרה	מקרה	NOUN	NOUN	Gender=Masc|Number=Sing	21	obl	_	_
+26	של	של	ADP	ADP	Case=Gen	27	case	_	_
+27	גל	גל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	25	nmod:poss	_	_
+28	לחץ	לחץ	NOUN	NOUN	Gender=Masc|Number=Sing	27	compound	_	_
+29	.	.	PUNCT	PUNCT	_	13	punct	_	_
 
-
-1	יש	יש	AUX	AUX	VerbType=Mod	2	aux	_	_
-2	להדגיש	הדגיש	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	0	root	_	_
+# file = txt/1200049.txt
+# filelineno = 5
+# sentno = 5
+# text = יש להדגיש שמומנט מרבי לאורך הקיר מתקרב למומנט בפינה כאשר קשיחות השכבה עולה.
+# raw = {'id': 5, 'text': 'יש להדגיש שמומנט מרבי לאורך הקיר מתקרב למומנט בפינה כאשר קשיחות השכבה עולה.', 'dspan': (344, 419), 'tokens': [{'id': 1, 'text': 'יש', 'upos': 'VERB', 'xpos': 'AUX', 'feats': 'Polarity=Pos|VerbType=Mod', 'head': 0, 'deprel': 'root', 'dspan': (344, 346), 'span': (0, 2), 'lemma': 'יש'}, {'id': 2, 'text': 'להדגיש', 'upos': 'VERB', 'xpos': 'VERB', 'feats': 'HebBinyan=HIFIL|VerbForm=Inf|Voice=Act', 'head': 1, 'deprel': 'csubj', 'dspan': (347, 353), 'span': (3, 9), 'lemma': 'הדגיש'}, {'id': (3, 4), 'text': 'שמומנט', 'expanded': [{'id': 3, 'text': 'ש', 'upos': 'SCONJ', 'xpos': 'SCONJ', 'head': 9, 'deprel': 'mark', 'lemma': 'ש'}, {'id': 4, 'text': 'מומנט', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 9, 'deprel': 'nsubj', 'lemma': 'מומנט'}], 'span': (10, 16), 'dspan': (354, 360)}, {'id': 5, 'text': 'מרבי', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Masc|Number=Sing', 'head': 4, 'deprel': 'amod', 'dspan': (361, 365), 'span': (17, 21), 'lemma': 'מרבי'}, {'id': 6, 'text': 'לאורך', 'upos': 'ADP', 'xpos': 'ADP', 'head': 8, 'deprel': 'case', 'dspan': (366, 371), 'span': (22, 27), 'lemma': 'לאורך'}, {'id': (7, 8), 'text': 'הקיר', 'expanded': [{'id': 7, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'Definite=Def|PronType=Art', 'head': 8, 'deprel': 'det', 'lemma': 'ה'}, {'id': 8, 'text': 'קיר', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 4, 'deprel': 'nmod', 'lemma': 'קיר'}], 'span': (28, 32), 'dspan': (372, 376)}, {'id': 9, 'text': 'מתקרב', 'upos': 'VERB', 'xpos': 'VERB', 'feats': 'Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Mid', 'head': 2, 'deprel': 'ccomp', 'dspan': (377, 382), 'span': (33, 38), 'lemma': 'התקרב'}, {'id': (10, 11), 'text': 'למומנט', 'expanded': [{'id': 10, 'text': 'ל', 'upos': 'ADP', 'xpos': 'ADP', 'head': 11, 'deprel': 'case', 'lemma': 'ל'}, {'id': 11, 'text': 'מומנט', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 9, 'deprel': 'obl', 'lemma': 'מומנט'}], 'span': (39, 45), 'dspan': (383, 389)}, {'id': (12, 13), 'text': 'בפינה', 'expanded': [{'id': 12, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'feats': 'Definite=Def|PronType=Art', 'head': 13, 'deprel': 'case', 'lemma': 'ב'}, {'id': 13, 'text': 'פינה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 11, 'deprel': 'nmod', 'lemma': 'פינה'}], 'span': (46, 51), 'dspan': (390, 395)}, {'id': 14, 'text': 'כאשר', 'upos': 'SCONJ', 'xpos': 'SCONJ', 'head': 18, 'deprel': 'mark', 'dspan': (396, 400), 'span': (52, 56), 'lemma': 'כאשר'}, {'id': 15, 'text': 'קשיחות', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Fem|Number=Plur', 'head': 18, 'deprel': 'nsubj', 'dspan': (401, 407), 'span': (57, 63), 'lemma': 'קשיחות'}, {'id': (16, 17), 'text': 'השכבה', 'expanded': [{'id': 16, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'Definite=Def|PronType=Art', 'head': 17, 'deprel': 'det', 'lemma': 'ה'}, {'id': 17, 'text': 'שכבה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 15, 'deprel': 'compound', 'lemma': 'שכבה'}], 'span': (64, 69), 'dspan': (408, 413)}, {'id': 18, 'text': 'עולה', 'upos': 'VERB', 'xpos': 'VERB', 'feats': 'Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act', 'head': 9, 'deprel': 'advcl', 'dspan': (414, 418), 'span': (70, 74), 'lemma': 'עלה'}, {'id': 19, 'text': '.', 'upos': 'PUNCT', 'xpos': 'PUNCT', 'head': 1, 'deprel': 'punct', 'dspan': (418, 419), 'span': (74, 75), 'lemma': '.'}]}
+1	יש	יש	VERB	AUX	Polarity=Pos|VerbType=Mod	0	root	_	_
+2	להדגיש	הדגיש	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	1	csubj	_	_
 3-4	שמומנט	_	_	_	_	_	_	_	_
 3	ש	ש	SCONJ	SCONJ	_	9	mark	_	_
 4	מומנט	מומנט	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
 5	מרבי	מרבי	ADJ	ADJ	Gender=Masc|Number=Sing	4	amod	_	_
 6	לאורך	לאורך	ADP	ADP	_	8	case	_	_
 7-8	הקיר	_	_	_	_	_	_	_	_
-7	ה	ה	DET	DET	PronType=Art	8	det:def	_	_
+7	ה	ה	DET	DET	Definite=Def|PronType=Art	8	det	_	_
 8	קיר	קיר	NOUN	NOUN	Gender=Masc|Number=Sing	4	nmod	_	_
-9	מתקרב	התקרב	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|VerbForm=Part	2	advcl	_	_
-10-12	למומנט	_	_	_	_	_	_	_	_
-10	ל	ל	ADP	ADP	_	12	case	_	_
-11	ה_	ה	DET	DET	PronType=Art	12	det:def	_	_
-12	מומנט	מומנט	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
-13-14	בפינה	_	_	_	_	_	_	_	_
-13	ב	ב	ADP	ADP	_	14	case	_	_
-14	פינה	פינה	NOUN	NOUN	Gender=Fem|Number=Sing	12	nmod	_	_
-15	כאשר	כאשר	SCONJ	SCONJ	_	19	mark	_	_
-16	קשיחות	קשיחה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	19	nsubj	_	_
-17-18	השכבה	_	_	_	_	_	_	_	_
-17	ה	ה	DET	DET	PronType=Art	18	det:def	_	_
-18	שכבה	שכבה	NOUN	NOUN	Gender=Fem|Number=Sing	16	compound:smixut	_	_
-19	עולה	עלה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	9	advcl	_	_
+9	מתקרב	התקרב	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Mid	2	ccomp	_	_
+10-11	למומנט	_	_	_	_	_	_	_	_
+10	ל	ל	ADP	ADP	_	11	case	_	_
+11	מומנט	מומנט	NOUN	NOUN	Gender=Masc|Number=Sing	9	obl	_	_
+12-13	בפינה	_	_	_	_	_	_	_	_
+12	ב	ב	ADP	ADP	Definite=Def|PronType=Art	13	case	_	_
+13	פינה	פינה	NOUN	NOUN	Gender=Fem|Number=Sing	11	nmod	_	_
+14	כאשר	כאשר	SCONJ	SCONJ	_	18	mark	_	_
+15	קשיחות	קשיחות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	18	nsubj	_	_
+16-17	השכבה	_	_	_	_	_	_	_	_
+16	ה	ה	DET	DET	Definite=Def|PronType=Art	17	det	_	_
+17	שכבה	שכבה	NOUN	NOUN	Gender=Fem|Number=Sing	15	compound	_	_
+18	עולה	עלה	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Act	9	advcl	_	_
+19	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-
+# file = txt/1200049.txt
+# filelineno = 5
+# sentno = 6
+# text = מומנט כפיפה מעל הגג תמיד קטן ביותר יחסית למומנטים מרביים אחרים.
+# raw = {'id': 6, 'text': 'מומנט כפיפה מעל הגג תמיד קטן ביותר יחסית למומנטים מרביים אחרים.', 'dspan': (420, 483), 'tokens': [{'id': 1, 'text': 'מומנט', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 8, 'deprel': 'nsubj', 'dspan': (420, 425), 'span': (0, 5), 'lemma': 'מומנט'}, {'id': (2, 3), 'text': 'כפיפה', 'expanded': [{'id': 2, 'text': 'כ', 'upos': 'ADP', 'xpos': 'ADP', 'head': 3, 'deprel': 'case', 'lemma': 'כ'}, {'id': 3, 'text': 'פיפה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 1, 'deprel': 'nmod', 'lemma': 'פיפה'}], 'span': (6, 11), 'dspan': (426, 431)}, {'id': 4, 'text': 'מעל', 'upos': 'ADP', 'xpos': 'ADP', 'head': 6, 'deprel': 'case', 'dspan': (432, 435), 'span': (12, 15), 'lemma': 'מעל'}, {'id': (5, 6), 'text': 'הגג', 'expanded': [{'id': 5, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'Definite=Def|PronType=Art', 'head': 6, 'deprel': 'det', 'lemma': 'ה'}, {'id': 6, 'text': 'גג', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 3, 'deprel': 'nmod', 'lemma': 'גג'}], 'span': (16, 19), 'dspan': (436, 439)}, {'id': 7, 'text': 'תמיד', 'upos': 'ADV', 'xpos': 'ADV', 'head': 8, 'deprel': 'advmod', 'dspan': (440, 444), 'span': (20, 24), 'lemma': 'תמיד'}, {'id': 8, 'text': 'קטן', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Masc|Number=Sing', 'head': 0, 'deprel': 'root', 'dspan': (445, 448), 'span': (25, 28), 'lemma': 'קטן'}, {'id': 9, 'text': 'ביותר', 'upos': 'ADV', 'xpos': 'ADV', 'head': 8, 'deprel': 'advmod', 'dspan': (449, 454), 'span': (29, 34), 'lemma': 'ביותר'}, {'id': 10, 'text': 'יחסית', 'upos': 'ADV', 'xpos': 'ADV', 'head': 12, 'deprel': 'advmod', 'dspan': (455, 460), 'span': (35, 40), 'lemma': 'יחסית'}, {'id': (11, 12), 'text': 'למומנטים', 'expanded': [{'id': 11, 'text': 'ל', 'upos': 'ADP', 'xpos': 'ADP', 'head': 10, 'deprel': 'fixed', 'lemma': 'ל'}, {'id': 12, 'text': 'מומנטים', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Plur', 'head': 8, 'deprel': 'obl', 'lemma': 'מומנטים'}], 'span': (41, 49), 'dspan': (461, 469)}, {'id': 13, 'text': 'מרביים', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Masc|Number=Plur', 'head': 12, 'deprel': 'amod', 'dspan': (470, 476), 'span': (50, 56), 'lemma': 'מרביים'}, {'id': 14, 'text': 'אחרים', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Masc|Number=Plur', 'head': 12, 'deprel': 'amod', 'dspan': (477, 482), 'span': (57, 62), 'lemma': 'אחר'}, {'id': 15, 'text': '.', 'upos': 'PUNCT', 'xpos': 'PUNCT', 'head': 8, 'deprel': 'punct', 'dspan': (482, 483), 'span': (62, 63), 'lemma': '.'}]}
 1	מומנט	מומנט	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	_
 2-3	כפיפה	_	_	_	_	_	_	_	_
 2	כ	כ	ADP	ADP	_	3	case	_	_
 3	פיפה	פיפה	NOUN	NOUN	Gender=Fem|Number=Sing	1	nmod	_	_
 4	מעל	מעל	ADP	ADP	_	6	case	_	_
 5-6	הגג	_	_	_	_	_	_	_	_
-5	ה	ה	DET	DET	PronType=Art	6	det:def	_	_
+5	ה	ה	DET	DET	Definite=Def|PronType=Art	6	det	_	_
 6	גג	גג	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod	_	_
 7	תמיד	תמיד	ADV	ADV	_	8	advmod	_	_
 8	קטן	קטן	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
 9	ביותר	ביותר	ADV	ADV	_	8	advmod	_	_
-10	יחסית	יחסית	ADV	ADV	_	8	advmod	_	_
+10	יחסית	יחסית	ADV	ADV	_	12	advmod	_	_
 11-12	למומנטים	_	_	_	_	_	_	_	_
-11	ל	ל	ADP	ADP	_	12	case	_	_
-12	מומנטים	מומנט	NOUN	NOUN	Gender=Masc|Number=Plur	8	obl	_	_
-13	מרביים	מרבי	ADJ	ADJ	Gender=Masc|Number=Plur	12	amod	_	_
+11	ל	ל	ADP	ADP	_	10	fixed	_	_
+12	מומנטים	מומנטים	NOUN	NOUN	Gender=Masc|Number=Plur	8	obl	_	_
+13	מרביים	מרביים	ADJ	ADJ	Gender=Masc|Number=Plur	12	amod	_	_
 14	אחרים	אחר	ADJ	ADJ	Gender=Masc|Number=Plur	12	amod	_	_
+15	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
+# file = txt/1200049.txt
+# filelineno = 5
+# sentno = 7
+# text = עבור שכבה רכה המאמץ נורמלי מרבי מתפתח בפינת הדיפון, כאשר עבור שכבה קשיחה המאמץ המרבי מתפתח מעל גג הדיפון.
+# raw = {'id': 7, 'text': 'עבור שכבה רכה המאמץ נורמלי מרבי מתפתח בפינת הדיפון, כאשר עבור שכבה קשיחה המאמץ המרבי מתפתח מעל גג הדיפון.', 'dspan': (484, 589), 'tokens': [{'id': 1, 'text': 'עבור', 'upos': 'ADP', 'xpos': 'ADP', 'head': 2, 'deprel': 'case', 'dspan': (484, 488), 'span': (0, 4), 'lemma': 'עבור'}, {'id': 2, 'text': 'שכבה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 8, 'deprel': 'obl', 'dspan': (489, 493), 'span': (5, 9), 'lemma': 'שכבה'}, {'id': 3, 'text': 'רכה', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Fem|Number=Sing', 'head': 2, 'deprel': 'amod', 'dspan': (494, 497), 'span': (10, 13), 'lemma': 'רך'}, {'id': (4, 5), 'text': 'המאמץ', 'expanded': [{'id': 4, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'Definite=Def|PronType=Art', 'head': 5, 'deprel': 'det', 'lemma': 'ה'}, {'id': 5, 'text': 'מאמץ', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 8, 'deprel': 'nsubj', 'lemma': 'מאמץ'}], 'span': (14, 19), 'dspan': (498, 503)}, {'id': 6, 'text': 'נורמלי', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Masc|Number=Sing', 'head': 5, 'deprel': 'amod', 'dspan': (504, 510), 'span': (20, 26), 'lemma': 'נורמלי'}, {'id': 7, 'text': 'מרבי', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Masc|Number=Sing', 'head': 5, 'deprel': 'amod', 'dspan': (511, 515), 'span': (27, 31), 'lemma': 'מרבי'}, {'id': 8, 'text': 'מתפתח', 'upos': 'VERB', 'xpos': 'VERB', 'feats': 'Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Mid', 'head': 0, 'deprel': 'root', 'dspan': (516, 521), 'span': (32, 37), 'lemma': 'התפתח'}, {'id': (9, 10), 'text': 'בפינת', 'expanded': [{'id': 9, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 10, 'deprel': 'case', 'lemma': 'ב'}, {'id': 10, 'text': 'פינת', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Fem|Number=Sing', 'head': 8, 'deprel': 'obl', 'lemma': 'פינה'}], 'span': (38, 43), 'dspan': (522, 527)}, {'id': (11, 12), 'text': 'הדיפון', 'expanded': [{'id': 11, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'Definite=Def|PronType=Art', 'head': 12, 'deprel': 'det', 'lemma': 'ה'}, {'id': 12, 'text': 'דיפון', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 10, 'deprel': 'compound', 'lemma': 'דיפון'}], 'span': (44, 50), 'dspan': (528, 534)}, {'id': 13, 'text': ',', 'upos': 'PUNCT', 'xpos': 'PUNCT', 'head': 22, 'deprel': 'punct', 'dspan': (534, 535), 'span': (50, 51), 'lemma': ','}, {'id': 14, 'text': 'כאשר', 'upos': 'SCONJ', 'xpos': 'SCONJ', 'head': 22, 'deprel': 'mark', 'dspan': (536, 540), 'span': (52, 56), 'lemma': 'כאשר'}, {'id': 15, 'text': 'עבור', 'upos': 'ADP', 'xpos': 'ADP', 'head': 16, 'deprel': 'case', 'dspan': (541, 545), 'span': (57, 61), 'lemma': 'עבור'}, {'id': 16, 'text': 'שכבה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Fem|Number=Sing', 'head': 22, 'deprel': 'obl', 'dspan': (546, 550), 'span': (62, 66), 'lemma': 'שכבה'}, {'id': 17, 'text': 'קשיחה', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Fem|Number=Sing', 'head': 16, 'deprel': 'compound', 'dspan': (551, 556), 'span': (67, 72), 'lemma': 'קשיח'}, {'id': (18, 19), 'text': 'המאמץ', 'expanded': [{'id': 18, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'Definite=Def|PronType=Art', 'head': 19, 'deprel': 'det', 'lemma': 'ה'}, {'id': 19, 'text': 'מאמץ', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 22, 'deprel': 'nsubj', 'lemma': 'מאמץ'}], 'span': (73, 78), 'dspan': (557, 562)}, {'id': (20, 21), 'text': 'המרבי', 'expanded': [{'id': 20, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'Definite=Def|PronType=Art', 'head': 21, 'deprel': 'det', 'lemma': 'ה'}, {'id': 21, 'text': 'מרבי', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Masc|Number=Sing', 'head': 19, 'deprel': 'amod', 'lemma': 'מרבי'}], 'span': (79, 84), 'dspan': (563, 568)}, {'id': 22, 'text': 'מתפתח', 'upos': 'VERB', 'xpos': 'VERB', 'feats': 'Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Pass', 'head': 8, 'deprel': 'advcl', 'dspan': (569, 574), 'span': (85, 90), 'lemma': 'התפתח'}, {'id': 23, 'text': 'מעל', 'upos': 'ADP', 'xpos': 'ADP', 'head': 24, 'deprel': 'case', 'dspan': (575, 578), 'span': (91, 94), 'lemma': 'מעל'}, {'id': 24, 'text': 'גג', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Masc|Number=Sing', 'head': 22, 'deprel': 'obl', 'dspan': (579, 581), 'span': (95, 97), 'lemma': 'גג'}, {'id': (25, 26), 'text': 'הדיפון', 'expanded': [{'id': 25, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'Definite=Def|PronType=Art', 'head': 26, 'deprel': 'det', 'lemma': 'ה'}, {'id': 26, 'text': 'דיפון', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 24, 'deprel': 'compound', 'lemma': 'דיפון'}], 'span': (98, 104), 'dspan': (582, 588)}, {'id': 27, 'text': '.', 'upos': 'PUNCT', 'xpos': 'PUNCT', 'head': 8, 'deprel': 'punct', 'dspan': (588, 589), 'span': (104, 105), 'lemma': '.'}]}
+1	עבור	עבור	ADP	ADP	_	2	case	_	_
+2	שכבה	שכבה	NOUN	NOUN	Gender=Fem|Number=Sing	8	obl	_	_
+3	רכה	רך	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
+4-5	המאמץ	_	_	_	_	_	_	_	_
+4	ה	ה	DET	DET	Definite=Def|PronType=Art	5	det	_	_
+5	מאמץ	מאמץ	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	_
+6	נורמלי	נורמלי	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+7	מרבי	מרבי	ADJ	ADJ	Gender=Masc|Number=Sing	5	amod	_	_
+8	מתפתח	התפתח	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Mid	0	root	_	_
+9-10	בפינת	_	_	_	_	_	_	_	_
+9	ב	ב	ADP	ADP	_	10	case	_	_
+10	פינת	פינה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	8	obl	_	_
+11-12	הדיפון	_	_	_	_	_	_	_	_
+11	ה	ה	DET	DET	Definite=Def|PronType=Art	12	det	_	_
+12	דיפון	דיפון	NOUN	NOUN	Gender=Masc|Number=Sing	10	compound	_	_
+13	,	,	PUNCT	PUNCT	_	22	punct	_	_
+14	כאשר	כאשר	SCONJ	SCONJ	_	22	mark	_	_
+15	עבור	עבור	ADP	ADP	_	16	case	_	_
+16	שכבה	שכבה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	22	obl	_	_
+17	קשיחה	קשיח	ADJ	ADJ	Gender=Fem|Number=Sing	16	compound	_	_
+18-19	המאמץ	_	_	_	_	_	_	_	_
+18	ה	ה	DET	DET	Definite=Def|PronType=Art	19	det	_	_
+19	מאמץ	מאמץ	NOUN	NOUN	Gender=Masc|Number=Sing	22	nsubj	_	_
+20-21	המרבי	_	_	_	_	_	_	_	_
+20	ה	ה	DET	DET	Definite=Def|PronType=Art	21	det	_	_
+21	מרבי	מרבי	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
+22	מתפתח	התפתח	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Pres|VerbForm=Part|Voice=Pass	8	advcl	_	_
+23	מעל	מעל	ADP	ADP	_	24	case	_	_
+24	גג	גג	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	22	obl	_	_
+25-26	הדיפון	_	_	_	_	_	_	_	_
+25	ה	ה	DET	DET	Definite=Def|PronType=Art	26	det	_	_
+26	דיפון	דיפון	NOUN	NOUN	Gender=Masc|Number=Sing	24	compound	_	_
+27	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
-1	עבור	עבור	ADP	ADP	_	5	case	_	_
-2-3	שכ	_	_	_	_	_	_	_	_
-2	ש	ש	SCONJ	SCONJ	_	1	fixed	_	_
-3	כ	כ	ADP	ADP	_	5	case	_	_
-4-5	בה	_	_	_	_	_	_	_	_
-4	ב_	ב	ADP	ADP	_	5	case	_	_
-5	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obl	_	_
-6-7	רכה	_	_	_	_	_	_	_	_
-6	רכה	רך	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
-7	_היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
-8-9	המאמץ	_	_	_	_	_	_	_	_
-8	ה	ה	DET	DET	PronType=Art	9	det:def	_	_
-9	מאמץ	מאמץ	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
-10-12	נורמלי	_	_	_	_	_	_	_	_
-10	נורמל_	נורמל	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	_
-11	_של_	של	ADP	ADP	_	12	case:gen	_	_
-12	_אני	הוא	PRON	PRON	Case=Gen|Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	10	nmod:poss	_	_
-13-14	מרבי	_	_	_	_	_	_	_	_
-13	מ	מ	ADP	ADP	_	14	case	_	_
-14	רבי	רבי	NOUN	NOUN	_	9	nmod	_	_
-15	מתפתח בפינת	התפתח	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|VerbForm=Part	9	acl	_	_
-16-17	הדיפון	_	_	_	_	_	_	_	_
-16	ה	ה	DET	DET	PronType=Art	17	det:def	_	_
-17	דיפון	דיפון	NOUN	NOUN	Gender=Masc|Number=Sing	15	compound:smixut	_	_
-18	,	,	PUNCT	PUNCT	_	15	punct	_	_
-19-20	כאשר	_	_	_	_	_	_	_	_
-19	כ	כ	ADP	ADP	_	22	case	_	_
-20	אשר	אשר	SCONJ	SCONJ	_	19	fixed	_	_
-21-22	עבור	_	_	_	_	_	_	_	_
-21	עבור	עבור	ADP	ADP	_	22	case	_	_
-22	_הור	הוא	PRON	PRON	_	15	obl	_	_
-23-25	שכבה	_	_	_	_	_	_	_	_
-23	שכב_	שכב	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	22	nsubj	_	_
-24	_של_	של	ADP	ADP	_	25	case:gen	_	_
-25	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	nmod:poss	_	_
-26-27	קש	_	_	_	_	_	_	_	_
-26	ק	ק	PROPN	PROPN	_	22	dep	_	_
-27	ש	ש	SCONJ	SCONJ	_	32	mark	_	_
-28-30	יחה	_	_	_	_	_	_	_	_
-28	יח_	יח	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	34	nsubj	_	_
-29	_של_	של	ADP	ADP	_	30	case:gen	_	_
-30	_היא	הוא	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	nmod:poss	_	_
-31-32	המאמץ המרבי	_	_	_	_	_	_	_	_
-31	ה	ה	DET	DET	PronType=Art	32	det:def	_	_
-32	מאמבפהמרבי	מאמבפהמרבי	ADJ	ADJ	_	28	amod	_	_
-33-34	מתפתח מעל	_	_	_	_	_	_	_	_
-33	מ	מ	ADP	ADP	_	34	case	_	_
-34	תפתחטמעל	הפתחט	VERB	VERB	HebSource=ConvUncertainHead	22	dep	_	_
-35-37	גג הדיפון	_	_	_	_	_	_	_	_
-35	גגטהדיפון	גגטהדיפון	PROPN	PROPN	_	34	dep	_	_
-36	את	את	ADP	ADP	Case=Acc	37	case:acc	_	_
-37	_הן	הוא	PRON	PRON	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	34	obj	_	_
-
-
-1	לעומת	לעומת	ADV	ADV	_	3	advmod	_	_
-2	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	dep	_	_
-3	מאמץ	מאמץ	NOUN	NOUN	_	12	obj	_	_
-4	גזירה	גזירה	NOUN	NOUN	_	3	dep	_	_
+# file = txt/1200049.txt
+# filelineno = 5
+# sentno = 8
+# text = לעומת זאת מאמץ גזירה במגע בין דיפון לקרקע מתפתח או בנקודת הפינה או לאורך קיר הדיפון עבור גל לחץ ורק בנקודה פינתית במקרה של גל גזירה.
+# raw = {'id': 8, 'text': 'לעומת זאת מאמץ גזירה במגע בין דיפון לקרקע מתפתח או בנקודת הפינה או לאורך קיר הדיפון עבור גל לחץ ורק בנקודה פינתית במקרה של גל גזירה.', 'dspan': (590, 722), 'tokens': [{'id': 1, 'text': 'לעומת', 'upos': 'ADP', 'xpos': 'ADP', 'head': 2, 'deprel': 'case', 'dspan': (590, 595), 'span': (0, 5), 'lemma': 'לעומת'}, {'id': 2, 'text': 'זאת', 'upos': 'PRON', 'xpos': 'PRON', 'feats': 'Gender=Fem|Number=Sing|Person=3|PronType=Dem', 'head': 12, 'deprel': 'obl', 'dspan': (596, 599), 'span': (6, 9), 'lemma': 'זה'}, {'id': 3, 'text': 'מאמץ', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Masc|Number=Sing', 'head': 12, 'deprel': 'nsubj', 'dspan': (600, 604), 'span': (10, 14), 'lemma': 'מאמץ'}, {'id': 4, 'text': 'גזירה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 3, 'deprel': 'compound:smixut', 'dspan': (605, 610), 'span': (15, 20), 'lemma': 'גזירה'}, {'id': (5, 6), 'text': 'במגע', 'expanded': [{'id': 5, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 6, 'deprel': 'case', 'lemma': 'ב'}, {'id': 6, 'text': 'מגע', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 3, 'deprel': 'nmod', 'lemma': 'מגע'}], 'span': (21, 25), 'dspan': (611, 615)}, {'id': 7, 'text': 'בין', 'upos': 'ADP', 'xpos': 'ADP', 'head': 8, 'deprel': 'case', 'dspan': (616, 619), 'span': (26, 29), 'lemma': 'בין'}, {'id': 8, 'text': 'דיפון', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 6, 'deprel': 'nmod', 'dspan': (620, 625), 'span': (30, 35), 'lemma': 'דיפון'}, {'id': (9, 11), 'text': 'לקרקע', 'expanded': [{'id': 9, 'text': 'ל', 'upos': 'ADP', 'xpos': 'ADP', 'head': 11, 'deprel': 'case', 'lemma': 'ל'}, {'id': 10, 'text': 'ה_', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 11, 'deprel': 'det', 'lemma': 'ה'}, {'id': 11, 'text': 'קרקע', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 8, 'deprel': 'conj', 'lemma': 'קרקע'}], 'span': (36, 41), 'dspan': (626, 631)}, {'id': 12, 'text': 'מתפתח', 'upos': 'VERB', 'xpos': 'VERB', 'feats': 'Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|VerbForm=Part', 'head': 0, 'deprel': 'root', 'dspan': (632, 637), 'span': (42, 47), 'lemma': 'התפתח'}, {'id': 13, 'text': 'או', 'upos': 'CCONJ', 'xpos': 'CCONJ', 'head': 15, 'deprel': 'cc', 'dspan': (638, 640), 'span': (48, 50), 'lemma': 'או'}, {'id': (14, 15), 'text': 'בנקודת', 'expanded': [{'id': 14, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 15, 'deprel': 'case', 'lemma': 'ב'}, {'id': 15, 'text': 'נקודת', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Fem|Number=Sing', 'head': 12, 'deprel': 'obl', 'lemma': 'נקודה'}], 'span': (51, 57), 'dspan': (641, 647)}, {'id': (16, 17), 'text': 'הפינה', 'expanded': [{'id': 16, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 17, 'deprel': 'det', 'lemma': 'ה'}, {'id': 17, 'text': 'פינה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 15, 'deprel': 'compound:smixut', 'lemma': 'פינה'}], 'span': (58, 63), 'dspan': (648, 653)}, {'id': 18, 'text': 'או', 'upos': 'CCONJ', 'xpos': 'CCONJ', 'head': 20, 'deprel': 'cc', 'dspan': (654, 656), 'span': (64, 66), 'lemma': 'או'}, {'id': 19, 'text': 'לאורך', 'upos': 'ADP', 'xpos': 'ADP', 'head': 20, 'deprel': 'case', 'dspan': (657, 662), 'span': (67, 72), 'lemma': 'לאורך'}, {'id': 20, 'text': 'קיר', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Masc|Number=Sing', 'head': 15, 'deprel': 'conj', 'dspan': (663, 666), 'span': (73, 76), 'lemma': 'קיר'}, {'id': (21, 22), 'text': 'הדיפון', 'expanded': [{'id': 21, 'text': 'ה', 'upos': 'DET', 'xpos': 'DET', 'feats': 'PronType=Art', 'head': 22, 'deprel': 'det', 'lemma': 'ה'}, {'id': 22, 'text': 'דיפון', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 20, 'deprel': 'compound:smixut', 'lemma': 'דיפון'}], 'span': (77, 83), 'dspan': (667, 673)}, {'id': 23, 'text': 'עבור', 'upos': 'ADP', 'xpos': 'ADP', 'head': 24, 'deprel': 'case', 'dspan': (674, 678), 'span': (84, 88), 'lemma': 'עבור'}, {'id': 24, 'text': 'גל', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Masc|Number=Sing', 'head': 12, 'deprel': 'obl', 'dspan': (679, 681), 'span': (89, 91), 'lemma': 'גל'}, {'id': 25, 'text': 'לחץ', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 24, 'deprel': 'compound:smixut', 'dspan': (682, 685), 'span': (92, 95), 'lemma': 'לחץ'}, {'id': (26, 27), 'text': 'ורק', 'expanded': [{'id': 26, 'text': 'ו', 'upos': 'CCONJ', 'xpos': 'CCONJ', 'head': 29, 'deprel': 'cc', 'lemma': 'ו'}, {'id': 27, 'text': 'רק', 'upos': 'ADV', 'xpos': 'ADV', 'head': 28, 'deprel': 'advmod', 'lemma': 'רק'}], 'span': (96, 99), 'dspan': (686, 689)}, {'id': (28, 29), 'text': 'בנקודה', 'expanded': [{'id': 28, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 29, 'deprel': 'case', 'lemma': 'ב'}, {'id': 29, 'text': 'נקודה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 15, 'deprel': 'conj', 'lemma': 'נקודה'}], 'span': (100, 106), 'dspan': (690, 696)}, {'id': 30, 'text': 'פינתית', 'upos': 'ADJ', 'xpos': 'ADJ', 'feats': 'Gender=Fem|Number=Sing', 'head': 29, 'deprel': 'amod', 'dspan': (697, 703), 'span': (107, 113), 'lemma': 'פינתית'}, {'id': (31, 32), 'text': 'במקרה', 'expanded': [{'id': 31, 'text': 'ב', 'upos': 'ADP', 'xpos': 'ADP', 'head': 32, 'deprel': 'case', 'lemma': 'ב'}, {'id': 32, 'text': 'מקרה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Masc|Number=Sing', 'head': 29, 'deprel': 'nmod', 'lemma': 'מקרה'}], 'span': (114, 119), 'dspan': (704, 709)}, {'id': 33, 'text': 'של', 'upos': 'ADP', 'xpos': 'ADP', 'feats': 'Case=Gen', 'head': 34, 'deprel': 'case:gen', 'dspan': (710, 712), 'span': (120, 122), 'lemma': 'של'}, {'id': 34, 'text': 'גל', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Definite=Cons|Gender=Masc|Number=Sing', 'head': 32, 'deprel': 'nmod:poss', 'dspan': (713, 715), 'span': (123, 125), 'lemma': 'גל'}, {'id': 35, 'text': 'גזירה', 'upos': 'NOUN', 'xpos': 'NOUN', 'feats': 'Gender=Fem|Number=Sing', 'head': 34, 'deprel': 'compound:smixut', 'dspan': (716, 721), 'span': (126, 131), 'lemma': 'גזירה'}, {'id': 36, 'text': '.', 'upos': 'PUNCT', 'xpos': 'PUNCT', 'head': 12, 'deprel': 'punct', 'dspan': (721, 722), 'span': (131, 132), 'lemma': '.'}]}
+1	לעומת	לעומת	ADP	ADP	_	2	case	_	_
+2	זאת	זה	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	12	obl	_	_
+3	מאמץ	מאמץ	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	nsubj	_	_
+4	גזירה	גזירה	NOUN	NOUN	Gender=Fem|Number=Sing	3	compound:smixut	_	_
 5-6	במגע	_	_	_	_	_	_	_	_
-5	ב	ב	ADP	ADP	_	26	case	_	_
-6	מגע	מגע	NOUN	NOUN	Gender=Masc|Number=Sing	12	advmod	_	_
-7	בין	בין	ADV	ADV	_	26	det	_	_
-8	דיפון	דיפון	NOUN	NOUN	_	6	compound:smixut	_	_
+5	ב	ב	ADP	ADP	_	6	case	_	_
+6	מגע	מגע	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod	_	_
+7	בין	בין	ADP	ADP	_	8	case	_	_
+8	דיפון	דיפון	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod	_	_
 9-11	לקרקע	_	_	_	_	_	_	_	_
-9	ל	ל	ADP	ADP	_	6	dep	_	_
-10	ה_	ה	DET	DET	PronType=Art	8	det:def	_	_
-11	קרקע	קרקע	NOUN	NOUN	Gender=Fem|Number=Sing	6	advmod	_	_
-12	מתפתח	התפתח	VERB	VERB	_	0	root	_	_
-13	או	או	ADV	ADV	_	12	dep	_	_
+9	ל	ל	ADP	ADP	_	11	case	_	_
+10	ה_	ה	DET	DET	PronType=Art	11	det	_	_
+11	קרקע	קרקע	NOUN	NOUN	Gender=Fem|Number=Sing	8	conj	_	_
+12	מתפתח	התפתח	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|VerbForm=Part	0	root	_	_
+13	או	או	CCONJ	CCONJ	_	15	cc	_	_
 14-15	בנקודת	_	_	_	_	_	_	_	_
-14	ב	ב	ADP	ADP	_	35	case	_	_
-15	נקודת	נקודה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	6	advmod	_	_
+14	ב	ב	ADP	ADP	_	15	case	_	_
+15	נקודת	נקודה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	obl	_	_
 16-17	הפינה	_	_	_	_	_	_	_	_
-16	ה	ה	DET	DET	PronType=Art	17	det:def	_	_
-17	פינה	פינה	NOUN	NOUN	Gender=Fem|Number=Sing	3	compound:smixut	_	_
-18	או	או	ADV	ADV	_	35	dep	_	_
-19-20	לאורך	_	_	_	_	_	_	_	_
-19	ל	ל	ADP	ADP	_	21	case	_	_
-20	אורך	אורך	NOUN	NOUN	_	3	dep	_	_
-21	קיר	קיר	NOUN	NOUN	_	3	dep	_	_
-22-23	הדיפון	_	_	_	_	_	_	_	_
-22	ה	ה	DET	DET	PronType=Art	23	det:def	_	_
-23	דיפון	דיפון	NOUN	NOUN	Gender=Masc|Number=Sing	8	compound:smixut	_	_
-24	עבור	עבור	ADP	ADP	_	25	dep	_	_
-25	גל	גל	NOUN	NOUN	_	3	fixed	_	_
-26	לחץ	לחץ	NOUN	NOUN	Gender=Masc|Number=Sing	25	compound:smixut	_	_
-27-28	ורק	_	_	_	_	_	_	_	_
-27	ו	ו	CCONJ	CCONJ	_	12	dep	_	_
-28	רק	רק	ADV	ADV	_	26	advmod	_	_
-29-30	בנקודה	_	_	_	_	_	_	_	_
-29	ב	ב	ADP	ADP	_	30	case	_	_
-30	נקודה	נקודה	NOUN	NOUN	Gender=Fem|Number=Sing	6	advmod	_	_
-31	פינתית	פינתי	ADJ	ADJ	Gender=Masc|Number=Sing	26	amod	_	_
-32-33	במקרה	_	_	_	_	_	_	_	_
-32	ב	ב	ADP	ADP	_	25	case	_	_
-33	מקרה	מקרה	NOUN	NOUN	Gender=Masc|Number=Sing	12	obl	_	_
-34	של	של	ADP	ADP	Case=Gen	12	case:gen	_	_
-35	גל	גל	NOUN	NOUN	_	12	advmod	_	_
-36	גזירה	גזירה	NOUN	NOUN	_	12	obj	_	_
-
+16	ה	ה	DET	DET	PronType=Art	17	det	_	_
+17	פינה	פינה	NOUN	NOUN	Gender=Fem|Number=Sing	15	compound:smixut	_	_
+18	או	או	CCONJ	CCONJ	_	20	cc	_	_
+19	לאורך	לאורך	ADP	ADP	_	20	case	_	_
+20	קיר	קיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	conj	_	_
+21-22	הדיפון	_	_	_	_	_	_	_	_
+21	ה	ה	DET	DET	PronType=Art	22	det	_	_
+22	דיפון	דיפון	NOUN	NOUN	Gender=Masc|Number=Sing	20	compound:smixut	_	_
+23	עבור	עבור	ADP	ADP	_	24	case	_	_
+24	גל	גל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	12	obl	_	_
+25	לחץ	לחץ	NOUN	NOUN	Gender=Masc|Number=Sing	24	compound:smixut	_	_
+26-27	ורק	_	_	_	_	_	_	_	_
+26	ו	ו	CCONJ	CCONJ	_	29	cc	_	_
+27	רק	רק	ADV	ADV	_	28	advmod	_	_
+28-29	בנקודה	_	_	_	_	_	_	_	_
+28	ב	ב	ADP	ADP	_	29	case	_	_
+29	נקודה	נקודה	NOUN	NOUN	Gender=Fem|Number=Sing	15	conj	_	_
+30	פינתית	פינתית	ADJ	ADJ	Gender=Fem|Number=Sing	29	amod	_	_
+31-32	במקרה	_	_	_	_	_	_	_	_
+31	ב	ב	ADP	ADP	_	32	case	_	_
+32	מקרה	מקרה	NOUN	NOUN	Gender=Masc|Number=Sing	29	nmod	_	_
+33	של	של	ADP	ADP	Case=Gen	34	case:gen	_	_
+34	גל	גל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	32	nmod:poss	_	_
+35	גזירה	גזירה	NOUN	NOUN	Gender=Fem|Number=Sing	34	compound:smixut	_	_
+36	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
